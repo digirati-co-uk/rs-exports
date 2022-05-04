@@ -1,0 +1,47 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_73_9_26/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/736ee7456227e3f971e9dc499d6d0166/89120698-901f-4db7-827e-03afa3a816f2",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_73_9_26/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/933164",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst00933164"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Fossils"
+                }
+            ]
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/736ee7456227e3f971e9dc499d6d0166/d9dea2ba-497f-4b6d-a5d8-2f4673cdc154",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_73_9_26/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/1119932",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst01119932"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Skeleton"
+                }
+            ]
+        }
+    ]
+}

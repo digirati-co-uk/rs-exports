@@ -1,0 +1,47 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_73_9_9/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/ee103104652ea947408c99d1239619be/98bb53c3-e36d-4a95-9ac8-fffb734d446d",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_73_9_9/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/919113",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst00919113"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Eye"
+                }
+            ]
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/ee103104652ea947408c99d1239619be/c24e8ab4-6d8e-40fe-a635-015bd38d0b68",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_73_9_9/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/832970",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst00832970"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Birds"
+                }
+            ]
+        }
+    ]
+}

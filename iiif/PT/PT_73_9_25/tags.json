@@ -1,0 +1,47 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_73_9_25/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/be8f9c26ae45511d5bfa6b5c2a1863cc/999a897c-1a41-4519-a4fd-1c312c303599",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_73_9_25/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/1145710",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst01145710"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Teeth"
+                }
+            ]
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/be8f9c26ae45511d5bfa6b5c2a1863cc/7e89fa28-320e-494d-b2f9-bbb9ac2ac7c7",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_73_9_25/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/933164",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst00933164"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Fossils"
+                }
+            ]
+        }
+    ]
+}

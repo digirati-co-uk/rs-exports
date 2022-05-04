@@ -1,0 +1,47 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_73_9_34/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/41b9ac5ce5359ba12759ca0eaf13aff8/b5ce0fa8-fabb-4204-a69f-f4d98fa32e47",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_73_9_34/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/832970",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst00832970"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Birds"
+                }
+            ]
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/41b9ac5ce5359ba12759ca0eaf13aff8/acdd6cf8-c268-45bb-9b7b-30e5d827628a",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_73_9_34/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/1119932",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst01119932"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Skeleton"
+                }
+            ]
+        }
+    ]
+}

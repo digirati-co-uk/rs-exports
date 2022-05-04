@@ -1,0 +1,27 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_74_1836_117/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/9f3869e5c6ec3ecbf1a818c4d6f8ae07/05ec5ed2-2327-408b-b07c-e0b1d30bf574",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_74_1836_117/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/1174266",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst01174266"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Whales"
+                }
+            ]
+        }
+    ]
+}
