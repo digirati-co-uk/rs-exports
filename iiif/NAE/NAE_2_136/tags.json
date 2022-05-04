@@ -1,0 +1,27 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_2_136/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/4e5e63e45f51cfe57a7bfb57c7d78a0b/d425bdf8-a457-4d33-ad03-2cb78dcf2c45",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/NAE_2_136/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/908894",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst00908894"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Emperor penguin"
+                }
+            ]
+        }
+    ]
+}

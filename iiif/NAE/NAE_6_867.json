@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_6_867/manifest",
+    "@type": "sc:Manifest",
+    "label": "S. end of Erebus Island",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "S. end of Erebus Island"
+        },
+        {
+            "label": "Ref no",
+            "value": "NAE/6/867"
+        }
+    ],
+    "otherContent": {
+        "@id": "./NAE_6_867/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_6_867/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_6_867/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 1669,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_6_867/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/NAE_6_867/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/NAE_1_6_867/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 1669,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/NAE_1_6_867",
+                                    "height": 1669,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 1330
+                                },
+                                "width": 1330
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./NAE_6_867/000_a92a0a.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/NAE_1_6_867/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/NAE_1_6_867",
+                            "height": 1024,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 1024,
+                                    "width": 816
+                                },
+                                {
+                                    "height": 400,
+                                    "width": 319
+                                },
+                                {
+                                    "height": 200,
+                                    "width": 159
+                                },
+                                {
+                                    "height": 100,
+                                    "width": 80
+                                }
+                            ],
+                            "width": 816
+                        }
+                    },
+                    "width": 1330,
+                    "seeAlso": {
+                        "@id": "./NAE_6_867/000_a92a0a.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/NAE_1_6_867/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/NAE_1_6_867",
+            "height": 1024,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 1024,
+                    "width": 816
+                },
+                {
+                    "height": 400,
+                    "width": 319
+                },
+                {
+                    "height": 200,
+                    "width": 159
+                },
+                {
+                    "height": 100,
+                    "width": 80
+                }
+            ],
+            "width": 816
+        }
+    }
+}

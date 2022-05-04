@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_4_435/manifest",
+    "@type": "sc:Manifest",
+    "label": "Main Western sledging party, sledges fitted with sails",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "Main Western sledging party, sledges fitted with sails"
+        },
+        {
+            "label": "Ref no",
+            "value": "NAE/4/435"
+        }
+    ],
+    "otherContent": {
+        "@id": "./NAE_4_435/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_4_435/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_4_435/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_4_435/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/NAE_4_435/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/NAE_4_435/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 2048,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/NAE_4_435",
+                                    "height": 2048,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 2661
+                                },
+                                "width": 2661
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./NAE_4_435/000_9a2f72.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/NAE_4_435/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/NAE_4_435",
+                            "height": 788,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 788,
+                                    "width": 1024
+                                },
+                                {
+                                    "height": 308,
+                                    "width": 400
+                                },
+                                {
+                                    "height": 154,
+                                    "width": 200
+                                },
+                                {
+                                    "height": 77,
+                                    "width": 100
+                                }
+                            ],
+                            "width": 1024
+                        }
+                    },
+                    "width": 2661,
+                    "seeAlso": {
+                        "@id": "./NAE_4_435/000_9a2f72.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/NAE_4_435/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/NAE_4_435",
+            "height": 788,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 788,
+                    "width": 1024
+                },
+                {
+                    "height": 308,
+                    "width": 400
+                },
+                {
+                    "height": 154,
+                    "width": 200
+                },
+                {
+                    "height": 77,
+                    "width": 100
+                }
+            ],
+            "width": 1024
+        }
+    }
+}

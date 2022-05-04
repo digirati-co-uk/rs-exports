@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_2_148/manifest",
+    "@type": "sc:Manifest",
+    "label": "Young Weddell seal 2 o 3 days old",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "Young Weddell seal 2 o 3 days old"
+        },
+        {
+            "label": "Ref no",
+            "value": "NAE/2/148"
+        }
+    ],
+    "otherContent": {
+        "@id": "./NAE_2_148/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_2_148/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_2_148/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 2348,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_2_148/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/NAE_2_148/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/NAE_2_148/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 2348,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/NAE_2_148",
+                                    "height": 2348,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 3535
+                                },
+                                "width": 3535
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./NAE_2_148/000_b22474.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/NAE_2_148/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/NAE_2_148",
+                            "height": 680,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 680,
+                                    "width": 1024
+                                },
+                                {
+                                    "height": 266,
+                                    "width": 400
+                                },
+                                {
+                                    "height": 133,
+                                    "width": 200
+                                },
+                                {
+                                    "height": 66,
+                                    "width": 100
+                                }
+                            ],
+                            "width": 1024
+                        }
+                    },
+                    "width": 3535,
+                    "seeAlso": {
+                        "@id": "./NAE_2_148/000_b22474.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/NAE_2_148/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/NAE_2_148",
+            "height": 680,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 680,
+                    "width": 1024
+                },
+                {
+                    "height": 266,
+                    "width": 400
+                },
+                {
+                    "height": 133,
+                    "width": 200
+                },
+                {
+                    "height": 66,
+                    "width": 100
+                }
+            ],
+            "width": 1024
+        }
+    }
+}

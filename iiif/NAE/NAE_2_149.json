@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_2_149/manifest",
+    "@type": "sc:Manifest",
+    "label": "Iceberg frozen in 1 1/2 miles of Razorback Island",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "Iceberg frozen in 1 1/2 miles of Razorback Island"
+        },
+        {
+            "label": "Ref no",
+            "value": "NAE/2/149"
+        }
+    ],
+    "otherContent": {
+        "@id": "./NAE_2_149/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_2_149/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_2_149/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 1539,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_2_149/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/NAE_2_149/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/NAE_2_149/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 1539,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/NAE_2_149",
+                                    "height": 1539,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 3353
+                                },
+                                "width": 3353
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./NAE_2_149/000_410ed4.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/NAE_2_149/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/NAE_2_149",
+                            "height": 470,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 470,
+                                    "width": 1024
+                                },
+                                {
+                                    "height": 184,
+                                    "width": 400
+                                },
+                                {
+                                    "height": 92,
+                                    "width": 200
+                                },
+                                {
+                                    "height": 46,
+                                    "width": 100
+                                }
+                            ],
+                            "width": 1024
+                        }
+                    },
+                    "width": 3353,
+                    "seeAlso": {
+                        "@id": "./NAE_2_149/000_410ed4.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/NAE_2_149/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/NAE_2_149",
+            "height": 470,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 470,
+                    "width": 1024
+                },
+                {
+                    "height": 184,
+                    "width": 400
+                },
+                {
+                    "height": 92,
+                    "width": 200
+                },
+                {
+                    "height": 46,
+                    "width": 100
+                }
+            ],
+            "width": 1024
+        }
+    }
+}

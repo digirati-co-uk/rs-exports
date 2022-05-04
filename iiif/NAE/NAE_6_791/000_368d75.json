@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_6_791/canvas/368d75/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/033abc49311abfa4502cbb3e71d34ef4/d141b6eb-465f-46bd-a784-1a236c33a61e",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/NAE_6_791/canvas/0",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Four persons pulling a sledge across the snow.",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

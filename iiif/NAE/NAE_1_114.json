@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_1_114/manifest",
+    "@type": "sc:Manifest",
+    "label": "Panorama of Erebus",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "Panorama of Erebus"
+        },
+        {
+            "label": "Ref no",
+            "value": "NAE/1/114"
+        }
+    ],
+    "otherContent": {
+        "@id": "./NAE_1_114/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_1_114/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_1_114/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 1372,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_1_114/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/NAE_1_114/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/NAE_1_114/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 1372,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/NAE_1_114",
+                                    "height": 1372,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 4026
+                                },
+                                "width": 4026
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./NAE_1_114/000_eeb540.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/NAE_1_114/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/NAE_1_114",
+                            "height": 349,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 349,
+                                    "width": 1024
+                                },
+                                {
+                                    "height": 136,
+                                    "width": 400
+                                },
+                                {
+                                    "height": 68,
+                                    "width": 200
+                                },
+                                {
+                                    "height": 34,
+                                    "width": 100
+                                }
+                            ],
+                            "width": 1024
+                        }
+                    },
+                    "width": 4026,
+                    "seeAlso": {
+                        "@id": "./NAE_1_114/000_eeb540.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/NAE_1_114/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/NAE_1_114",
+            "height": 349,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 349,
+                    "width": 1024
+                },
+                {
+                    "height": 136,
+                    "width": 400
+                },
+                {
+                    "height": 68,
+                    "width": 200
+                },
+                {
+                    "height": 34,
+                    "width": 100
+                }
+            ],
+            "width": 1024
+        }
+    }
+}

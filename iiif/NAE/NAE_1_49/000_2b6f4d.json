@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_1_49/canvas/2b6f4d/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/3507268366a80976d934dfbefb6cd01e/4ed609f0-cc64-480a-986f-c190a611adf8",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/NAE_1_49/canvas/0",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Three penguins",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

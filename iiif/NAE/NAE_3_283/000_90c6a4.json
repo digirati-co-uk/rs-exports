@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_3_283/canvas/90c6a4/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/f8f30a3cd9c0db73e8d791869c74ea88/33b4307c-e4e3-41f4-85ac-1a7df195974c",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/NAE_3_283/canvas/0",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Cross on a hill with the following inscription:\r\nSACRED\r\nTO THE MEMORY OF\r\nGEORGE.T.VINCE\r\nAB.RN\r\nOF THE\r\n\"DISCOVERY\"\r\nWHO WAS DROWNED NEAR THIS SPOT\r\nMARCH 11<sup>th</sup> 1902\r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

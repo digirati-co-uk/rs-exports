@@ -1,0 +1,47 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_4_368/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/e786ea50a5b029305eae1e802b8c96ab/eb0f7bdf-0f6b-4c29-a655-9b93ebd9dc4c",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/NAE_4_368/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/321241",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst00321241"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Bernacchi, Louis Charles, 1876-1942"
+                }
+            ]
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/e786ea50a5b029305eae1e802b8c96ab/34643a8a-36cf-4572-b0b0-dfbd6b2e8143",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/NAE_4_368/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/549",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst00000549"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Shackleton, Ernest Henry, Sir, 1874-1922"
+                }
+            ]
+        }
+    ]
+}

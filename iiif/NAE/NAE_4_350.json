@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_4_350/manifest",
+    "@type": "sc:Manifest",
+    "label": "Group on bridge: Barne, Ferrrar, Wilson, Koettlitz, Shackleton, Hodgson",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "Group on bridge: Barne, Ferrrar, Wilson, Koettlitz, Shackleton, Hodgson"
+        },
+        {
+            "label": "Ref no",
+            "value": "NAE/4/350"
+        }
+    ],
+    "otherContent": {
+        "@id": "./NAE_4_350/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_4_350/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_4_350/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_4_350/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/NAE_4_350/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/NAE_4_350/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 2048,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/NAE_4_350",
+                                    "height": 2048,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 2661
+                                },
+                                "width": 2661
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./NAE_4_350/000_bad04d.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/NAE_4_350/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/NAE_4_350",
+                            "height": 788,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 788,
+                                    "width": 1024
+                                },
+                                {
+                                    "height": 308,
+                                    "width": 400
+                                },
+                                {
+                                    "height": 154,
+                                    "width": 200
+                                },
+                                {
+                                    "height": 77,
+                                    "width": 100
+                                }
+                            ],
+                            "width": 1024
+                        }
+                    },
+                    "width": 2661,
+                    "seeAlso": {
+                        "@id": "./NAE_4_350/000_bad04d.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/NAE_4_350/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/NAE_4_350",
+            "height": 788,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 788,
+                    "width": 1024
+                },
+                {
+                    "height": 308,
+                    "width": 400
+                },
+                {
+                    "height": 154,
+                    "width": 200
+                },
+                {
+                    "height": 77,
+                    "width": 100
+                }
+            ],
+            "width": 1024
+        }
+    }
+}

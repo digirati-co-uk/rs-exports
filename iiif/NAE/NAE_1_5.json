@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_1_5/manifest",
+    "@type": "sc:Manifest",
+    "label": "Magnetic station of expedition Nr. Simonstown",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "Magnetic station of expedition Nr. Simonstown"
+        },
+        {
+            "label": "Ref no",
+            "value": "NAE/1/5"
+        }
+    ],
+    "otherContent": {
+        "@id": "./NAE_1_5/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_1_5/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_1_5/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 2374,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_1_5/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/NAE_1_5/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/NAE_1_5/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 2374,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/NAE_1_5",
+                                    "height": 2374,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 3561
+                                },
+                                "width": 3561
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./NAE_1_5/000_c5b4d2.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/NAE_1_5/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/NAE_1_5",
+                            "height": 683,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 683,
+                                    "width": 1024
+                                },
+                                {
+                                    "height": 267,
+                                    "width": 400
+                                },
+                                {
+                                    "height": 133,
+                                    "width": 200
+                                },
+                                {
+                                    "height": 67,
+                                    "width": 100
+                                }
+                            ],
+                            "width": 1024
+                        }
+                    },
+                    "width": 3561,
+                    "seeAlso": {
+                        "@id": "./NAE_1_5/000_c5b4d2.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/NAE_1_5/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/NAE_1_5",
+            "height": 683,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 683,
+                    "width": 1024
+                },
+                {
+                    "height": 267,
+                    "width": 400
+                },
+                {
+                    "height": 133,
+                    "width": 200
+                },
+                {
+                    "height": 67,
+                    "width": 100
+                }
+            ],
+            "width": 1024
+        }
+    }
+}

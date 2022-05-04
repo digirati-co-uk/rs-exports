@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_5_650/manifest",
+    "@type": "sc:Manifest",
+    "label": "Securing seals in ice pack (1)",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "Securing seals in ice pack (1)"
+        },
+        {
+            "label": "Ref no",
+            "value": "NAE/5/650"
+        }
+    ],
+    "otherContent": {
+        "@id": "./NAE_5_650/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_5_650/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_5_650/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 1657,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_5_650/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/NAE_5_650/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/NAE_5_650/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 1657,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/NAE_5_650",
+                                    "height": 1657,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 2230
+                                },
+                                "width": 2230
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./NAE_5_650/000_54bdf3.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/NAE_5_650/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/NAE_5_650",
+                            "height": 761,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 761,
+                                    "width": 1024
+                                },
+                                {
+                                    "height": 297,
+                                    "width": 400
+                                },
+                                {
+                                    "height": 149,
+                                    "width": 200
+                                },
+                                {
+                                    "height": 74,
+                                    "width": 100
+                                }
+                            ],
+                            "width": 1024
+                        }
+                    },
+                    "width": 2230,
+                    "seeAlso": {
+                        "@id": "./NAE_5_650/000_54bdf3.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/NAE_5_650/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/NAE_5_650",
+            "height": 761,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 761,
+                    "width": 1024
+                },
+                {
+                    "height": 297,
+                    "width": 400
+                },
+                {
+                    "height": 149,
+                    "width": 200
+                },
+                {
+                    "height": 74,
+                    "width": 100
+                }
+            ],
+            "width": 1024
+        }
+    }
+}

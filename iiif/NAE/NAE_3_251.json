@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_3_251/manifest",
+    "@type": "sc:Manifest",
+    "label": "Weddell Seal (Cow) and ridges, Seal Bay",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "Weddell Seal (Cow) and ridges, Seal Bay"
+        },
+        {
+            "label": "Ref no",
+            "value": "NAE/3/251"
+        }
+    ],
+    "otherContent": {
+        "@id": "./NAE_3_251/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_3_251/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_3_251/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_3_251/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/NAE_3_251/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/NAE_3_251/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 2048,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/NAE_3_251",
+                                    "height": 2048,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 2687
+                                },
+                                "width": 2687
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./NAE_3_251/000_0683c4.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/NAE_3_251/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/NAE_3_251",
+                            "height": 780,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 780,
+                                    "width": 1024
+                                },
+                                {
+                                    "height": 305,
+                                    "width": 400
+                                },
+                                {
+                                    "height": 152,
+                                    "width": 200
+                                },
+                                {
+                                    "height": 76,
+                                    "width": 100
+                                }
+                            ],
+                            "width": 1024
+                        }
+                    },
+                    "width": 2687,
+                    "seeAlso": {
+                        "@id": "./NAE_3_251/000_0683c4.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/NAE_3_251/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/NAE_3_251",
+            "height": 780,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 780,
+                    "width": 1024
+                },
+                {
+                    "height": 305,
+                    "width": 400
+                },
+                {
+                    "height": 152,
+                    "width": 200
+                },
+                {
+                    "height": 76,
+                    "width": 100
+                }
+            ],
+            "width": 1024
+        }
+    }
+}
