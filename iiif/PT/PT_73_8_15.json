@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_73_8_15/manifest",
+    "@type": "sc:Manifest",
+    "label": "Fossil skull and jaws of the Proteosaurus [Ichthyosaur]",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "Fossil skull and jaws of the Proteosaurus [Ichthyosaur]"
+        },
+        {
+            "label": "Ref no",
+            "value": "PT/73/8/15"
+        }
+    ],
+    "otherContent": {
+        "@id": "./PT_73_8_15/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_73_8_15/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_73_8_15/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 4978,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_73_8_15/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_73_8_15/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/PT_73_8_15/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 4978,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/PT_73_8_15",
+                                    "height": 4978,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 6531
+                                },
+                                "width": 6531
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./PT_73_8_15/000_580425.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/PT_73_8_15/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/PT_73_8_15",
+                            "height": 781,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 781,
+                                    "width": 1024
+                                },
+                                {
+                                    "height": 305,
+                                    "width": 400
+                                },
+                                {
+                                    "height": 152,
+                                    "width": 200
+                                },
+                                {
+                                    "height": 76,
+                                    "width": 100
+                                }
+                            ],
+                            "width": 1024
+                        }
+                    },
+                    "width": 6531,
+                    "seeAlso": {
+                        "@id": "./PT_73_8_15/000_580425.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/PT_73_8_15/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/PT_73_8_15",
+            "height": 781,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 781,
+                    "width": 1024
+                },
+                {
+                    "height": 305,
+                    "width": 400
+                },
+                {
+                    "height": 152,
+                    "width": 200
+                },
+                {
+                    "height": 76,
+                    "width": 100
+                }
+            ],
+            "width": 1024
+        }
+    }
+}

@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_73_3_7/manifest",
+    "@type": "sc:Manifest",
+    "label": "Woodpecker [gizzard]",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "Woodpecker [gizzard]"
+        },
+        {
+            "label": "Ref no",
+            "value": "PT/73/3/7"
+        }
+    ],
+    "otherContent": {
+        "@id": "./PT_73_3_7/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_73_3_7/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_73_3_7/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 4319,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_73_3_7/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_73_3_7/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/PT_73_3_7/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 4319,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/PT_73_3_7",
+                                    "height": 4319,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 6350
+                                },
+                                "width": 6350
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./PT_73_3_7/000_1dc812.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/PT_73_3_7/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/PT_73_3_7",
+                            "height": 696,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 696,
+                                    "width": 1024
+                                },
+                                {
+                                    "height": 272,
+                                    "width": 400
+                                },
+                                {
+                                    "height": 136,
+                                    "width": 200
+                                },
+                                {
+                                    "height": 68,
+                                    "width": 100
+                                }
+                            ],
+                            "width": 1024
+                        }
+                    },
+                    "width": 6350,
+                    "seeAlso": {
+                        "@id": "./PT_73_3_7/000_1dc812.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/PT_73_3_7/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/PT_73_3_7",
+            "height": 696,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 696,
+                    "width": 1024
+                },
+                {
+                    "height": 272,
+                    "width": 400
+                },
+                {
+                    "height": 136,
+                    "width": 200
+                },
+                {
+                    "height": 68,
+                    "width": 100
+                }
+            ],
+            "width": 1024
+        }
+    }
+}

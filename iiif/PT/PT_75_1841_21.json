@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_21/manifest",
+    "@type": "sc:Manifest",
+    "label": "Diagram of the mode of distribution of blood vessels at the inner surface of the articular lamella. Taken from the adult cuboid bone. The arteries are seen to from convolutions and then to return in their course ",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "Diagram of the mode of distribution of blood vessels at the inner surface of the articular lamella. Taken from the adult cuboid bone. The arteries are seen to from convolutions and then to return in their course "
+        },
+        {
+            "label": "Ref no",
+            "value": "PT/75/1841/21"
+        }
+    ],
+    "otherContent": {
+        "@id": "./PT_75_1841_21/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_21/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_21/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 2674,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_21/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_21/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/PT_75_1841_21/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 2674,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/PT_75_1841_21",
+                                    "height": 2674,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 2974
+                                },
+                                "width": 2974
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./PT_75_1841_21/000_a2b966.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/PT_75_1841_21/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/PT_75_1841_21",
+                            "height": 921,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 921,
+                                    "width": 1024
+                                },
+                                {
+                                    "height": 360,
+                                    "width": 400
+                                },
+                                {
+                                    "height": 180,
+                                    "width": 200
+                                },
+                                {
+                                    "height": 90,
+                                    "width": 100
+                                }
+                            ],
+                            "width": 1024
+                        }
+                    },
+                    "width": 2974,
+                    "seeAlso": {
+                        "@id": "./PT_75_1841_21/000_a2b966.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/PT_75_1841_21/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/PT_75_1841_21",
+            "height": 921,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 921,
+                    "width": 1024
+                },
+                {
+                    "height": 360,
+                    "width": 400
+                },
+                {
+                    "height": 180,
+                    "width": 200
+                },
+                {
+                    "height": 90,
+                    "width": 100
+                }
+            ],
+            "width": 1024
+        }
+    }
+}

@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_17/manifest",
+    "@type": "sc:Manifest",
+    "label": "Vessels between the synovial membrane and the articular cartilage, at the point of attachment of the ligamentum Teres, in the head of the Os Femoris of a human foetus of seven months",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "Vessels between the synovial membrane and the articular cartilage, at the point of attachment of the ligamentum Teres, in the head of the Os Femoris of a human foetus of seven months"
+        },
+        {
+            "label": "Ref no",
+            "value": "PT/75/1841/17"
+        }
+    ],
+    "otherContent": {
+        "@id": "./PT_75_1841_17/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_17/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_17/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 2948,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_17/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_17/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/PT_75_1841_17/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 2948,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/PT_75_1841_17",
+                                    "height": 2948,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 2961
+                                },
+                                "width": 2961
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./PT_75_1841_17/000_07bb26.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/PT_75_1841_17/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/PT_75_1841_17",
+                            "height": 1020,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 1020,
+                                    "width": 1024
+                                },
+                                {
+                                    "height": 398,
+                                    "width": 400
+                                },
+                                {
+                                    "height": 199,
+                                    "width": 200
+                                },
+                                {
+                                    "height": 100,
+                                    "width": 100
+                                }
+                            ],
+                            "width": 1024
+                        }
+                    },
+                    "width": 2961,
+                    "seeAlso": {
+                        "@id": "./PT_75_1841_17/000_07bb26.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/PT_75_1841_17/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/PT_75_1841_17",
+            "height": 1020,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 1020,
+                    "width": 1024
+                },
+                {
+                    "height": 398,
+                    "width": 400
+                },
+                {
+                    "height": 199,
+                    "width": 200
+                },
+                {
+                    "height": 100,
+                    "width": 100
+                }
+            ],
+            "width": 1024
+        }
+    }
+}

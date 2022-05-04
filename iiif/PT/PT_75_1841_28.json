@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_28/manifest",
+    "@type": "sc:Manifest",
+    "label": "A loop of Vessels between the Conjunctiva and the Cornea",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "A loop of Vessels between the Conjunctiva and the Cornea"
+        },
+        {
+            "label": "Ref no",
+            "value": "PT/75/1841/28"
+        }
+    ],
+    "otherContent": {
+        "@id": "./PT_75_1841_28/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_28/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_28/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 2700,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_28/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_28/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/PT_75_1841_28/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 2700,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/PT_75_1841_28",
+                                    "height": 2700,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 2857
+                                },
+                                "width": 2857
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./PT_75_1841_28/000_d79a03.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/PT_75_1841_28/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/PT_75_1841_28",
+                            "height": 968,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 968,
+                                    "width": 1024
+                                },
+                                {
+                                    "height": 378,
+                                    "width": 400
+                                },
+                                {
+                                    "height": 189,
+                                    "width": 200
+                                },
+                                {
+                                    "height": 95,
+                                    "width": 100
+                                }
+                            ],
+                            "width": 1024
+                        }
+                    },
+                    "width": 2857,
+                    "seeAlso": {
+                        "@id": "./PT_75_1841_28/000_d79a03.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/PT_75_1841_28/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/PT_75_1841_28",
+            "height": 968,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 968,
+                    "width": 1024
+                },
+                {
+                    "height": 378,
+                    "width": 400
+                },
+                {
+                    "height": 189,
+                    "width": 200
+                },
+                {
+                    "height": 95,
+                    "width": 100
+                }
+            ],
+            "width": 1024
+        }
+    }
+}

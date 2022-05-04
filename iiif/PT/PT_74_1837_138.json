@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_74_1837_138/manifest",
+    "@type": "sc:Manifest",
+    "label": "Structure of the Brain in Marsupial Animals, plate 5 (Beaver, Monkey, Wombat, Oppossum, Kangaroo, Ursine Dasyure)",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "Structure of the Brain in Marsupial Animals, plate 5 (Beaver, Monkey, Wombat, Oppossum, Kangaroo, Ursine Dasyure)"
+        },
+        {
+            "label": "Ref no",
+            "value": "PT/74/1837/138"
+        }
+    ],
+    "otherContent": {
+        "@id": "./PT_74_1837_138/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_74_1837_138/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_74_1837_138/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 7136,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_74_1837_138/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_74_1837_138/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/PT_74_1837_138/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 7136,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/PT_74_1837_138",
+                                    "height": 7136,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 4749
+                                },
+                                "width": 4749
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./PT_74_1837_138/000_3863ed.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/PT_74_1837_138/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/PT_74_1837_138",
+                            "height": 1024,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 1024,
+                                    "width": 681
+                                },
+                                {
+                                    "height": 400,
+                                    "width": 266
+                                },
+                                {
+                                    "height": 200,
+                                    "width": 133
+                                },
+                                {
+                                    "height": 100,
+                                    "width": 67
+                                }
+                            ],
+                            "width": 681
+                        }
+                    },
+                    "width": 4749,
+                    "seeAlso": {
+                        "@id": "./PT_74_1837_138/000_3863ed.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/PT_74_1837_138/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/PT_74_1837_138",
+            "height": 1024,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 1024,
+                    "width": 681
+                },
+                {
+                    "height": 400,
+                    "width": 266
+                },
+                {
+                    "height": 200,
+                    "width": 133
+                },
+                {
+                    "height": 100,
+                    "width": 67
+                }
+            ],
+            "width": 681
+        }
+    }
+}

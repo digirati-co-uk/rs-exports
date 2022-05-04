@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_27/manifest",
+    "@type": "sc:Manifest",
+    "label": "Diagram of the mode of distribution of the blood vessels in the scleratic, as its attachment to the cornea",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "Diagram of the mode of distribution of the blood vessels in the scleratic, as its attachment to the cornea"
+        },
+        {
+            "label": "Ref no",
+            "value": "PT/75/1841/27"
+        }
+    ],
+    "otherContent": {
+        "@id": "./PT_75_1841_27/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_27/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_27/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 2655,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_27/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_27/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/PT_75_1841_27/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 2655,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/PT_75_1841_27",
+                                    "height": 2655,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 3300
+                                },
+                                "width": 3300
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./PT_75_1841_27/000_01f911.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/PT_75_1841_27/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/PT_75_1841_27",
+                            "height": 824,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 824,
+                                    "width": 1024
+                                },
+                                {
+                                    "height": 322,
+                                    "width": 400
+                                },
+                                {
+                                    "height": 161,
+                                    "width": 200
+                                },
+                                {
+                                    "height": 80,
+                                    "width": 100
+                                }
+                            ],
+                            "width": 1024
+                        }
+                    },
+                    "width": 3300,
+                    "seeAlso": {
+                        "@id": "./PT_75_1841_27/000_01f911.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/PT_75_1841_27/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/PT_75_1841_27",
+            "height": 824,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 824,
+                    "width": 1024
+                },
+                {
+                    "height": 322,
+                    "width": 400
+                },
+                {
+                    "height": 161,
+                    "width": 200
+                },
+                {
+                    "height": 80,
+                    "width": 100
+                }
+            ],
+            "width": 1024
+        }
+    }
+}

@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_73_2_1/manifest",
+    "@type": "sc:Manifest",
+    "label": "Vertebrae of Squalus maximus [Basking shark]",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "Vertebrae of Squalus maximus [Basking shark]"
+        },
+        {
+            "label": "Ref no",
+            "value": "PT/73/2/1"
+        }
+    ],
+    "otherContent": {
+        "@id": "./PT_73_2_1/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_73_2_1/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_73_2_1/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 8811,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_73_2_1/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_73_2_1/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/PT_73_2_1/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 8811,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/PT_73_2_1",
+                                    "height": 8811,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 6184
+                                },
+                                "width": 6184
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./PT_73_2_1/000_e09f4d.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/PT_73_2_1/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/PT_73_2_1",
+                            "height": 1024,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 1024,
+                                    "width": 719
+                                },
+                                {
+                                    "height": 400,
+                                    "width": 281
+                                },
+                                {
+                                    "height": 200,
+                                    "width": 140
+                                },
+                                {
+                                    "height": 100,
+                                    "width": 70
+                                }
+                            ],
+                            "width": 719
+                        }
+                    },
+                    "width": 6184,
+                    "seeAlso": {
+                        "@id": "./PT_73_2_1/000_e09f4d.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/PT_73_2_1/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/PT_73_2_1",
+            "height": 1024,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 1024,
+                    "width": 719
+                },
+                {
+                    "height": 400,
+                    "width": 281
+                },
+                {
+                    "height": 200,
+                    "width": 140
+                },
+                {
+                    "height": 100,
+                    "width": 70
+                }
+            ],
+            "width": 719
+        }
+    }
+}

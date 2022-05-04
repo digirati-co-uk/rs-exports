@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_15/manifest",
+    "@type": "sc:Manifest",
+    "label": "Diagrams illustrating the mode of development of the inferior femoral epiphysis",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "Diagrams illustrating the mode of development of the inferior femoral epiphysis"
+        },
+        {
+            "label": "Ref no",
+            "value": "PT/75/1841/15"
+        }
+    ],
+    "otherContent": {
+        "@id": "./PT_75_1841_15/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_15/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_15/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 2694,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_15/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_15/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/PT_75_1841_15/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 2694,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/PT_75_1841_15",
+                                    "height": 2694,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 2178
+                                },
+                                "width": 2178
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./PT_75_1841_15/000_1181ea.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/PT_75_1841_15/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/PT_75_1841_15",
+                            "height": 1024,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 1024,
+                                    "width": 828
+                                },
+                                {
+                                    "height": 400,
+                                    "width": 323
+                                },
+                                {
+                                    "height": 200,
+                                    "width": 162
+                                },
+                                {
+                                    "height": 100,
+                                    "width": 81
+                                }
+                            ],
+                            "width": 828
+                        }
+                    },
+                    "width": 2178,
+                    "seeAlso": {
+                        "@id": "./PT_75_1841_15/000_1181ea.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/PT_75_1841_15/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/PT_75_1841_15",
+            "height": 1024,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 1024,
+                    "width": 828
+                },
+                {
+                    "height": 400,
+                    "width": 323
+                },
+                {
+                    "height": 200,
+                    "width": 162
+                },
+                {
+                    "height": 100,
+                    "width": 81
+                }
+            ],
+            "width": 828
+        }
+    }
+}

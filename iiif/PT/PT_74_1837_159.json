@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_74_1837_159/manifest",
+    "@type": "sc:Manifest",
+    "label": "Ciliobrachiata, Bowerbankia densa, plate 20",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "Ciliobrachiata, Bowerbankia densa, plate 20"
+        },
+        {
+            "label": "Ref no",
+            "value": "PT/74/1837/159"
+        }
+    ],
+    "otherContent": {
+        "@id": "./PT_74_1837_159/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_74_1837_159/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_74_1837_159/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 6602,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_74_1837_159/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_74_1837_159/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/PT_74_1837_159/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 6602,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/PT_74_1837_159",
+                                    "height": 6602,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 5257
+                                },
+                                "width": 5257
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./PT_74_1837_159/000_188f7f.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/PT_74_1837_159/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/PT_74_1837_159",
+                            "height": 1024,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 1024,
+                                    "width": 815
+                                },
+                                {
+                                    "height": 400,
+                                    "width": 319
+                                },
+                                {
+                                    "height": 200,
+                                    "width": 159
+                                },
+                                {
+                                    "height": 100,
+                                    "width": 80
+                                }
+                            ],
+                            "width": 815
+                        }
+                    },
+                    "width": 5257,
+                    "seeAlso": {
+                        "@id": "./PT_74_1837_159/000_188f7f.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/PT_74_1837_159/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/PT_74_1837_159",
+            "height": 1024,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 1024,
+                    "width": 815
+                },
+                {
+                    "height": 400,
+                    "width": 319
+                },
+                {
+                    "height": 200,
+                    "width": 159
+                },
+                {
+                    "height": 100,
+                    "width": 80
+                }
+            ],
+            "width": 815
+        }
+    }
+}

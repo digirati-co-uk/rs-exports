@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_14/manifest",
+    "@type": "sc:Manifest",
+    "label": "The mode of distribution of blood vessels in epiphysal Cartilage and a plexus of vessels between the Synovial membrane and the Articular Cartilage ",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "The mode of distribution of blood vessels in epiphysal Cartilage and a plexus of vessels between the Synovial membrane and the Articular Cartilage "
+        },
+        {
+            "label": "Ref no",
+            "value": "PT/75/1841/14"
+        }
+    ],
+    "otherContent": {
+        "@id": "./PT_75_1841_14/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_14/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_14/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 2655,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_14/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_75_1841_14/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/PT_75_1841_14/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 2655,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/PT_75_1841_14",
+                                    "height": 2655,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 4174
+                                },
+                                "width": 4174
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./PT_75_1841_14/000_c0d822.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/PT_75_1841_14/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/PT_75_1841_14",
+                            "height": 651,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 651,
+                                    "width": 1024
+                                },
+                                {
+                                    "height": 254,
+                                    "width": 400
+                                },
+                                {
+                                    "height": 127,
+                                    "width": 200
+                                },
+                                {
+                                    "height": 64,
+                                    "width": 100
+                                }
+                            ],
+                            "width": 1024
+                        }
+                    },
+                    "width": 4174,
+                    "seeAlso": {
+                        "@id": "./PT_75_1841_14/000_c0d822.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/PT_75_1841_14/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/PT_75_1841_14",
+            "height": 651,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 651,
+                    "width": 1024
+                },
+                {
+                    "height": 254,
+                    "width": 400
+                },
+                {
+                    "height": 127,
+                    "width": 200
+                },
+                {
+                    "height": 64,
+                    "width": 100
+                }
+            ],
+            "width": 1024
+        }
+    }
+}

@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_73_9_32/manifest",
+    "@type": "sc:Manifest",
+    "label": "New Georgia seal skull",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "New Georgia seal skull"
+        },
+        {
+            "label": "Ref no",
+            "value": "PT/73/9/32"
+        }
+    ],
+    "otherContent": {
+        "@id": "./PT_73_9_32/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_73_9_32/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_73_9_32/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 4770,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_73_9_32/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_73_9_32/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/PT_73_9_32/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 4770,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/PT_73_9_32",
+                                    "height": 4770,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 6592
+                                },
+                                "width": 6592
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./PT_73_9_32/000_862893.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/PT_73_9_32/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/PT_73_9_32",
+                            "height": 741,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 741,
+                                    "width": 1024
+                                },
+                                {
+                                    "height": 289,
+                                    "width": 400
+                                },
+                                {
+                                    "height": 145,
+                                    "width": 200
+                                },
+                                {
+                                    "height": 72,
+                                    "width": 100
+                                }
+                            ],
+                            "width": 1024
+                        }
+                    },
+                    "width": 6592,
+                    "seeAlso": {
+                        "@id": "./PT_73_9_32/000_862893.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/PT_73_9_32/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/PT_73_9_32",
+            "height": 741,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 741,
+                    "width": 1024
+                },
+                {
+                    "height": 289,
+                    "width": 400
+                },
+                {
+                    "height": 145,
+                    "width": 200
+                },
+                {
+                    "height": 72,
+                    "width": 100
+                }
+            ],
+            "width": 1024
+        }
+    }
+}

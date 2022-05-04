@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_74_1837_148/manifest",
+    "@type": "sc:Manifest",
+    "label": "Muscular Filaments. Globules of Blodd floating behind shewing their relative diameters. Globules magnified 600 times.",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "Muscular Filaments. Globules of Blodd floating behind shewing their relative diameters. Globules magnified 600 times."
+        },
+        {
+            "label": "Ref no",
+            "value": "PT/74/1837/148"
+        }
+    ],
+    "otherContent": {
+        "@id": "./PT_74_1837_148/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_74_1837_148/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_74_1837_148/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 2648,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_74_1837_148/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_74_1837_148/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/PT_74_1837_148/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 2648,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/PT_74_1837_148",
+                                    "height": 2648,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 4370
+                                },
+                                "width": 4370
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./PT_74_1837_148/000_ee8c43.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/PT_74_1837_148/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/PT_74_1837_148",
+                            "height": 620,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 620,
+                                    "width": 1024
+                                },
+                                {
+                                    "height": 242,
+                                    "width": 400
+                                },
+                                {
+                                    "height": 121,
+                                    "width": 200
+                                },
+                                {
+                                    "height": 61,
+                                    "width": 100
+                                }
+                            ],
+                            "width": 1024
+                        }
+                    },
+                    "width": 4370,
+                    "seeAlso": {
+                        "@id": "./PT_74_1837_148/000_ee8c43.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/PT_74_1837_148/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/PT_74_1837_148",
+            "height": 620,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 620,
+                    "width": 1024
+                },
+                {
+                    "height": 242,
+                    "width": 400
+                },
+                {
+                    "height": 121,
+                    "width": 200
+                },
+                {
+                    "height": 61,
+                    "width": 100
+                }
+            ],
+            "width": 1024
+        }
+    }
+}

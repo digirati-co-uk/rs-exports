@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_73_3_15/manifest",
+    "@type": "sc:Manifest",
+    "label": "Struthio camelus [African ostrich gizzard]",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "Struthio camelus [African ostrich gizzard]"
+        },
+        {
+            "label": "Ref no",
+            "value": "PT/73/3/15"
+        }
+    ],
+    "otherContent": {
+        "@id": "./PT_73_3_15/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_73_3_15/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_73_3_15/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 6438,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_73_3_15/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_73_3_15/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/PT_73_3_15/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 6438,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/PT_73_3_15",
+                                    "height": 6438,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 4428
+                                },
+                                "width": 4428
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./PT_73_3_15/000_4593c1.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/PT_73_3_15/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/PT_73_3_15",
+                            "height": 1024,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 1024,
+                                    "width": 704
+                                },
+                                {
+                                    "height": 400,
+                                    "width": 275
+                                },
+                                {
+                                    "height": 200,
+                                    "width": 138
+                                },
+                                {
+                                    "height": 100,
+                                    "width": 69
+                                }
+                            ],
+                            "width": 704
+                        }
+                    },
+                    "width": 4428,
+                    "seeAlso": {
+                        "@id": "./PT_73_3_15/000_4593c1.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/PT_73_3_15/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/PT_73_3_15",
+            "height": 1024,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 1024,
+                    "width": 704
+                },
+                {
+                    "height": 400,
+                    "width": 275
+                },
+                {
+                    "height": 200,
+                    "width": 138
+                },
+                {
+                    "height": 100,
+                    "width": 69
+                }
+            ],
+            "width": 704
+        }
+    }
+}
