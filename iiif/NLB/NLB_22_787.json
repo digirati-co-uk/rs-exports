@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/NLB_22_787/manifest",
+    "@type": "sc:Manifest",
+    "label": "Copy letter from Robert William Frederick Harrison, to Professor [Robert Bellamy] Clifton, Fellow of the Royal Society",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "Copy letter from Robert William Frederick Harrison, to Professor [Robert Bellamy] Clifton, Fellow of the Royal Society"
+        },
+        {
+            "label": "Ref no",
+            "value": "NLB/22/787"
+        }
+    ],
+    "otherContent": {
+        "@id": "./NLB_22_787/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/NLB_22_787/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/NLB_22_787/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 4240,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/NLB_22_787/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/NLB_22_787/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/NLB_22_787_001/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 4240,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/NLB_22_787_001",
+                                    "height": 4240,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 2672
+                                },
+                                "width": 2672
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./NLB_22_787/000_e3d12d.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/NLB_22_787_001/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/NLB_22_787_001",
+                            "height": 1024,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 1024,
+                                    "width": 645
+                                },
+                                {
+                                    "height": 400,
+                                    "width": 252
+                                },
+                                {
+                                    "height": 200,
+                                    "width": 126
+                                },
+                                {
+                                    "height": 100,
+                                    "width": 63
+                                }
+                            ],
+                            "width": 645
+                        }
+                    },
+                    "width": 2672,
+                    "seeAlso": {
+                        "@id": "./NLB_22_787/000_e3d12d.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/NLB_22_787_001/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/NLB_22_787_001",
+            "height": 1024,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 1024,
+                    "width": 645
+                },
+                {
+                    "height": 400,
+                    "width": 252
+                },
+                {
+                    "height": 200,
+                    "width": 126
+                },
+                {
+                    "height": 100,
+                    "width": 63
+                }
+            ],
+            "width": 645
+        }
+    }
+}
