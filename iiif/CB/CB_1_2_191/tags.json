@@ -1,0 +1,47 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/CB_1_2_191/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/f8796a3bb939d19209d86123b4f2fe15/72c3f45b-793a-473a-8ae7-55051dbbe196",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/CB_1_2_191/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/139345",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst00139345"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Brougham and Vaux, Henry Brougham, Baron, 1778-1868"
+                }
+            ]
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/f8796a3bb939d19209d86123b4f2fe15/d207009a-416f-434a-bf71-c393a0aef770",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/CB_1_2_191/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/139345",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst00139345"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Brougham and Vaux, Henry Brougham, Baron, 1778-1868"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/CB_1_2_191/canvas/be3a3a/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/a423104d2af0114f10879148a1525883/632f3da4-6287-4122-a1e5-11badc858791",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/CB_1_2_191/canvas/3",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Sir C. Blagden M.D.\r\nBognor \r\n<s><u>Sec. R. Society <\\u><\\s>\r\nNear Chichester \r\n<s><u>London <\\u><\\s>",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}
