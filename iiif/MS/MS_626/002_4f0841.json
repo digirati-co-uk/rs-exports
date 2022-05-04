@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/MS_626/canvas/4f0841/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/c91a3ff7278b5af2fad863c507deae90/c1119a2d-4fb3-486b-ad35-633a300789e1",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/MS_626/canvas/2",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "The Peak of Teneriffe from the town of Orotava on the Northern coast;\r\nTaken in September after the breaking up of the N.E. season.",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

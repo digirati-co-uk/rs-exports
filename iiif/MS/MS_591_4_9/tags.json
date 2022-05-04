@@ -1,0 +1,47 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/MS_591_4_9/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/d17ac75785ffa1c490054e00de768978/2aaedf86-eb60-42ce-ac7d-aaf267347fdc",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/MS_591_4_9/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/1800902",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst01800902"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Geikie, Archibald, 1835-1924"
+                }
+            ]
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/d17ac75785ffa1c490054e00de768978/6085afb1-94a0-49eb-8058-0841e0a6a543",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/MS_591_4_9/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/1800902",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst01800902"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Geikie, Archibald, 1835-1924"
+                }
+            ]
+        }
+    ]
+}

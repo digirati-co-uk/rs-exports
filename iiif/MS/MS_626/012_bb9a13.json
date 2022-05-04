@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/MS_626/canvas/bb9a13/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/c133b851b124b848744cc27d65c0d511/59f6dc74-3690-407b-822d-4e8d26f329bd",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/MS_626/canvas/12",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "The Station at the <u>Alta Vista</u>.",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

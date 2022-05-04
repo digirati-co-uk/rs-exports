@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/MS_165/canvas/94dc63/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/24c78d5143eecc66408b308d99b96e71/dc0326d7-6cf9-46e9-8aa6-dcba5fa0375a",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/MS_165/canvas/0",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Some observations on the \r\ncrystalline lens \r\n165\r\n[In re\r\nGlassworkers\u2019 Cataract]\r\nClare Harris ",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

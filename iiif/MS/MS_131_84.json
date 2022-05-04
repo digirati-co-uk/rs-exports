@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/MS_131_84/manifest",
+    "@type": "sc:Manifest",
+    "label": "Cicada of N. America",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "Cicada of N. America"
+        },
+        {
+            "label": "Ref no",
+            "value": "MS/131/84"
+        }
+    ],
+    "otherContent": {
+        "@id": "./MS_131_84/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/MS_131_84/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/MS_131_84/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 3284,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/MS_131_84/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/MS_131_84/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/MS_131_84/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 3284,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/MS_131_84",
+                                    "height": 3284,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 2380
+                                },
+                                "width": 2380
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./MS_131_84/000_dc842e.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/MS_131_84/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/MS_131_84",
+                            "height": 1024,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 1024,
+                                    "width": 742
+                                },
+                                {
+                                    "height": 400,
+                                    "width": 290
+                                },
+                                {
+                                    "height": 200,
+                                    "width": 145
+                                },
+                                {
+                                    "height": 100,
+                                    "width": 72
+                                }
+                            ],
+                            "width": 742
+                        }
+                    },
+                    "width": 2380,
+                    "seeAlso": {
+                        "@id": "./MS_131_84/000_dc842e.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/MS_131_84/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/MS_131_84",
+            "height": 1024,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 1024,
+                    "width": 742
+                },
+                {
+                    "height": 400,
+                    "width": 290
+                },
+                {
+                    "height": 200,
+                    "width": 145
+                },
+                {
+                    "height": 100,
+                    "width": 72
+                }
+            ],
+            "width": 742
+        }
+    }
+}

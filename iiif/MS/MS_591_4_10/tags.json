@@ -1,0 +1,47 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/MS_591_4_10/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/bf7b09a66ea3d67d2b005d686963ffd9/38b29f4d-3762-4977-9c6d-fdff07e0b3cf",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/MS_591_4_10/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/321241",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst00321241"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Bernacchi, Louis Charles, 1876-1942"
+                }
+            ]
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/bf7b09a66ea3d67d2b005d686963ffd9/0058fa8e-7f48-4d91-9654-4a6e3897c02e",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/MS_591_4_10/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/321241",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst00321241"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Bernacchi, Louis Charles, 1876-1942"
+                }
+            ]
+        }
+    ]
+}

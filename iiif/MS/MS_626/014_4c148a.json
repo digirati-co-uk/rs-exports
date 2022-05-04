@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/MS_626/canvas/4c148a/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/be67a52bda20bda2fa4673784eb3295b/a646f80b-ee45-40b8-a8aa-672ec39a644a",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/MS_626/canvas/14",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "View of part of the Alta Vista Station, from the Eastward: showing the\r\nblack lava streams behind. NB. The upper part of the Pattinson\r\nEquatorial seen covered to protect it from the dust.",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

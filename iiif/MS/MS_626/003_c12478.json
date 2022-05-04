@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/MS_626/canvas/c12478/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/c37a36616cc37420bc13c77b1dc53835/82cadeb5-1dab-4740-ae5e-e12496a80139",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/MS_626/canvas/3",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "View of the Peak of Teneriffe from the Southern edge of the Great Crater,\r\nencircling it at a height of from 7 to 8000 feet, and a distance of 4 miles.",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

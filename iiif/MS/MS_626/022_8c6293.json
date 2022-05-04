@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/MS_626/canvas/8c6293/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/9d8e80c9a4450d67fcafc2e3082a196c/27603df9-aa91-4302-bc50-54fe067eec38",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/MS_626/canvas/22",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Specimen at the Malpays, extending between the\r\nAlta Vista Station, and the cone of the Peak.",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

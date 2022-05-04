@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/MS_626/canvas/088827/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/f1a3a15726d6a775232187d6d92559da/f31ac732-a5c8-40a3-b623-c587201ce3df",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/MS_626/canvas/21",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "The summit of the Peak, as seen from the lava ridge near\r\nthe Alta Vista Station.",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

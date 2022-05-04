@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/MS_626/canvas/ec41f4/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/9e4b1d9adcb7de1de5395a5753f344c3/f412f245-0f61-4efb-bd00-8033abfeaa76",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/MS_626/canvas/20",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "The cloud horizon of the Alta Vista Station looking South,\r\nshowing part of the Southern wall of the Great Crater; the highest point\r\nof which was the site of the Guajara station.",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

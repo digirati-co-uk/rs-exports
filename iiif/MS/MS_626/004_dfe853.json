@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/MS_626/canvas/dfe853/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/0f38f5b8d31c4a92f52ab8c09e620bae/249b65f6-e672-494d-8345-d85fae2ff32e",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/MS_626/canvas/4",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "The Station on <u>Guajara</u>.",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

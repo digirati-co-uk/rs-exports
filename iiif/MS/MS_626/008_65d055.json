@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/MS_626/canvas/65d055/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/6591dd7aa4bdb4f9216c4ce9b9229a14/c185c141-77a7-41f5-9423-87045d730b6b",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/MS_626/canvas/8",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "The Cliff under Guajara,\r\nbeing part of the internal wall of the\r\nGreat Crater.",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

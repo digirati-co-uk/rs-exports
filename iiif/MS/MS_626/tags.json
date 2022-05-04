@@ -1,0 +1,67 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/MS_626/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/3177e4bb7c71637846bc0aa7af00a20d/f07d5c5b-753b-4bec-bc55-af63df34ef72",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/MS_626/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/1215052",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst01215052"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Canary Islands--Tenerife"
+                }
+            ]
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/3177e4bb7c71637846bc0aa7af00a20d/db39f2b1-d4db-433b-930a-1dc667f9fc5a",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/MS_626/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/980104",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst00980104"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Islands"
+                }
+            ]
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/3177e4bb7c71637846bc0aa7af00a20d/ca915f38-4b93-4c7d-bff6-02231cccde95",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/MS_626/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/508025",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst00508025"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Smyth, C. Piazzi (Charles Piazzi), 1819-1900"
+                }
+            ]
+        }
+    ]
+}

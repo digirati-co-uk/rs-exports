@@ -1,0 +1,31 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/MS_626/canvas/d032ad/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/12e557d91ec16bce12ad69ad3105b2bd/1eb66566-88c4-490e-b86d-e0c2c8974ff7",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/MS_626/canvas/0",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Wonderful detail on this drawing",
+                "format": "text/plain",
+                "language": "en"
+            }
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/12e557d91ec16bce12ad69ad3105b2bd/8dd6c3b8-e2a6-4618-9135-b0be014df7b2",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/MS_626/canvas/0",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "I think I see a cut through portion of what looks like a the geographical close up of the above Island. It is definitely piece of the map as it points out the direction of the wind.\r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

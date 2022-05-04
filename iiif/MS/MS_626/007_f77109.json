@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/MS_626/canvas/f77109/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/993a78462d135165472e254c509fcf38/9d306bf3-7fc0-42dd-92cb-416bc4f6aab6",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/MS_626/canvas/7",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "The observation of the Radiation thermometers at Guajara",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

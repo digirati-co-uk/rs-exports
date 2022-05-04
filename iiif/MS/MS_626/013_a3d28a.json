@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/MS_626/canvas/a3d28a/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/4bc8588fb363fd8fb8154de4971d130b/4f38bf63-01dc-4cc4-97ab-dcefe42a1712",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/MS_626/canvas/13",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "The lava boulders and the pumice soil at the Alta Vista Station.",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

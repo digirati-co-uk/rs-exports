@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/MS_591_4_6/manifest",
+    "@type": "sc:Manifest",
+    "label": "Letter from Robert Falcon Scott, H.M.S. Bulwark, Channel Fleet, to Sir Archibald [Geikie]",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "Letter from Robert Falcon Scott, H.M.S. Bulwark, Channel Fleet, to Sir Archibald [Geikie]"
+        },
+        {
+            "label": "Ref no",
+            "value": "MS/591/4/6"
+        }
+    ],
+    "otherContent": {
+        "@id": "./MS_591_4_6/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/MS_591_4_6/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/MS_591_4_6/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 3913,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/MS_591_4_6/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/MS_591_4_6/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/MS_591_4_6_001/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 3913,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/MS_591_4_6_001",
+                                    "height": 3913,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 2843
+                                },
+                                "width": 2843
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./MS_591_4_6/000_55c51f.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/MS_591_4_6_001/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/MS_591_4_6_001",
+                            "height": 1024,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 1024,
+                                    "width": 744
+                                },
+                                {
+                                    "height": 400,
+                                    "width": 291
+                                },
+                                {
+                                    "height": 200,
+                                    "width": 145
+                                },
+                                {
+                                    "height": 100,
+                                    "width": 73
+                                }
+                            ],
+                            "width": 744
+                        }
+                    },
+                    "width": 2843,
+                    "seeAlso": {
+                        "@id": "./MS_591_4_6/000_55c51f.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/MS_591_4_6_001/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/MS_591_4_6_001",
+            "height": 1024,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 1024,
+                    "width": 744
+                },
+                {
+                    "height": 400,
+                    "width": 291
+                },
+                {
+                    "height": 200,
+                    "width": 145
+                },
+                {
+                    "height": 100,
+                    "width": 73
+                }
+            ],
+            "width": 744
+        }
+    }
+}
