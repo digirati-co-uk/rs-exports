@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/a7dbd1/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/6c07e30a6b3babd5a340f89612a841b2/51d2ee8e-862c-47be-ad9e-0469328ee06e",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/26",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "and x(P + Q) = y(R + S) = F(P + Q)(R + S)/(P + Q)(R + S) + B(P + Q + R + S) (23) \r\n\r\nLet the induction coefficients between P Q R S be given by the \r\nfollowing table, the coefficient of induction \r\nof P on itself being p, between P and Q h \r\nand so on. \r\n\r\n  P Q R S \r\nP p h k l \r\nQ h q m n \r\nR k m r o \r\nS l n o s \r\n\r\nLet g be the coefficient of induction of the \r\ngalvanometer on itself and let it be out of \r\nthe reach of the inductive influence of P Q R S \r\n(as it must be in order to avoid direct action of P Q R S on the needle). \r\nLet X Y Z be the integrals of x y z with respect to t. \r\nAt making contact x y z are zero. After a time z disappears and \r\nx and y reach constant values. The equations for each conductor will therefore be \r\n\r\n<s>PX + px + h(x - z) + ky +l(y + z) <\\s> \r\nPX + (p + h)x + (k + l)y = [integral]Adt - [integral]Ddt \r\nQ(X - Z) + (h + q)x + (m + n)y = [integral]Ddt - [integral]Cdt  \r\nRY + (k + m)x + (r + 0)y = [integral]Adt - [integral]Edt \r\nS(Y + Z) + (l + n)x + (o + s)y = [integral]Edt - [integral]Cdt \r\nGZ = [integral]Ddt - [integral]Edt  (24) \r\nSolving these equations for Z we find \r\nZ{1/P + 1/Q + 1/R + 1/S + B(1/P + 1/R)(1/Q + 1/S) + BG/PQRS(P + Q + R + S)} = (25) \r\n= - <s>1/P(1/R + 1/S)<\\s>F 1/PS{p/P - q/Q - r/R + s/S + h(1/P - 1/Q) + k(1/R - 1/P) + l(1/R +  1/Q) - m(1/P + 1/S) + n(1/Q) - 1/S) + o(1/S - 1/R)} \r\n(45) Now let the deflexion of the galvanometer by the instantaneous \r\ncurrent whose intensity is Z be [alpha] \r\nLet the permanent deflexion produced by making the ratio of PS to QR \r\n[rho] instead of unity be [theta]. \r\nAlso let the time of vibration of the galvanometer needle from rest to rest \r\nbe T. \r\nThen calling the quantity ",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

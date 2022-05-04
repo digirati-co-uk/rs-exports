@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/42d1d7/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/9eb2703d00779b76c44ca025c249bca5/d497adfc-3742-44af-8ec2-b8d04ee397b7",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/35",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "instant during the removal of the system \r\n\r\nF = [integral]Pdt \r\n\r\nHence the part of the electromotive force which depends on \r\nthe motion of magnets or currents in the field or their alteration \r\nof intensity is \r\n\r\nP = - dF/dt  Q = - dG/dt  R = - dH/dt (29) \r\n\r\nElectromagnetic Momentum of a Circuit \r\n\r\n(58) Let s be the length of the circuit, then if we integrate \r\n\r\n[integral](F dx/ds + G dy/ds + H dz/ds) ds (30) \r\n\r\nround the circuit we shall get the total electromagnetic momentum \r\nof the circuit, or the number of lines of magnetic force which pass through it the variations of which measure the total electromotive \r\nforce in the circuit. This Electromagnetic momentum is the same thing to which \r\nProf Faraday has applied the name of the Electronic State \r\n\r\nIf the circuit be the boundary of the elementary area dy dz \r\nthen its electromagnetic momentum is (dH/dy - dG/dz)dy dz \r\nand this is the number of lines of magnetic force which pass \r\nthrough the area dy dz. \r\n\r\nMagnetic Force ([alpha] [beta] [gamma]) \r\n\r\n(59) Let [alpha], [beta], [gamma] represent the force acting on a unit magnetic pole placed \r\nat the given point resolved in the direction of x, y and z. \r\n\r\nCoefficient of Magnetic Induction ([mu]) \r\n\r\n(60) Let [mu] be the ratio of the magnetic induction in a given medium \r\nSo that in air under an equal magnetizing force, then the number \r\nof lines of force in unit of area perpendicular to x will be [mu][alpha] \r\n([mu] is a quantity depending on the nature of the medium, its temperature \r\nthe amount of magnetization already produced and in crystalline \r\nbodies varying with the direction) \r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

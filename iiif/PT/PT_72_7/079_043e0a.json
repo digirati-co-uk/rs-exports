@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/043e0a/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/1bb49ae94c62a64ee3e7137c4adf1e1a/fe4fdfb3-4045-4a5a-92ad-8991c3d750a7",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/79",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[integral]<sup>[infinity]<\\sup><sub>0<\\sub>[integral]<sup>r<\\sup><sub>0<\\sub> 2[pi] (P/[rho] - p)rdrdt = [mu]/[rho] t[pi]r<sup>2<\\sup> + [half] [mu][pi]<sup>2<\\sup>/[rho]<sup>2<\\sup> dT/dt r<sup>4<\\sup> + [mu]<sup>2<\\sup>[pi]<sup>3<\\sup>/[rho]<sup>3<\\sup> 1/1<sup>2<\\sup>.2<sup>2<\\sup>.3 d<sup>2<\\sup>T/dt<sup>2<\\sup> r<sup>6<\\sup> + &c \r\nfrom t = 0 to t = [infinity] \r\nWhen t = 0 p = 0 throughout the section [therefore](dT/dt)<sub>0<\\sub> = P (d<sup>2<\\sup>T/dt<sup>2<\\sup>)<sub>0<\\sub> = 0 &c \r\nWhen t = [infinity] p = P/[rho] throughout [therefore](dT/dt)<sub>[infinity]<\\sub> = 0 (d<sup>2<\\sup>T/dt<sup>2<\\sup>)<sub>[infinity]<\\sub> = 0 &c \r\nAlso if l be the length of the wire and R its resistance \r\nR = [rho]l/[pi]r<sup>2<\\sup> \r\nand if C be the <s>total<\\s> current when established in the wire C = [rho]l/R \r\nThe total counter current may now be written \r\nl/R (T<sub>[infinity]<\\sub> - T<sub>0<\\\\sub> - [half][mu] l/R C = - LC/R by \r\nNow if the current instead of being variable from the <s>[text?]<\\s> centre  \r\nto the circumference of the section of the wire had been the same \r\nthroughout the value of F would have been \r\nF = T +[mu][gamma](1 - r<sup>2<\\sup>/r<sup>2<\\sup><sub>0<\\sub>) \r\nwhere [gamma] is the current in the wire at any instant \r\nand the total counter current would have been \r\n[integral]<sup>[infinity]<\\sup><sub>0<\\sub>[integral]<sup>r<\\sup><sub>0<\\sub> 1/[rho] dF/dt 2[pi]rdr = l/R(T,sub>[infinity]<\\sub> - t<sub>0<\\sub>) - 3/4 [mu] l/R C = - L'C/R \r\nHence L = L' - 1/4 [mu]l \r\nor the value of L which must be used in calculating the self \r\ninduction of a wire; for variable currents is less than \r\nthat which is deduced from the supposition of the current being \r\nconstant throughout the section of the wire by 1/4 [mu]l \r\nwhere l is the length of the wire, and [mu] is the coefficient \r\nof magnetic induction for the substance of the wire ",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

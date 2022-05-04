@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/55a472/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/44242f0ac6cec2236e5c53d9f5210470/a907e1ef-9956-4ae0-8cd0-d121408e8f10",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/129",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "If L be the <s>eccentric</s> astronomical latitude of the place,\r\nwe may in the small term replace \u03b8 by 90<sup>o</sup> - L;\r\nand since cos<sup>2</sup>\u03b8 = sin<sup>2</sup>L = 1/2 (1 - cos2L), we find\r\n     R = 1 + m - \u03b5/2 + 3\u03b5/2cos 2L\r\n     Now m = 1/289 = 0.00346\r\n     \u03b5 = 1/300.8 = 0.00333\r\n     L, <s>[?]</s>, for Harton, = 54sup>o</sup>.<s>4</s>58sup>'</sup>;\r\nR = 1 + 0.00346 - 0.00334 = 1.00012.\r\n\r\n     That R should have been so very nearly equal\r\nto unity, depends upon an accidental numerical\r\nrelation between the values of m, \u03b5, and L.\r\nAt the equator, R - 1 would have been as great\r\nas 0.00679.\r\n     In article 60 of the \"Account\", F - 1 was found\r\n= .00012032: whence R.(F - 1) = .00012033;\r\nwhich only alters the final value of the mean density\r\nin the ratio of 6836 to 6835, giving for result\r\n          6.565\r\n\r\nAt the equator, the correction to the deduced value 6.566\r\nwould have been - .077.\"",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

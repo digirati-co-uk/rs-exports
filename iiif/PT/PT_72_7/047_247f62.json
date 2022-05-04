@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/247f62/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/ac75b1259f7808f6742514c3693cee13/cb8e8861-19de-4f6a-8bfb-a30b60dc0125",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/47",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Mechanical Force on a Magnet. \r\n\r\n(77) In any part of the field not traversed by electric currents \r\nthe distribution of magnetic intensity may be represented by \r\nthe differential coefficients of a <s>quantity<\\s> function which may \r\nbe called the magnetic potential. When there are no \r\ncurrents in the field this quantity has a single value for each \r\npoint. When there are currents, the <s>function<\\s> -potential \r\nhas a series of values at each point, but its differential coefficients \r\nhave only one value, namely \r\nd[phi]/dx = [alpha] d[phi]/dy=[beta] d[phi]/dz=[gamma] \r\nSubstituting these values of [alpha] [beta] [gamma] in the expression (Eq<sup>n 38) \r\nfor the intrinsic energy of the field, and integrating by parts \r\nit becomes -[capital sigma]{[phi]1/8[pi] (d[mu][alpha]/dx + d[mu][beta]/dy + d[mu][gamma]/dz)}dV \r\n<s>Now<\\s> The expression \r\n[capital sigma](d[mu][alpha]/dx + d[mu][beta]/dy + d[mu][gamma]/dz)}dV = [capital sigma]mdV (39) \r\nindicates the number of lines of magnetic force which have their \r\norigin within the space V. Now a magnetic pole is known to \r\nus only as the origin or termination of lines of magnetic \r\nforce, and a unit pole is one which has  4[pi] lines belonging \r\nto it since it produces unit of magnetic intensity at unit of \r\ndistance over a sphere whose surface is 4[pi]. \r\nHence if m is the amount of free positive magnetism in \r\nunit of volume, the above expression may be written 4[pi]m \r\nand the expression for the energy of the field becomes \r\nE = -[capital sigma]([half][phi]m)dV (40) \r\nIf there are two magnetic poles m<sub>1 <\\sub> and m<sub>2<\\sub> producing \r\npotentials [phi]<sub>1<\\sub> & [phi<sub>2<\\sub> in the field, then if m<sub>2<\\sub> is moved a distance \r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

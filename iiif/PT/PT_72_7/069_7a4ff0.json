@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/7a4ff0/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/57c52d05ec000bb888050c979d89d476/4454a524-464b-4bec-a664-665af4f34fad",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/69",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Relation between Electric <s>Condu<\\s> Resistance and Transparency \r\n\r\n(106) If the medium, instead of being a perfect insulator is a \r\nconductor whose resistance per unit of volume is [rho] then \r\nthere will be not only electric displacements but true currents \r\nof conduction in which electrical energy is transformed into \r\nheat and the undulation is thereby weakened. To determine \r\nthe coefficient of absorption let us investigate the propagation \r\nalong the axis of x of the transverse disturbance G \r\nBy the former equations \r\nd<sup>2<\\sup>G/ dx<sup>2<\\sup> = - 4[pi][mu](H') \r\n= \u20144[pi][mu](df/dt + q) by (A) \r\nd<sup>2<\\sup>G/dx<sup>2<\\sup> = + 4[pi][mu](1/k d<sup>2<\\sup>G/dt<sup>2<\\sup> - 1/[rho] dG/dt) by (E) & (F) (95) \r\nIf G is of the form G = e<sup>-px<\\sup> cos (qx + nt> (96) we find that \r\np = 2[pi][mu]/[rho] n/q = 2[pi][mu]/[rho] V/i (97) \r\nwhere V is the velocity of light in air and i is the index of refraction \r\nThe proportion of incident light transmitted through the thickness x \r\nis e<sup>-2px (98) \r\nLet R be the resistance in <s>absolute<\\s> electromagnetic measure of a \r\nplate of the substance whose thickness is x, breadth b and length l \r\nthen R = l[rho]/bx \r\n2px = 4[pi][mu] V/2 l/bR (99)\r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/c4818f/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/c51102fca98cf9f0dbacd7b9ebce2301/dc8fe9c3-c4a7-452b-bad0-0f84295589ac",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/59",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Part VI. Electromagnetic Theory of Light \r\n\r\n(91) At the commencement of this paper we made use of the optical \r\nhypothesis of an elastic Medium through which the vibrations \r\nof light are propagated in order to show that we have warrantable \r\ngrounds for seeking, in the same medium, the cause of other phenomena \r\nas well as those of light. We then examined electromagnetic \r\nphenomena seeking for their explanation in the properties of the \r\nfield which surrounds the electrified or magnetic bodies. In this \r\nway we arrived at certain equations expressing certain properties \r\nof the electromagnetic field. We now proceed to investigate whether \r\nthese properties of that which constitutes the electromagnetic field, \r\ndeduced from electromagnetic phenomena alone, are sufficient \r\nto explain the propagation of light through the same substance. \r\n\r\nscored out by mistake (92) Let us suppose that a plane wave whose direction cosines are \r\nl m n is propagated through the field with a velocity V \r\nThen all the electromagnetic functions will be functions of \r\nw = lx + my + nz - Vt \r\nThe equations of Magnetic Force will become \r\n[mu][alpha] = m dH/dw - n dG/dw \r\n[mu][beta] = n dF/dw - l dH/dw \r\n[mu][gamma] = l dG/dw - m dF/dw \r\nIf we multiply these equations respectively by l, m, n and add, \r\nwe find l[mu][alpha] m[mu][beta] + n[mu][gamma] = 0 (62) \r\nwhich shows that the direction of the magnetization must be in \r\nthe plane of the wave. \r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/d7313d/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/f32d659e4afc4df181be130be0a6051f/8ff24416-d0be-4c57-b6c3-b3875dcac140",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/63",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "(98) Let us now go back upon equations in (94) in which the quantities \r\nJ and [psi] occur to see whether any other kind of disturbance can be \r\npropagated through the medium depending on these quantities which \r\ndisappeared from the final equations. \r\n\r\nIf we determine [chi] from the equation \r\n\r\n[del operator]<sup>2<\\sup>[chi] = d<sup>2<\\sup>x/dx<sup>2<\\sup> + d<sup>2<\\sup>[chi]/dy<sup>2<\\sup> + d<sup>2<\\sup>[chi]/dz<sup>2<\\sup> = J (73) \r\n\r\nand F' G' H' from the equations \r\n\r\nF' = F - d[chi]/dx G' = G \u2014 d[chi]/dy H' = H \u2014 d[chi]/dz (74) \r\nthen dF'/dx + dG'/dy + dH'/dz = 0 (75) \r\nand the equations in (94) become of the form \r\nk[del operator]<sup>2<\\sup>F' = 4[pi][mu](d<sup>2<\\sup>F'/dt<sup>2<\\sup> + d/dxdt ([psi] + d[chi]/dt)) (76) \r\n\r\nDifferentiating the three equations with respect to x y and z and \r\nadding we find that \r\n[psi] = -d[chi]/dt + [phi](x y z) (77) \r\nand that k[del operator]<sup>2<\\sup>F' = 4[pi][mu] d<sup>2<\\sup>F'/dt<sup>2<\\sup> \r\nk[del operator]<sup>2<\\sup>G' = 4[pi][mu] d<sup>2<\\sup>G'/dt<sup>2<\\sup>\r\nk[del operator]<sup>2<\\sup>H' = 4[pi][mu] d<sup>2<\\sup>H'/dt<sup>2<\\sup> }(78) \r\nHence the disturbances indicated by F' G' H' are propagated with \r\nthe velocity V=[square root[k/4[pi][mu] through the field and since \r\ndF'/dx + dG'/dy + dH'/dz = 0 \r\nthe resultant of these disturbances is in the plane of the wave \r\n\r\n(99) The remaining part of the total disturbances F,G,H being the \r\npart depending on [chi] is subject to no condition except that expressed \r\nin the equation d[psi]/dt + d<sup>2<\\sup>[chi]/dt<sup>2<\\sup> = 0 <s>and the<\\s> If we perform the operation [del operator]<sup>2<\\sup> on this \r\nequation it becomes ke = dJ/dt - k[del operator]<sup>2<\\sup>[phi](x y z) (79) \r\nHence J is either zero or it continually increases or diminishes \r\nwith the time, if e remains constant, which no physical quantity \r\ncan do. Hence J is zero and the only disturbance propagated is that indicated \r\nby F', G', H' which is wholly transversal \r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

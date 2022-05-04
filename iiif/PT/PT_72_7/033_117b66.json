@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/117b66/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/99ef223add2064313819ed40e7dfe59d/6f5e7734-5c45-442b-9b40-3fe6f29dff41",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/33",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Part III General Equations of the Electromagnetic Field \r\n\r\n(53) Let us assume three rectangular directions in space as the \r\naxes of x and z and let all quantities having direction \r\nbe reduced to these directions so as to be expressed by their \r\ncomponents in these three directions. \r\n\r\nElectrical Currents (p q r) \r\n\r\n(54) An electrical current consists in the transmission of electricity \r\nfrom one part of a body to another. Let the quantity of electricity \r\ntransmitted in unit of time across unit of area perpendicular \r\nto the <s>direction<\\s> axis of x be called p, then p is the component \r\nof the current at that place in the direction of x \r\n\r\nWe shall use the letters p q r to denote the components \r\nof the current per unit of area in the <s>coordinate<\\s> directions of x, y , z. \r\n\r\nElectrical Displacements (f g h) \r\n\r\n(55) Electrical Displacement consists in the <s>[text?] polarization which<\\s> \r\nopposite electrification of the sides of a molecule or particle of a \r\nbody which may or may not be accompanied with transmission \r\nthrough the body. Let the quantity of electricity which would appear \r\non the faces dy dz of an element dx dy dz cut from the body be \r\nf <s>dx<\\s> dy dz then f is the component of electric displacement \r\nparallel to x. We shall use f, g, h to denote the electric \r\ndisplacements parallel to x y z respectively. \r\n\r\nThe variations of the electrical displacement must be added \r\nto the currents p q r to get the total motion of electricity \r\nwhich we may call p' q' r',  so that \r\n\r\np' = p + df/dt\r\nq' = q + dg/dt \r\nr' = r + dh/dt \r\n\r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

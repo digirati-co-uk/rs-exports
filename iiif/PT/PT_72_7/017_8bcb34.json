@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/8bcb34/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/73642303f74675a494719fbb5c4fb680/dc0c0014-06b1-49a7-a88b-0c0eea628690",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/17",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Electromagnetic Relations of two Conducting Circuits. \r\n(28.) In the case of two conducting circuits A and B we shall assume \r\nthat the electromagnetic momentum belonging to A is \r\nLx + My \r\nand that belonging to B, Mx + Ny \r\nwhere L M N correspond to the same quantities in the dynamical \r\nillustration except that they are supposed to be capable of variation \r\n<s>according<\\s> when the conductors A or B are moved. \r\nThen the equation of the current x in A will be \r\n[xi] = Rx + d/dt(Lx + My)  (4) \r\nand that of y in B [eta] = Sy + d/dt(Mx + Ny) (5) \r\nwhere [xi] and [eta] are the electromotive forces x and y the currents \r\nand R & S the resistances in A and B respectively. \r\n\r\nInduction of one Current by another \r\n\r\n(29) Case 1<sup>st<\\sup> Let there be no electromotive force on B except that which arises \r\nfrom the action of A, and let the current of A increase from 0 to the \r\nvalue x then Sy + d/dt(Mx + Ny) = 0 \r\nwhence Y =[integral]ydt = - M/S x <s>(6)<\\s> \r\nthat is a quantity of electricity Y being the total induced current \r\nwill flow through B when x rises from 0 to x. This is induction \r\nby variation of the current in the primary conductor. When M \r\nis positive, the induced current due to increase of the primary \r\ncurrent is negative. \r\n\r\nInduction by motion of conductor\r\n\r\n(30) Case 2<sup>nd<\\sup> Let x remain constant and let M change from M to M' \r\nthen Y = - M1 -M / S x <s>(7)<\\s> \r\nso that if M is increased, which it will be by the primary and \r\nsecondary circuits approaching each other, there will be a \r\nnegative induced current, the total quantity of electricity passed \r\nthrough B being Y. \r\n\r\nThis is induction by the relative motion of the primary and secondary conductors. ",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/8a0749/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/218bca846501162965dee39a88d8c379/cd646031-5092-4a22-90ca-4b3a543b4551",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/53",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "corrections to the numbers in the \"Experiments\" are as\r\nfollows:-\r\n     Page 202, <u>for</u> 6.25 <u>read</u> 10.34; which gives for\r\n     Pendulum 3, 86166.49\r\n     Page203, <u>for</u> 6.2 <u>read</u> 10.26; which gives for Pendulum\r\n     4, 86174.99\r\n     Page 205, <u>for</u> 5.65 <u>read</u> 9.35; which gives for Pendulum\r\n     3, 86149.61\r\n     Page 206, <u>for</u> 5.7 <u>read</u> 9.43; which gives for\r\n     Pendulum 4, 86159.35\r\n     Page 207, the results for 1<sup>o</sup> Fahrenheit will be\r\n     respectively 0.4318 and 0.4300. The\r\n     mean 0.4309 corresponds to 86166 vibrations\r\n     in one day.\r\n\r\nHence, to reduce the vibrations observed at the temperature\r\n1<sup>o</sup> of Fahrenheit to the vibrations which would have\r\nbeen observed in air of the same density and temperature\r\n50<sup>o</sup>, the number of observed vibrations must be\r\nmultiplied by [86166+(t-50) x 0.4309]/86166, or by\r\n1 + (t-50) x 0.00000501. I do not at present form\r\nthe logarithm of this quantity, as there will be another\r\nterm depending on temperature, introduced by the consideration\r\nof the buoyancy-correction which will be combined with this.",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

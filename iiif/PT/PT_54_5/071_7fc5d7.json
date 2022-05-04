@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/7fc5d7/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/a5a0e1cdf768415b94a36ac02aca2e5e/c2c0285e-59af-40f4-8c40-ea5a2c9a5774",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/71",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "<s>44</s>43. For <s>[?]</s> ascertaining the probable error <u>e</u> I have used\r\nthe following process.\r\n     Let E<sub0</sub>, E<sub>1</sub>, E<sub>2</sub>, &c, as before, be the actual\r\nerrors of comparison, estimated by the effect which they\r\nproduce on a 4-hours' rate, in the 8<sup>th</sup> decimal place\r\nof logarithms: Let R<sub>1</sub>, R<sub>2</sub>, &c, be the successive\r\nindividual results for the rate of the lower pendulum\r\non the upper pendulum: and let  A be the adopted\r\nvalue of that rate. Now if A <s>[?]</s> were rigorously correct,\r\nwe should have the following equations:\r\nE<sub>0</sub> =             E<sub>0</sub>\r\nE<sub>1</sub> =  E<sub>0</sub> + R<sub>1</sub> - A = E<sub>0</sub> + R<sub>1</sub>      - A\r\nE<sub>2</sub> = E<sub>1</sub> + R<sub>2</sub> - A  = E<sub>0</sub> + (R<sub>1</sub> + R<sub>2</sub>) - 2A\r\nE<sub>3</sub> = E<sub>2</sub> + R<sub>3</sub> - A = E<sub>0</sub> + (R<sub>1</sub> + R<sub>2</sub> + R<sub>3</sub>) - 3A\r\n        &c\r\nand, adding all for the First Series, which terminates\r\nwith R<sub>26</sub> and E<sub>26</sub>,\r\n\r\nE<sub>0</sub> + E<sub>1</sub> + &c + E<sub>26</sub> = 27E<sub>0</sub> +26R<sub>1</sub> + 25R<sub>2</sub> + &c + R<sub>26</sub> - [26.25/2]A\r\nE<sub>0</sub> is yet undetermined. Now the Theory of Probabilities\r\nwhich we have used requires that the chances of positive\r\nand negative errors be equal, and therefore that\r\n(subject to the irregularities of chance) E<sub>0</sub> + E<sub>1</sub> + &c + E<sub>26</sub> = 0\r\nThis gives E<sub>0</sub> = [26.25/2.27]A - 1/27 (26R<sub>1</sub> + 25R<sub>2</sub> + &c + R<sub>26</sub>): ",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

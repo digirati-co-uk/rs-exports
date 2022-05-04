@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/f27191/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/95f5db1f0bcb31bc0f1407fa6d7109a6/d3342b6e-988b-4793-85bb-da6a38e472ef",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/82",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "The result of this examination showed that the calculated value \r\nof L should be multiplied by <s>1.01608<\\s> 1.0618 to obtain the value \r\nof L which would give the most consistent results \r\nWe have therefore L by calculation 430165 meters \r\nProbable value of L by method of least squares <s>456748<\\s> 456748meters \r\nResult of rough experiment with the \r\nElectric Balance see [paragraph]46 410000 meters \r\nThe value of L calculated from the dimensions of the coil \r\nis probably much more accurate than either of the other \r\ndeterminations.",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

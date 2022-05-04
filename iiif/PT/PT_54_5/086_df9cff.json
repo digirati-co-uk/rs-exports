@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/df9cff/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/13e3f643f2c7f8e058638d2f9bc95d40/e3b1f61b-02fe-4851-b6f8-e54332fdb5f2",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/86",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "54. To illustrate in some degree the difference in the\r\nattractions and changes of attraction depending on different\r\nslices of the sphere, I have supposed a homogeneous sphere divided into\r\n20 slices by equidistant planes parallel to the tangent\r\nat I, and have computed (by formulae easily\r\ninvestigated) the attraction of each slice upon the point\r\nI at the surface, and upon a point raised above the\r\nsurface by 1/10 part of the radius.\r\nThe results are as follows:\r\n\r\nNo.of   Attraction on point     Attraction on point     Decrease by the\r\nslice     at the surface          elevated 1/10 radius    elevation of the point\r\n1      .17019     .10401    .06618\r\n2      .14548     .11404    .03144\r\n3      .12941     .10644    .02297\r\n4      .11640     .09811    .01829\r\n5      .10519*    .09002    .01517\r\n6      .09515     .08231    .01284\r\n7      .08600     .07501    .01099\r\n8      .07756     .06808    .00948\r\n9      .06963     .06144    .00819\r\n10     .06217     .05509    .00708\r\n11     .05512     .04901    .00611\r\n12     .04833     .04315    .00518\r\n13     .04191     .03745    .00446\r\n14     .03568     .03207    .00361\r\n15     .02973     .02666    .00307\r\n16     .02391     .02161    .00230\r\n17     .01836     .01655    .00181\r\n18     .01295     .01165    .00130\r\n19     .00766     .00693    .00073\r\n20     .00249     .00232    .00017\r\n______________________________________\r\n* I was not aware till I made the calculation that the plane which bisects the\r\nradius drawn to I divides the sphere into two segments whose attractions on I are equal.",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

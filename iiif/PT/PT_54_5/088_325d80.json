@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/325d80/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/aaab6627cf217b22b090ec2136b826b2/ad8135f4-32c9-435b-94b2-b2b47bfae927",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/88",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Divide the whole of the matter into cylindrical rings\r\nof which UI is the axis: let the internal and external radii of <s>two</s> one of these\r\nrings be p and p + \u03b4p. Call the azimuth of any point\r\nof the ring \u03b8: the end-surface of the prism included\r\nbetween \u03b8 and \u03b8 + \u03b4\u03b8 is p.\u03b4p.\u03b4\u03b8. Let z be the\r\nvertical <s>[?]</s> ordinate measured upwards from the lower\r\nplane, the solid contact of <s>[?]</s> the point of the prism\r\nincluded between z and \u03b4z is p\u03b4p.\u03b4\u03b8.\u03b4z: <s>and</s>\r\nits attraction on the point I, supposing its density to\r\nbe d, is d.p\u03b4p.\u03b4\u03b8.\u03b4z/[p<sup>2</sup> + z<sup>2</sup>]: and the resolved part of\r\nthis, in the vertical direction, is d.p\u03b4p.\u03b4\u03b8.z\u03b4z/(p<sup>2</sup> + z<sup>2</sup>)<sup>3/2</sup>.\r\nIntegrating with respect to z between the limits z = 0\r\nand z = <s>r</s>c = UI, we have d.p\u03b4p.\u03b4\u03b8.(1/p - 1/(p<sup>2</sup> + c<sup>2</sup>)<sup>1/2</sup>)\r\nIntegrating with respect to \u03b8 for the whole circumference\r\nwe have 2\u03c0.d.(\u03b4p - p\u03b4p/(p<sup>2</sup> + c<sup>2</sup>)<sup>1/2</sup>). Integrating with respect\r\nto <s>[?]</s> p, we have 2\u03c0.d{p + c - (p<sup>2</sup> + c<sup>2</sup>)<sup>1/2</sup>)}. This is the\r\nattraction upwards on the point I. The attraction\r\ndownwards on the point U will be the same: and\r\nthus the difference of attractions on U and I, estimated\r\nin the downwards direction, will be 4\u03c0.d{p + c - (p<sup>2</sup> + c<sup>2</sup>)<sup>1/2</sup>)}.\r\nIf the planes be continued without limit, <s>[?]</s> or p",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

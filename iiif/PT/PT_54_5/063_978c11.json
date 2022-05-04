@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/978c11/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/f2adb6f2e18fa4cde59386c292fdc2c0/ce6cb455-ce6e-4936-84e7-b1ca017bd7a9",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/63",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Section VI. Computation of Log. Rate of Lower Pendulum upon\r\n     Upper Pendulum, combination of individual results;\r\n     and conclusion on the <s>[?]</s> proportion of gravity\r\n     at the Lower Station to gravity at the Upper Station.\r\n\r\n<s>40</s>38. The quantity now to be found is Log. Rate of Lower Pendulum/Rate of Upper Pendulum.\r\nThis is = Log [Rate of Lower Pendulum/Rate of Earnshaw] + Log [Rate of Earnshaw/Rate of Shelton] - Log [Rate of Upper Pendulum/Rate of Shelton].\r\nThe first of these quantities is given, for every Swing, in Section V: the\r\nsecond in Section II: and the third in Section IV. Thus the following\r\nnumbers are formed.\r\n\r\nFirst Series. Log Rate of Pendulum 8 below on Pendulum 1821 above\r\n\r\n[Table not transcribed]\r\n\r\nSecond Series. Log Rate of Pendulum 1821 below on Pendulum 8 above\r\n\r\n[Table not transcribed]",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

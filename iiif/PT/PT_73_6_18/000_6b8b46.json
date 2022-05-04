@@ -1,0 +1,31 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_73_6_18/canvas/6b8b46/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/4a0bbdd42a0a32998b56d168fdbd3084/8269c524-4c38-47b4-abd0-a15ebcc4627e",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_73_6_18/canvas/0",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Phil. Trams. MDCCCXVII. PL. xv. p.330\r\n\r\nFig.2",
+                "format": "text/plain",
+                "language": "en"
+            }
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/4a0bbdd42a0a32998b56d168fdbd3084/93289118-80c2-4bf2-8b35-e14cf61832fa",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_73_6_18/canvas/0",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Phil. Trans. MDCCCXVII. PL. xv. p.330\r\n\r\nFig.2",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

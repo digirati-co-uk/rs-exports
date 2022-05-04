@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/4f4c86/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/c975a33a664f8d1194cfcb1efe3f415f/41690deb-1067-4914-819b-690613dcb745",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/56",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[Table of Thermometer and Correction to Log Rate not transcribed]\r\n\r\n\r\n\r\nThe \"Corrected Log. Rate of Pendulum upon Clock\", or Log Rate\r\nsupposing that the temperature of the Pendulum is 50<sup>o</sup>, and that\r\nin vibrations in vacuum, in an indefinitely small arc, is\r\nfound by adding together the logarithm of n-2/2, the correction\r\nfor arc, the correction for thermometer, and the correction for\r\nbarometer, all taken from the tables above.",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

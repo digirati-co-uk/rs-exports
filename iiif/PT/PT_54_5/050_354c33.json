@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/354c33/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/40b190a64bed17791210d98edf8d7756/3a674ca1-b465-45ed-a7b4-40185c190568",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/50",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "on which the correction may be supposed to depend, and the\r\nlogarithmic correction as taken from the last table.\r\n\r\n[Table of Range of Arc through half hour not transcribed.]\r\n\r\nSuppose now that we wished to find the logarithmic correction for a <s>series of</s> Swing whose\r\nfirst arc was 1.97 and whose last arc was 0.98. This Swing extends over four equal\r\nintervals of time, for which the log corrections are respectively 579, 402, 287, 205. The\r\nlog correction therefore applicable to the whole time will be the mean of these four\r\ncorrections or 368. In a similar manner, we may obtain the correction with any other\r\nbeginning and concluding arcs among those in the table above, and thus the next table if formed.\r\n\r\n[Table of logarithmic correction for the whole Swing is not transcribed]",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

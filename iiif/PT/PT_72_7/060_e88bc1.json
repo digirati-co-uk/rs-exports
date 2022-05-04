@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/e88bc1/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/5ec8e3bc50feb932abc756b7aa2e6534/8977af74-4b09-4629-ae03-129ffcbc6a69",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/60",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "(93) If we com<s>pare<\\s>bine the equations of Magnetic Force (B) with those \r\nof Electric currents (C) and put for brevity \r\n\r\ndF/dx + dG/dy + dH/dz = J and d<sup>2<\\sup>/dx<sup>2<\\sup> + d<sup>2<\\sup>/dy<sup>2<\\sup> + d<sup>2<\\sup>dz<sup>2<\\sup> = [del operator] <sup>2<\\sup> (63) \r\n4[pi][mu]p' = dJ/dx - <s>d<sup>2<\\sup>[mu]<sup>2<\\sup>/dx<sup>2<\\sup><\\s> [del operator]<sup>2<\\sup>F \r\n4[pi][mu]q' = dJ/dy - [del operator]<sup>2<\\sup>G \r\n4[pi][mu]r' = dJ/dz - [del operator]<sup>2<\\sup>H } (64) \r\n\r\nIf the medium in the field is a perfect dielectric there is no \r\ntrue conduction and the currents p' q' r' are only variations \r\nin the dielectric displacement or, by the equations of Total Currents (A) \r\np'=df/dt q'=dg/dt r'=dh/dt (65) \r\nBut these electric displacements are caused by electromotive forces \r\nand by the equations of Eectric Elasticity (E) \r\n\r\nP=kf Q=kg R=kh (66) \r\n\r\nThese electromotive forces are due to the variations either of the electromagnetic \r\nor the electrostatic functions as there is no motion of conductors in \r\nthe field, so that the equations of electromotive force (D) are \r\n\r\nP= -dF/dt - d[psi]/dx \r\nQ= -dG/dt - d[psi]dy \r\nR = -dH/dt - d[psi]/dz } (67) \r\n\r\n(94) Combining these equations we obtain the following \r\n\r\nk(dJ/dx) - [del operator]<sup>2<\\sup>F) + 4[pi][mu](d<sup>2<\\sup>F/dt<sup>2<\\sup> + d<sup>2<\\sup>[psi]/dxdt) = 0 \r\nk(dJ/dy) - [del operator]<sup>2<\\sup>G) + 4[pi][mu](d<sup>2<\\sup>G/dt<sup>2<\\sup> + d<sup>2<\\sup>[psi]/dydt) = 0\r\nk(dJ/dz) - [del operator]<sup>2<\\sup>H) + 4[pi][mu](d<sup>2<\\sup>H/dt<sup>2<\\sup> + d<sup>2<\\sup>[psi]/dzdt) = 0 } (68) \r\n\r\nIf we differentiate the third of these equations with respect to y and the \r\nsecond with respect to y[sic, z?] and subtract J & 4[H?] disappear and \r\nbe remembering the equations (B) of magnetic force the results \r\nmay be written \r\n\r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

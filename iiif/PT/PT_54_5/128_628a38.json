@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/628a38/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/dd4590b0eebcf1d6cecc56503e166e43/78580361-d508-4bed-beb1-08d02b50193f",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/128",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Putting now r = a(1 - \u03b5cos<sup>2</sup>\u03b8, w<sup>2</sup> = m E/a<sup>3</sup>, we find\r\ng = E/a<sup>2</sup>(1 + 2\u03b5cos<sup>2</sup>\u03b8) - 3E/a<sup>2</sup>(\u03b5 - m/2)(cos<sup>2</sup>\u03b8 - 1/3) - m E/a<sup>2</sup>(1 - \u03b5cos<sup>2</sup>\u03b8)\r\n\r\n= E/a<sup>2</sup>{1 + (5m/2 - \u03b5)cos<sup>2</sup>\u03b8 + \u03b5 - 3m/2}\r\n\r\n-dg/dv = 2E/a<sup>3</sup>(1 + 3\u03b5cos<sup>2</sup>\u03b8) - 12E/a<sup>3</sup>(\u03b5 - m/2)(cos<sup>2</sup>\u03b8 - 1/3) + mE/a<sup>3</sup>(1 - cos<sup>2</sup>\u03b8)\r\n\r\n    = 2E/a<sup>3</sup>{1 + (5m/2 - 3\u03b5)cos<sup>2</sup>\u03b8 + 2\u03b5 - m/2}\r\n\r\nwhence\r\n-1/g .dg/dv = 2/a{1 + (5m/2 - 3\u03b5)cos<sup>2</sup>\u03b8 + 2\u03b5 - m/2\r\n         - (5m/2 - \u03b5)cos<sup>2</sup>\u03b8 - \u03b5 + 3m/2}\r\n\r\n     = 2/a{1 - 2\u03b5cos<sup>2</sup>\u03b8 + \u03b5 + m}\r\nand therefore\r\nF = 1 + 2c/a{1 - 2\u03b5cos<sup>2</sup>\u03b8 + \u03b5 + m}\r\nNow the method adopted in the \"Account of\r\nExperiments In,\" article 57, gives <s>[?]</s>\r\n-1/g .dg/dr <s>[?]</s> = 2c/r =  2c/a(1 + \u03b5cos<sup>2</sup>\u03b8)\r\n\r\nwhence F = 1 + 2c/a (1 + \u03b5cos<sup>2</sup>\u03b8)\r\n\r\nTherefore if R be the ratio of the value of F - 1\r\ngiven above to F - 1 as calculated by the method\r\nof the \"Account of Experiments\",\r\n\r\n     R = 1 - [2\u03b5cos<sup>2</sup>\u03b8 + \u03b5 + m]/1 + \u03b5cos<sup>2</sup>\u03b8 = 1 - 3\u03b5cos<sup>2</sup>\u03b8 + \u03b5 + m.",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

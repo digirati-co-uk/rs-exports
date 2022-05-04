@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/93e828/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/4fb0c74dc6e18e115a2f455da2419804/28a09643-b6b1-40c5-b765-68bf755b9140",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/68",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Of which the law is evident. The second difference is constant,\r\nand = -2b.\r\n\r\nSubstituting these in the expressions for N and S, we find\r\n(after all reductions)\r\n     N = b<sup>2</sup>/3 . n . (n+1).(n+2)\r\n     S = b/6 . n. (n+1).(n+2)\r\nand the equation N/S = 2b becomes identical. Therefore\r\nb is arbitrary. For convenience, make b = 1. Then the\r\nweights for the results of the successive Swings are,\r\nn, 2n-2, 3n-6, 4n-12, &c.\r\n\r\n     The square of the probable error of the final result was\r\nfound = e<sup>2</sup> x N/S<sup>2</sup>. Substituting, this becomes\r\n\r\ne<sup>2</sup> x 12/n.(n+1).(n+2): or the probable error = e x \u221a 12/n.(n+1).(n+2).\r\n\r\n41. It will be instructive to contrast this result with\r\nthe result obtained on two other suppositions.\r\n     First, suppose that the Swings had been continuous,\r\nbut that there had been no intermediate comparisons of\r\nclocks. The probable error of the first comparison being e,\r\nand that of the last comparison being also e, the probable\r\nerror in their combination by substitution will be e\u221a2:\r\nand as this applies to n Swings, the probable error\r\non the mean = 1/n e \u221a2 = e\u221a2/n<sup>2</sup>.  Comparing this\r\nwith the probable error found above, it appears that the ",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

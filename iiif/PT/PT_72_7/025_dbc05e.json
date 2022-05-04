@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/dbc05e/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/04773f541cc07ee791f259fa92c00e2d/ff878053-7fd6-42a4-8e7e-d4b80f4a0b5b",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/25",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "On the determination of Coefficients of Induction \r\nby the Electric Balance \r\n[diagram]\r\n(43) The Electric Balance consists of <s>five<\\s> six conductors \r\njoining four points A C D E two and two. One pair, AC of these \r\npoints is connected through the battery, B. The opposite pair DE \r\nis connected through the galvanometer G. Then if the resistances \r\nof the four conductors are represented by P Q R S, and the currents \r\nin them by x, x-z, y and y+z the current through G being z. \r\nLet the potantials at the four points be A C D E. Then the conditions \r\nof steady currents may be found from the equations \r\nPx = A - D Q(x - z) = D - C \r\nRy = A - E S(y + z) = E - C \r\nGz = D - E B(x + y) = -A + C + F (21) \r\nSolving these equations for z we find \r\n<s>Z{1/P + 1/Q + 1/R + 1/S + G(1/P + 1/G)(1/R + 1/S)} = B(1/PS - 1/QR) \r\nIf PS = QR then z = 0 <\\s> \r\nZ{1/P + 1/Q + 1/R + 1/S + B(1/P + 1/R)(1/Q + 1/S) + G(1/P + 1/Q)(1/R + 1/S) + BG/PQRS(P + Q + R + S)} = F(1/PS - 1/QR) (22) \r\n<s>If PS = QR then z = 0 <\\s> In this expression F is the electromotive force of the battery z the <s>consta<\\s> \r\ncurrent through the galvanometer when it has become steady. \r\nP Q R S the resistances in the four arms. B that of the battery and \r\nelectrodes and G that of the galvanometer. \r\n\r\n(44) If PS = QR, then z = 0 and there will be no steady current \r\nbut a transient current through the galvanometer may be \r\nused to determine the coefficients of induction, provided \r\nwe understand the actions which take place. \r\nWe shall suppose PS = QR so that the current z vanishes \r\nwhen sufficient time is allowed.\r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

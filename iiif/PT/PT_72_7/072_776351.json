@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/776351/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/30f1e6b6952f0eb6dd43529e7c36ab79/57c48955-5eea-4565-877e-6f4971ee69c0",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/72",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Part VII. Calculation of the Coefficients of Electromagnetic Induction \r\nGeneral Methods \r\n\r\n(109) The Electromagnetic relations between two conducting circuits \r\nA and B depend upon a function M of their form and relative \r\nposition as has already been shown \r\nM may be calculated in several different ways, which must \r\nof course all lead to the same result \r\n1<sup>st<\\sup> method. M is the electromagnetic momentum of the circuit \r\nB when A carries a unit current or \r\nM = [integral](F dx/ds' + G dy/ds' + H dz/ds') ds' \r\nwhere F, G, H are the components of electromagnetic momentum \r\ndue to a unit current in A and ds' is an element of length \r\nof B and the integration is performed round the circuit of B \r\nTo find F G H we observe that by (B) and (C) \r\nd<sup>2<\\sup>F/dx<sup>2<\\sup> + d<sup>2<\\sup>F/dy<sup>2<\\sup> + d<sup>2<\\sup>F/dz<sup>2<\\sup> = - 4[pi][mu]p' \r\nwith corresponding equations for G & H, p' q' & r' being the \r\ncomponents of the current in A \r\nNow if we consider only a single element ds of A we shall have \r\np' = dx/ds ds q' = dy/ds ds r' = dz/ds ds \r\nand the solution of the equation gives \r\nF = [mu]/[rho] dx/ds ds G = [mu]/[rho] dy/ds ds H = [mu]/[rho] dz/ds ds \r\nwhere [rho] is the distance of any point from ds. Hence \r\nM = [integral][integral] [mu]/[rho] (dx/ds dx/ds' + dy/ds dy/ds' + dz/ds dz/ds') ds ds' \r\n= [integral][integral] [mu]/[rho] cos [theta] ds ds' \r\nwhere [theta] is the angle between the directions of the two elements ds, ds', \r\nand [rho] is the distance between them and the integration is performed \r\nround both circuits ",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

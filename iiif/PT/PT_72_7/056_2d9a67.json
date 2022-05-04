@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/2d9a67/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/008277223cc8e96f71a6baca60b870a7/7319d0d5-e3fb-4a44-9653-a73b303aca7c",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/56",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Let the resistances of the layrs be respectively r<sub>1<\\sub> r<sub>2<\\sub> &c and \r\nlet r<sub>1<\\sub> + r<sub>2<\\sub> + &c = r be the resistance of the whole condenser \r\nto a steady current through it per unit of surface. \r\n\r\nLet the electric displacement in each layer be f<sub>1<\\sub> f<sub>2<\\sub> &c \r\n\r\nLet the electric current in each layer be p<sub>1<\\sub> p<sub>2<\\sub> &c \r\n\r\nLet the potential on the first surface be [psi]<sub>1<\\sub> and the electricity per unit \r\nof surface e<sub>1<\\sub>. Let the corresponding quantities at the boundary of \r\nthe first and second surfaces be [psi]<sub>2<\\sub> & e<sub>2<\\sub> and so on - Then \r\nby equations (G) and (H) \r\ne<sub>1<\\sub> = - f<sub>1<\\sub>  de<sub>1<\\sub>/dt = - p<sub>1<\\sub> \r\ne<sub>2<\\sub> = f<sub>1<\\sub> - f<sub>2<\\sub>    de<sub>2<\\sub>/dt = - p<sub>1<\\sub> - p<sub>2<\\sub> &c }(51) \r\n\r\nBut by equations (E) and (F) \r\n\r\n[psi]<sub>1<\\sub> - [psi]<sub>2<\\sub> <s> E<sub>1<\\sub> - E<sub>2<\\sub><\\s> =  a<sub>1<\\sub>k<sub>1<\\sub>f<sub>1<\\sub> = - r<sub>1<\\sub>p<sub>1<\\sub> \r\n[psi]<sub>2<\\sub> - [psi]<sub>3<\\sub> <s> E<sub>2<\\sub> - E<sub>3<\\sub><\\s> =  a<sub>2<\\sub>k<sub>2<\\sub>f<sub>2<\\sub> = - r<sub>2<\\sub>p<sub>2<\\sub>\r\n&c } (52) \r\n\r\nAfter the electromotive force has ben kept up for a sufficient time \r\nthe current becomes the same in each layer and \r\n\r\np<sub>1<\\sub> = p<sub>2<\\sub> = &c = p = [psi]/r \r\nwhere [psi] is the total difference of potentials between the extreme layers \r\nWe have then f<sub>1<\\sub> = - [psi]/r  r<sub>1<\\sub>/a<sub>1<\\sub>k<sub>1<\\sub> f<sub>2<\\sub> = - [psi]/r  r<sub>2<\\sub>/a<sub>2<\\sub>k<sub>2<\\sub> &c \r\ne<sub>1<\\sub> = [psi]/r  r<sub>1<\\sub>/a<sub>1<\\sub>k<sub>1<\\sub> e<sub>2<\\sub> = [psi]/r  (r<sub>2<\\sub>/a<sub>2<\\sub>k<sub>2<\\sub> - r<sub>1<\\sub>/a<sub>1<\\sub>k<sub>1<\\sub>) &c }(53) \r\nthese are the quantities of electricity on the different surfaces. \r\n\r\n(87) Now let the condenser be discharged by connecting the \r\nextreme surfaces through a perfect conductor so that their \r\npotentials are instantly rendered equal, then the electricity on \r\nthe extreme surfaces will be altered but that on the internal \r\nsurfaces will not have time to escape. The total difference of \r\npotentials is now \r\n\r\n[psi]' = a<sub>1<\\sub>k<sub>1<\\sub>e'<sub>1<\\sub> + a<sub>2<\\sub>k<sub>2<\\sub>(e'<sub>1<\\sub> + e<sub>2<\\sub>) + a<sub>3<\\sub>k<sub>3<\\sub>(e'<sub>1<\\sub> + e<sub>2<\\sub> + e<sub>3<\\sub>) &c = 0 (54) \r\nwhence e'<sub>1<\\sub> = [psi]/r r<sub>1<\\sub>/a<sub>1<\\sub>k<sub>1<\\sub> - [psi]/ak (55) \r\n\r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

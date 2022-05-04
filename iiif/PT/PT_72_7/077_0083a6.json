@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/0083a6/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/4716129e0a5c5d8e89e77f5320a0ef40/1fc25626-7e2b-4830-855e-ec6c2cd63581",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/77",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "different cases in which the rectangular section considered has always \r\nthe same breadth, while the depth was \r\nA, B, C, A + B, B + C, A + B + C \r\nand n = 1 in each case \r\nCalling the results L(A) L(B) L(C) &c \r\nwe calculate the coefficient of mutual induction M(AC) of the <s>extreme<\\s> two \r\ncoils thus \r\n2AC M(AC) = (A + B + C)<sup>2<\\sup>L(A + B + C) - (A + B)<sup>2<\\sup>L(A + B) - (B + C) <sup>2<\\sup>L(B + C) + B<sup>2<\\sup>L(B) \r\nThen if n<sub>l<\\sub> is the number of windings in the coil A and n<sub>2<\\sub> in the \r\ncoil B the coefficient of self induction of the two coils together is \r\nL = n<sub>1<\\sub><sup>2<\\sup>L(A) + 2n<sub>1<\\sub>n<sub>2<\\sub>L(AC) + n<sub>2<\\sub><sup>2<\\sup>L(B) \r\n\r\n(114) These values of L are calculated on the supposition that the windings \r\nof the wire are evenly distributed so as to fill up exactly the whole \r\nsection. This however is not the case, as the wire is generally circular \r\nand covered with insulating material. Hence the current in the \r\nwire is more concentrated than it would have been if it had been distributed \r\nuniformly over the section, and the currents in the neighbouring wires do \r\nnot act on it exactly as <s>they<\\s> such a uniform current would do \r\nThe corrections arising from these considerations may be expressed \r\nas numerical quantities, by which we must multiply the length of the wire \r\nand they are the same whatever be the form of the coil \r\nLet the distance between each wire and the next, on the supposition \r\nthat they are arranged in square order be D and let the diameter of the \r\nwire be d then the correction for diameter of wire is \r\n+ 2(log D/d + 4/3 log2 + [pi]/3 = 11/6) \r\nThe correction for the eight nearest wires is \r\n+ 0.0236 \r\nFor the sixteen in the next row \r\n+ 0.00083 \r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/5b2dcb/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/3a4318de51244b5ec9cd8e595700161e/ebc9d5c3-ee36-410d-b14d-5c1077803eb1",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/76",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "(113) We may aply this result to find the oefficient of self induction (L) of \r\na circular coil of wire whose section is small compared with the radius of the \r\ncircle\r\nLet the section of the coil be a rectangle the breadth in the plane \r\nof the circle being c, and the depth perpendicular to the plane of \r\nthe circle being b \r\nLet the mean radius of the coil be a and the number of windings n \r\nthen we find by integrating \r\nL = n<sup>2<\\sup>/b<sup>2<\\sup>c<sup>2<\\sup> [integral][integral][integral][integral] M(x y x' y') dxdydx'dy' \r\nwhere M(x y x' y') means the value of M for two windings whose \r\ncoordinates are xy and x'y' respectively and the integration is \r\nperformed first with respect to x and y over the rectangular section \r\nand then with respect to x' and y' over the same space \r\nL = 4[pi]n<sup>2<\\sup>a{log 8a/r + 1/12 - 4/3([theta] - [pi]/4)cot2[theta] - [pi]/3cosec2[theta] - 1/6 cot<sup>2<\\sup>[theta]log cos[theta] - 1/6 tan<sup>2<sup>[theta] log sin[theta]} \r\n+ [pi]n<sup>2<\\sup>r<sup>2<\\sup>/24a{log 8a/r(2sin<sup>2<\\sup>[theta] + !) + 3.45 + 27.475 cos<sup>2<\\sup>[theta] - 3.2 ([pi]/2 - [theta]) sin<sup>3<\\sup>/cos[theta] \r\n+ 1/5 cos<sup>4<\\sup>[theta]/sin<sup>2<\\sup>[theta] log cos[theta] + 13/3 sin<sup>4<sup>/cos<sup>2<\\sup>[theta] log sin[theta]} &c \r\nHere a = mean radius of the coil \r\nr = diagonal of the rectangular section = [square root]b<sup>2<\\sup> + c<sup>2<\\sup> \r\n[theta] = angle between r and the plane of the circle \r\nn = number of windings \r\nThe logarithms are Napierian and the angles are in circular measure \r\n108 In the experiments made by the Committee of the British Association \r\nfor determining a standard of Electrical Resistance, a double coil was \r\nused, consisting of two nearly equal coils of rectangular section placed \r\nparallel to each other with a small interval between them \r\nThe value of L for this coil was found in the following way \r\nThe value of L was calculated by the preceding formula for six ",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

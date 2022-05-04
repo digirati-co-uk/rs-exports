@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/b1934d/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/b0453a2ee329d5b7d2bf4e56402710d0/338fd0eb-e69e-4f1e-a8a1-4ae5bfc8725f",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/24",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "(42) If an electromotive force of the form [xi] = E cos pt acts on \r\nthe circuit R, then if the circuit S is removed the value \r\nof x will be x = E/A sin (pt - [alpha]) \r\nwhere A<sup>2<\\sup> = R<sup>2<\\sup> + L<sup>2<\\sup>p<sup>2<\\sup> and tan [alpha] = Lp/R \r\nThe effect of the presence of the circuit S in the neighbourhood \r\nis to alter the value of A and [alpha] to that which they would \r\nbe if R became R + p<sup>2<\\sup> MS/ S<sup>2<\\sup> = p<sup>2<\\sup>N<sup>2<\\sup> and L became L - p<sup>2<\\sup> MN/ S<sup>2<\\sup> = p<sup>2<\\sup>N<sup>2<\\sup> \r\nHence the effect of the circuit S is to increase the apparent resistance \r\nand diminish the apparent self induction of the circuit R ",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

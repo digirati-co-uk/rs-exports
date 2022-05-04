@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/5d4db7/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/6be8b37af87a152fd0d0e0ea79c3c70d/fe20706f-ac34-4ebb-ba7b-7d24cb67332f",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/81",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "(116) The dimensions of the coil used by the Committee of the British Association \r\nin their experiments at Kings College in 1864 were as follows \r\nMean radius = a = .158194 metre \r\ndepth of each coil = b = .01608 \r\nbreadth of each coil = C = .01841 \r\ndistance between the coils = .02010 \r\nnumber of windings n = 313 \r\ndiameter of wire = .00126 \r\nThe value of L derived from the first term of the expression \r\nis 437440 meters \r\nThe correction depending on the radius not being infinitely great compared \r\nwith the section of the coil as <s>derive<\\s> found from the second term is \r\n\u2014 7345 meters \r\nThe correction depending on the diameter of the wire is per unit of length \r\n+ .44997 Correction for 8 neighbouring wires + .0236 \r\nfor 16 wires next to these + .0008 Correction for variation of current <s>from cent<\\s> in different parts of section - .2500 \r\nTotal correction per unit of length .22<s>3<\\s>437 \r\nLength 311.236 meters \r\nSum of corrections of this kind 70 meters \r\nFinal value of L by calculation 430165 meters \r\nThis value of L was employed in reducing the observations, according \r\nto the method explained in the Report of the Committee* <s> The results \r\nof 16 experiments in which this <\\s> The correction depending on L varies \r\nas the square of the velocity. The results of 16 experiments to which \r\nthis correction had been applied <s>more compared<\\s> and in which the \r\nvelocity varied from 100 revolutions in 17 seconds to 100 in 77 seconds \r\nwere compared by the method of least squares to determine what further \r\ncorrection depending on the square of the velocity should be applied \r\nto make the outstanding errors a minimum \r\n\r\n* Brit Ass. Report 1863 p. 169",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/3a56a4/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/a19dfc141b0b138f8225d5e335ccb554/608cf13a-b773-496f-a93b-4fa3b4c2d5a4",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/20",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "<s>all such considerations and confine myself to the solution \r\nof problems on the mutual action of currents, the experimental \r\ndet[erm]ination of coefficients of induction, and the calculation \r\nof these coefficients from the known form of the circuit.<\\s>\r\nIn order to bring these results within the range of experimental verification \r\nI shall next investigate the case of a single current, of two currents and \r\nof the six currents in the Electric Balance, so as to enable the experimenter \r\nto determine the values of L, M, N. \r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/a19dfc141b0b138f8225d5e335ccb554/8ce810dd-5a31-4333-8c13-5bee96a2ea55",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/20",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "<s>all such considerations and confine myself to the solution \r\nof problems on the mutual action of currents, the experimental \r\ndet[erm]ination of coefficients of induction, and the calculation \r\nof these coefficients from the known form of the circuit.<\\s>\r\nIn order to bring these results within the range of experimental verification \r\nI shall next investigate the case of a single current, of two currents and \r\nof the six currents in the Electric Balance, so as to enable the experimenter \r\nto determine the values of L, M, N. \r\n\r\n(35) Case of a single circuit\r\n\r\nThe equation of the current in a circuit whose resistance \r\nis R and whose coefficient of self=induction is L acted on by \r\nan external electromotive force [xi] is \r\n\r\n[xi] - Rx = d/dt Lx (13) \r\n\r\nWhen [xi] is constant, the solution is of the form \r\n\r\nx = b + (a \u2014 b) e<sup>- R/L t<\\sup> \r\n\r\nwhere a is the value of the current at the commencement and b is its \r\nfinal value. \r\n\r\nThe total quantity of electricity which passes in time t where t is great \r\nis [equation] (14) \r\n\r\nThe value of the integral of x<sup>2<\\sup>  with respect to the time  \r\nis [equation] (15) \r\n\r\nThe actual current changes gradually from the initial value a \r\nto the final value b, but the values of the integrals of <s>the<\\s> \r\nx and x<sup>2<\\sup> are the same as if a steady current of intensity [half](a + b) \r\nwere to flow for a time 2 L/R and were then succeeded by the \r\nsteady current b. The <s>quantity<\\s> time 2 L/R is generally so minute \r\na fraction of a second that the effects on the galvanometer \r\nand dynamometer may be calculated as if the impulse were \r\ninstantaneous. \r\n\r\nIf the circuit consists of a battery and a coil then when the \r\ncircuit is first completed the effects are the same as if the current \r\nhad only half its final strength during the time 2 L/R. This diminution \r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

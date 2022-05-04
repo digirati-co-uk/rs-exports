@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_22_9/canvas/db625f/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/50c422b8e293c881e6138379404aa1bf/852a162a-374a-4e6a-815c-fea2bc35b1fb",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_22_9/canvas/3",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "namely m the expression \r\n(3+p-p[squared])(1+p)+2pT[squared]\r\nmust be a positive quantity, or, which is \r\nthe same thing\r\n T [squared]>(p[squared]-p+3).1+p/2p.\r\nJuly 25. 1839\r\nJ. Ivory ",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/927bdf/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/4efeb610176467f43516a6f061874faa/b371dd21-b97f-4278-88fb-8bde2a897390",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/75",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Application to a Coil. \r\n\r\n(112) To find the coefficient (M) of mutual induction between two circular linear \r\nconductors the distance between the curves being everywhere the same \r\nand small compared with the radius of either.\r\n\r\nIf r be the distance between the curves and a the radius \r\nof either then when r is very small compared with a we find \r\nby the second method, as a first approximation \r\nM = 4[pi]a (log<sub>e<\\sub> 8a/r - 2) \r\nTo approximate more closely to the value of M let a and a<sub>1<\\sub> be \r\nthe radii of the circles and b the distance between their planes, then \r\nr<sup>2<\\sup> = (a - a<sub>1<\\sub>)<sup>2<\\sup> + b<sup>2<\\sup> \r\nWe obtain M by considering the following conditions \r\n1<sup>st<\\sup> M must fulfil the differential equation \r\nd<sup>2<\\sup>M/da<sup>2<\\sup> + d<sup>2<\\sup>M/db<sup>2<\\sup> + 1/a dM/da = 0 \r\nThis equation being true for any magnetic field symmetrical with respect \r\nto the common axis of the circles, cannot of itself lead to the determination \r\nof M as a function of a a<sub>1<\\sub> & b. We therefore make use of <s>an<\\s>other conditions \r\n2<sup>nd<\\sup> The value of M must remain the same when a and a<sub>1<\\sub> are exchanged \r\n3<sup>rd<\\sup> The first two terms of M must be the same as those given above \r\nM may thus be expanded in the following series \r\n\r\nM = 4[pi]a log 8a/r {1 + [half] [(]a - a<sub>1<\\sub>[)]/a + 1/16 [(]3b<sup>2<\\sup> + (a<sub>1<\\sub>)<sup>2<\\sup>/a<sup>2<\\sup>/a<sup>2<\\sup> - 1/32(3b<sup>2<\\sup> + (a - a<sub>1<\\sub>)<sup>2<\\sup>(a - a<sub>1<\\sub>)/a<sup>3<\\sup> + &c} \r\n- 4[pi]a {2 + [half] [(]a - a<sub>1<\\sub>[)]/a + 1/16 [(]b<sup>2<\\sup> - 3(a - a<sub>1<\\sub>)<sup>2<\\sup>/a<sup>2<\\sup>/a<sup>2<\\sup> - 1/48(6b<sup>2<\\sup> - (a - a<sub>1<\\sub>)<sup>2<\\sup>(a - a<sub>1<\\sub>)/a<sup>3<\\sup> + &c}",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

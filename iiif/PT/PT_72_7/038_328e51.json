@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/328e51/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/d3b553aed79df527e6c38a7b04f30dcf/c799d185-e0fe-4548-b8f1-60b619f5c039",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/38",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Electromotive force on a Moving Conductor \r\n\r\n(64) Let a short straight conductor of length a parallel to the axis of x move with \r\na velocity whose components are dx/dt dy/dt dz/dt and let its \r\nextremities slide along two parallel conductors with a velocity ds/dt \r\nLet us find the alteration of the electromagnetic momentum of \r\nthe circuit of which this arrangement forms a part. \r\nIn unit of time the moving conductor has travelled distances \r\ndx/dt dy/dt dz/dt long the directions of the three axes, and at \r\nthe same time the lengths of the parallel conductors included \r\nin the circuit have each been increased by ds/dt \r\nHence the quantity\r\n[integral](F dx/ds + G dy/ds + H dz/ds)ds \r\nwill be increased by the following increments \r\na(dF/dx dx/dt + dG/dy dy/dt + dF/dz dz/dt) due to motion of conductor \r\n-a ds/dt(dF/dx dx/ds + dG/dx dy/ds + dH/dx dz/ds) due to lengthening of circuit \r\nThe total increment will therefore be \r\na(dF/dy - dG/dx)dy/dt - a(dH/dx - dF/dz)dz/dt \r\n\r\nor by the equations of Magnetic Force (8) \r\n-a([mu][gamma]dy/dt - [mu][beta]dz/dt) \r\nIf P is the electromotive force in the moving conductor parallel \r\nto x referred to unit of length, then the actual electromotive \r\nforce is Pa and since this is measured by the decrement of the \r\nelectromagnetic momentum of the circuit, the electromotive \r\nforce due to motion will be \r\nP = [mu][gamma]dy/dt - [mu][beta]dz/dt (36) \r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

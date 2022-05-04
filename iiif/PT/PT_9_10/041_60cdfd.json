@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_9_10/canvas/60cdfd/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/cc8a78c35189dd1656cf0ed7fd830512/48e723c8-8380-4989-ad9b-db9f214bff3c",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_9_10/canvas/41",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Plates belonging to \r\nMr. Knox's Paper\r\nbut not to be engraved.",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

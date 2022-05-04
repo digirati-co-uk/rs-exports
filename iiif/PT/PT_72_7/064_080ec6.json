@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/080ec6/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/85f890fe3a5969b3e46c94f22e9f0724/13d3a9c7-4eda-43e8-8249-5cf7dc603be7",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/64",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "<s>Differentiating these equations  with respect yo x y & z \r\nrespectively and adding we find that the first terms destroy each other \r\nleaving it d<sup>2<\\sup>J/dt<sup>2<\\sup> + d/dt[del operator]<sup>2<\\sup>[psi] = 0 <\\s>\r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

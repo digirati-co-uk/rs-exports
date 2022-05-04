@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/e20759/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/ae906e356569ea7250b4411e25d780f2/c47509f7-4fc3-47be-95d2-647e388ebbbb",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "which seemed to show that the effect of accidental\r\nerrors of observation on the ultimate result would\r\nprobably be less than in the methods which up to\r\nthat time had been used, confirmed me in the\r\nwish to try it. The nature of these preliminary\r\ncalculations was nearly the following:\r\n2. Conceive the Earth to be a sphere of\r\nradius R and near density D, surrounded by a\r\nspherical shell of thickness <s>r</s> c and density d,\r\nso that the radius of the external surface is R+c.\r\nAs the attraction of the spherical shell upon\r\na point at or within its inner surface is nothing,\r\nthe attraction at the confines of the inner sphere\r\nand shell is represented <s>omitting certain factors</s>\r\nby 4\u03c0/3 . R<sup>3</sup>D/R<sup>2</sup> = 4\u03c0/3 . RD  : and the attraction at the external\r\nsurface of the shell is represented by 4\u03c0.R<sup>3</sup>D + ((R+c)<sup>3</sup> - R<sup>3</sup>)d / 3(R+c)<sup>2</sup>,\r\nwhich to the first power of c/R is 4\u03c0.RD/3 .(1 - 2c/R + 3c.d/R.D)\r\nCalling the gravity at those two points respectively G\r\nand g, g/G = 1 - 2c/R + 3c.d/R.D , from which <s>D/d</s> d/D =\r\nR.g/3c.G - (R/3c - 2/3). Considering the fractions d/D and g/G",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

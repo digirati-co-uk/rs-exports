@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/2691b8/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/b270a6540cebf5ec1ac93c922ac2a844/b7e94682-71e8-4758-a951-e68c85a4d389",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/49",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Mechanical Force on an Electrified Body \r\n\r\n(79) If there is no motion or change of strength of currents or magnets \r\nin the field, the electromotive force is entirely due to variation \r\nof electric potential and we shall have [paragraph](65) \r\n\r\nP = -d[psi]/dx Q = -d[psi]/dy R = -d[psi]/dz \r\n\r\nIntegrating by parts the expression (I) for the energy due \r\nto electric displacement and remembering that P Q R vanish \r\nat an infinite distance, it becomes \r\n\r\n[half][capital sigma]{[psi](df/dx + dg/dy + dh/dz)}dV \r\n\r\nor by the equation of Free Electricity (G) \r\n\r\n-[half[[capital sigma]([psi]e)dV \r\n\r\nBy the same demonstration as was used in the case of \r\nthe mechanical action on a magnet it may be shown \r\nthat the mechanical force on a small body containing \r\na quantity e<sub>2<\\sub> of free electricity placed in a field whose potential \r\narising from other electrified bodies is [psi]<sub>1<\\sub>, has for components \r\n\r\nX = e<sub>2<\\sub>  d[psi]<sub>1<\\sub>/dx = -e<sub>2<\\sub>P<sub>1<\\sub> \r\nY =  e<sub>2<\\sub>  d[psi]<sub>2<\\sub>/dy = -e<sub>2<\\sub>Q<sub>1<\\sub> \r\nZ = e<sub>3<\\sub>  d[psi]<sub>1<\\sub>/dz = -e<sub>2<\\sub>R<sub>1<\\sub> } (L) \r\n\r\nSo that an electrified body is urged in the direction of the \r\nelectromotive force with a force equal to the product of \r\nthe quantity of free electricity and the electromotive force \r\nIf the electrification of the field arises from the presence of \r\na small electrified body containing e<sub>1<\\sub> of free electricity \r\nthe only solution of [psi]<sub>1<\\sub> is \r\n\r\n[psi]<sub>1<\\sub> = k/4[pi] e<sub>1<\\sub>/r (43) \r\n\r\nwhere r is the distance from the electrified body \r\nThe repulsion between two electrified bodies e<sub>1<\\sub> e<sub>2<\\sub> is \r\n\r\ne<sub>2<\\sub> d[psi<sub>1<\\sub>/dr = k/4[pi] e<sub>1<\\sub>e<sub>2<\\sub>/r<sup>2<\\sup> (44) \r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

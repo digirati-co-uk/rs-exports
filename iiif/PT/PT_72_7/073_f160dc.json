@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/f160dc/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/1f897f1767953a822fa04246d84c77f0/97f7dc14-bd3c-4169-960d-bbc464cf584b",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/73",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "In this method we confine our attention during integration to \r\nthe two linear circuits alone \r\n[(1]10) 2<sup>nd<\\sup> method. M is the number of lines of magnetic force which \r\npass through the circuit B when A carries a unit current, or \r\nM = [capital sigma]([mu][alpha]l + [mu][beta]m + [mu][gamma]n) dS' \r\nwhere [mu][alpha], [mu][beta], [mu][gamma] are the components of magnetic induction \r\ndue to unit current in A, S is a surface bounded by the current \r\nB and l m n are the direction-cosines of the normal to the \r\nsurface, the integration being extended over the surface \r\nWe may express this in the form \r\nM = [mu][capital sigma] 1/[rho]<sup>2<\\sup> sin[theta] sin [theta]' sin [phi] dS'ds \r\nwhere dS' is an element of the surface bounded by B, ds is an element \r\nof the circuit A [rho] is the distance between them theta] and [theta]; are \r\nthe angles between [rho] and ds and between [rho] and the normal to dS' \r\nrespectively and [phi] is the angle between the planes in which [theta] & [theta]' \r\nare measured. The integration is performed round the circuit A \r\nand over the surface bounded by B \r\nThis method is most convenient in the case of <s>plane<\\s> circuits \r\nlying in one plane, in which case sin[theta]' = 1 and sin[phi] = 1 \r\n\r\n(111) 3<sup>rd<\\sup> method. M is that part of the intrinsic magnetic energy \r\nof the whole field which depends on the  <s>combina<\\s> product of \r\nthe currents in the two circuits each current being unity \r\nLet [alpha] [beta] [gamma] be the components of magnetic intensity at any point due \r\nto the first circuit [alpha]' [beta]' [gamma]' the same for the second circuit \r\nthen the intrinsic energy of the element of volume dV of the field is \r\n[[mu]/8{pi] (([alpha] + [alpha]')<sup>2<\\sup> + ([beta] + [beta]')<sup>2<\\sup> + ([gamma] + [gamma]')<sup>2<\\sup>) dV \r\nThe part which depends on the product of the circuits is \r\n[mu]/4[pi] ([alpha][alpha]' + [beta][beta]' + [gamma][gamma]') dV ",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

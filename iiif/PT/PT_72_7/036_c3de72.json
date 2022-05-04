@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/c3de72/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/daa73e5c6cc9c794b2d4567b5c3b01a6/50752530-9cb7-477d-ace8-068264ed5d6c",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/36",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "(61) Expressing the <s>result of the<\\s> electric momentum of small circuits \r\nperpendicular to the three axes in this notation we obtain \r\nthe following \r\n\r\nEquations of Magnetic Force\r\n\r\n[mu][alpha] = dH/dy - dG/dz \r\n[mu][beta] = dF/dz - dH/dx \r\n[mu][gamma] = dG/dx - dF/dy (B) \r\n\r\nEquations of Currents \r\n\r\n(62) It is known from experiment that the motion of a magnetic pole \r\nin the electromagnetic field in a closed circuit cannot generate \r\nwork unless the circuit which the pole describes passes round \r\nan eectric current. Hence, except in the space occupied \r\nby the electric currents \r\n\r\n[alpha]dx + [beta]dy + [gamma]dz = d[phi] (39) \r\n\r\na complete differential of [phi], the magnetic potential \r\n\r\nThe quantity [phi] may be susceptible of an indefinite number of distinct \r\nvalues according to the number of times that the exploring point \r\npasses round electric currents in its course, the difference between \r\nsuccessive values of [phi] corresponding to a passage completely \r\nround a current of strength C being 4[pi]C\r\n\r\nHence if there is no electric current \r\n\r\nd[gamma]/dy - d[beta]/dz = 0 \r\n\r\nbut if there is a current p' \r\n\r\nd[gamma]/dy - d[beta]/dz = 4[pi]p' \r\n\r\nSimilarly d[alpha]/dz - d[gamma]/dx = 4[pi]q' \r\nd[beta]/dx - d[alpha]/dy = 4[pi]r' (C) <s>(10)<\\s> \r\n\r\nWe may call these the Equations of Currents \r\n\r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

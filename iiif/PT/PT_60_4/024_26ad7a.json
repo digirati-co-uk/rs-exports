@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_60_4/canvas/26ad7a/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/ad8cd40d614d68fafb0873ab31b8336e/50d94ba2-01bc-47ed-bd2b-f2edf58eb4cf",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_60_4/canvas/24",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "TABLE V Mean Errors in the Standard Equation\r\n<s>Table V<\\s>\r\n(R)= .54 (G-B)=.99 (G+B)=2.31 [squareroot]G<sup>2<\\sup>+B<sup2<\\sup>=1.67 \r\n(G)= 1.22 (B-R)=.85 (B+R)=1.54 [squareroot]B<sup>2<\\sup>+R<sup>2<\\sup>= 1.26 \r\n(B)= 1.15 (R-G)=.86 (R+G)=1.57 [squareroot]B<sup>2<\\sup>+G<sup>2<\\sup>=1.33 \r\n(R+G+B)= 2.67 [squareroot]R<sup>2<\\sup>+G<sup>2<\\sup>+B<sup>2<\\sup>= 1.76\r\nThe first column gives the mean difference between the observed \r\nvalue of each of the colours and the mean of all the observations. \r\n\r\nThe second column shows the average <s>mean<\\s> error of the observed <u>differences<\\u> \r\n<s>[text?]<\\s> between the values of the standards from the mean value of those \r\ndifferences. \r\n\r\nThe third column shows the average error of the <u>sums<\\u> of \r\ntwo standards, from the mean of such sums. \r\n\r\n\r\nThe fourth column gives the square root of the sum of the squares \r\nof the quantities in the first column. I have also given the \r\naverage error of the sum of R G and B from its mean value, and \r\nthe value of [squareroot]R<sup>2<\\sup>+G<sup>2<\\sup>+B<sup>2<\\sup>. \r\n\r\nIt appears from the first column that the red is more accurately \r\nobserved than the green and blue. \r\n\r\n[paragraph]IX <u>Relative accuracy in observations of Colour and of Brightness<\\u> If the errors in the different colours occurred perfectly independently \r\nof each other, then the probable mean error in the sum or \r\ndifference of any two colours would be the square root of the sum \r\nof their squares, as given in the fourth column. It will be \r\nseen, however, that the number in the second column is always \r\nless, and that in the third always greater, than that in the fourth; \r\nshowing that the errors are not independent of each other, but \r\nthat positive errors in any colour coincide more often with \r\npositive than with negative errors in another colour. \r\nNow the <u>hue<\\u> of the resultant depends on the <u>ratios<\\u> of the \r\ncomponents while its <u>brightness<\\u> depends on their sum. \r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

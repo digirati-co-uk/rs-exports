@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/37ec81/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/1fafe02400bd1600d22a28cb43d2b209/89048ae9-5565-4658-9361-41a249ad033e",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/54",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "<u>36</u>34. The next correction is that for the density of the atmosphere.\r\nIf we adopt Sir George Shuckburgh's elements (which are\r\nabundantly accurate for this purpose), the barometer-reading\r\nbeing B (expressed in English inches) at the temperature\r\nt<sup>o</sup> of Fahrenheit, its readings at <s>[?]</s> temperature 53<sup>o</sup>\r\nwould be B/29.27 (29.27 - (t-53) x 0.002615) =\r\nB(1-(t-53) x 0.0000896). The proportion of the\r\nweight of air in this state to that of air at\r\nbarometer-reading 29.27 in, thermometer 53<sup>o</sup>, (Sir George\r\nShuckburgh's standard elements) will be\r\nB(1- (t-53) x 0.0000896)/29.27 x (1 + 53-t/480)\r\n= B/29.27 (1-(t-53) x 0.002173) = B/29.27 (1.006519-(t-50) x 0.002173).\r\nWith the elements 29.27 in and 53<sup>o</sup>, the weight of air is\r\n1/936 that of water; and, with Kater's specific gravity\r\n8.469, <s>[?]</s> the weight of air is 1/836 x 1/8.469 that\r\nof the pendulum; the effect of this <s>[?]</s> on the\r\nvibrations of the pendulum, adopting Colonel Sabine's\r\nfactor 1.6-55 of the statical buoyancy, will be to\r\ndiminish them by the part [B x 1.655]/[1672 x 8.469 x 29.27] x(1.006529 - (t-50) x 0.002173)",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

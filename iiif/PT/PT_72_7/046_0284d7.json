@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/0284d7/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/66dbf8967a4a526c5158ba45a685904b/5f8a0c7e-78fb-4e86-aada-fa935a4fcb23",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/46",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Part IV Mechanical Actions in the Field \r\n\r\nMechanical Force on a Moveable Conductor\r\n\r\n(76) We have shown [paragraph](34 & 35) that the work done by the electromagnetic \r\nforces in aiding the motion of a conductor is equal \r\nto the product of the current in the conductor multiplied by \r\nthe increment of the electromagnetic momentum due to the \r\nmotion. \r\nLet a short straight conductor of length a move parallel to \r\nitself in the direction of x with its extremities on two parallel \r\nconductors. Then the increment of the electromagnetic momentum \r\ndue to the motion of a will be \r\na(dF/dx dx/ds + dG/dx dy/ds + dH/dx dz/ds) [delta]x \r\nThat due to the lengthening of the circuit by increasing the length of \r\nthe parallel conductors will be \r\n-a(dF/dx dx/ds + dF/dy dy/ds + dF/dz dz/ds) [delta]x \r\nThe total increment is a[delta]x{dy/ds(dG/dx - dF/dy) - dz/ds(dF/dz -dH/dx)} \r\nwhich is by the equations of Magnetic force, (B). \r\na[delta]x(y/ds [mu][gamma] - dz/ds [mu][beta]) \r\nLet X be the force acting along the direction of x per unit of length \r\nof the conductor then the work done is Xa[delta]x Let C be the current in the conductor and let p' q' r' be its \r\ncomponents then \r\nXa[delta]x = ca[delta]x(dy/ds [mu][gamma] - dz/ds [mu][beta]) \r\nor X = [mu][gamma]q' - [mu]beta]r' \r\nSimilarly Y = [mu][alpha]r' - [mu][gamma]p' \r\nz = [mu]beta]p' - [mu][alpha]q' (J) \r\nThese are the equations which determine the mechanical force \r\nacting on a conductor carrying a current. The force is perpendicular \r\nto the current and to the lines of force, and is measured by the area \r\nof the parallelogram formed by lines parallel to the current & lines of force \r\nand proportional to their intensities ",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

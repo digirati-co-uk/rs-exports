@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/f20f93/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/70188a6fb450d42c06d81a75f192929f/6d116367-5178-4ab4-9aeb-261e87f16cbf",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/67",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "For convenience, call this fraction e<sup>n</sup> x N/S<sup>2</sup>.\r\n\r\nDifferentiate with respect to w<sub>1</sub>, and make the differential coefficient = 0;\r\nS x (2w<sub>1</sub> - w<sub>2</sub>) - N = 0, or 2w<sub>1</sub> - w<sub>2</sub> = N/S.\r\n\r\nDifferentiate with respect to w<sub>2</sub>, and make the differential coefficient = 0;\r\nS x (2w<sub>2</sub> - w<sub>1</sub> - w<sub>3</sub>) - N = 0, or 2w<sub>2</sub> - w<sub>1</sub> - w<sub>3</sub> = N/S\r\n\r\n        Similarly 2w<sub>3</sub> - w<sub>2</sub> - w<sub>4</sub> = N/S\r\n\r\n        ...................\r\n        2w<sub>n-1</sub> - w<sub>n-2</sub> -w<sub>n</sub> = N/S\r\n        2w<sub>n</sub> - w<sub>n-1</sub> = N/S\r\n\r\nLet N/S = 2b, the value of b being at present unknown\r\nor perhaps arbitrary. Then\r\n\r\n     w<sub>1</sub> = w<sub>1</sub>   = w<sub>1</sub> \r\n     w<sub>2</sub> = 2w<sub>1</sub> - 2b     = 2w<sub>1</sub> -2b\r\n     w<sub>3</sub> = 2w<sub>2</sub> - w<sub>1</sub> - 2b = 3w<sub>1</sub> - 6b\r\n     w<sub>4</sub> = 2w<sub>3</sub> - w<sub>2</sub> - 2b     = 4w<sub>1</sub> - 12b\r\n      ...............\r\nw<sub>n-1</sub> =    (n-1)w<sub>1</sub> - (n-1)(n-2)b\r\nw<sub>n</sub> =    nw<sub>1</sub> - n(n-1)b\r\n\r\nSubstituting the two last in the equation 2w<sub>n</sub> - w<sub>n-1</sub> = 2b,\r\nwe obtain  w<sub>1</sub> = nb;\r\nand, substituting this in the other expression,\r\n     w<sub>2</sub> = (2n-2)b\r\n     w<sub>3</sub> = (3n-6)b\r\n     w<sub>4</sub> = (4n-12)b\r\n     w<sub>5</sub> = (5n-20)b\r\n            &c",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

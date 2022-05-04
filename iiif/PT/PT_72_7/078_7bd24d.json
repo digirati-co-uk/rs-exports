@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/7bd24d/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/6a5a6451481f621ed9305a9894355b0d/008a8c6d-519c-4df1-ac10-c4da2827b9b3",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/78",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "These corrections being multiplied by the length of wire and added to the \r\nformer result give the true value of L considered as the measure \r\nof the potential of the coil on itself for unit current in the wire \r\nwhen that current has been established for some time, and is uniformly \r\ndistributed through the section of the wire. \r\n\r\n(115) But at the commencement of a current and during its variation \r\nthe current is not uniform throughout the section of the wire, because \r\nthe inductive action between different portions of the current tend \r\nto make the current stronger at one part of the section than at another. \r\nWhen a uniform electromotive force P arising from any cause acts \r\non a cylindrical wire of specific resistance [rho] we have \r\np[rho] = P - dF/dt \r\nwhere F is got from the equation \r\nd<sup>2<\\sup>F/dr<sup>2<\\sup> + 1/r dF/dr = - 4[pi][mu]p \r\nr being the distance from the axis of the cylinder \r\nLet one term of the value of F be of the form Tr<sup>n<\\sup> \r\nwhere T is a function of the time, then the term of p which \r\nproduced it is of the form \r\n- 1/4[pi][mu] n<sup>2\\sup> Tr<sup>n - 2<\\sup> \r\nHence if we write \r\nF  <s>S<\\s>T + [mu][pi]/[rho] (-P + dT/dt)r<sup>2<\\sup> + [mu][pi]/[rho])<sup>2<\\sup> 1/<sup>2<\\sup>.2<sup>2<\\sup> d<sup>2<\\sup>T/dt<sup>2<\\sup> r<sup>4<\\sup> + &c \r\np[rho] = [theta]<s>1/[rho]<\\s> [text?] + dT/dt) - [mu][pi]/[rho]) d<sup>2<\\sup> T/dt<sup>2<\\sup> r<sup>2<\\sup> - [mu][pi]/[rho])<sup>2<\\sup> 1/<sup>2<\\sup>.2<sup>2<\\sup> d<sup>3<\\sup>T/dt<sup>3<\\sup> r<sup>4<\\sup> - &c \r\nThe total counter current of self induction at any point is \r\n[integral](P/[rho] - p)dt = 1/[rho] T + [mu][pi]/[rho]<sup>2<\\sup> dT/dt r<sup>2<\\sup> + [mu][pi]/[rho])<sup>3<\\sup>) 1/<sup>2<\\sup>.2<sup>2<\\sup> d<sup>2<\\sup>T/dt<sup>2<\\sup> r<sup>4<\\sup> + &c\r\nfrom t = 0 to t = [infinity] \r\nWhen t = 0 p = 0 [therefore] (dT/dt)<sub>0<\\sub> = P (d<sup>2<\\sup>T/dt<sup>2<\\sup>)<sub>0<\\sub> = 0 &c \r\nWhen t = [infinity] p = P/[rho] \r\n[therefore] (dT/dt)<sub>[infinity]<\\sub> = 0 (d<sup>2<\\sup>T/dt<sup>2<\\sup>)<sub>[infinity]<\\sub> = 0 &c",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

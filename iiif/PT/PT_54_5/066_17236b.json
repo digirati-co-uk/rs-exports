@@ -1,0 +1,43 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/17236b/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/a6659f28c00d343abc5fd28b00928df6/4e9f77d3-7ace-45e2-9db4-d45069b4068a",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/66",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Then the errors in the results of the separate Swings,\r\nproduced by the errors of comparisons, are\r\n(E<sub>1</sub> - E<sub>0</sub>), (E<sub>2</sub> - E<sub>1</sub>), (E<sub>3</sub> - E<sub>2</sub>), ........ E<sub>n</sub> - E<sub>n-1</sub>:\r\nand, combining these with the weights\r\nw<sub>1</sub>,  w<sub>2</sub>,  w<sub>3</sub>,  ....... w<sub>n</sub>,\r\n  ",
+                "format": "text/plain",
+                "language": "en"
+            }
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/a6659f28c00d343abc5fd28b00928df6/121c288f-7fce-400b-af52-99d0f6981cc3",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/66",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "",
+                "format": "text/plain",
+                "language": "en"
+            }
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/a6659f28c00d343abc5fd28b00928df6/67f7f098-cd0b-48d5-b327-fe949fe53877",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/66",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Then the errors in the results of the separate Swings,\r\nproduced by the errors of comparisons, are\r\n(E<sub>1</sub> - E<sub>0</sub>), (E<sub>2</sub> - E<sub>1</sub>), (E<sub>3</sub> - E<sub>2</sub>),..... (E<sub>n</sub> - E<sub>n-1</sub>):\r\nand, combining these with the weights\r\nw<sub>1</sub> , w<sub>2</sub> , w<sub>3</sub>, ..... w<sub>n</sub>,\r\nthe <u>actual</u> error of the final result will be\r\n[w<sub>1</sub> (E<sub>1</sub> - E<sub>0</sub>) + w<sub>2</sub> (E<sub>2</sub> - E<sub>1</sub>) + w<sub>3</sub> (E<sub>3</sub> - E<sub>2</sub>) + ..... w<sub>n</sub> (E<sub>n</sub> - E<sub>n-1</sub>)]/ [w<sub>1</sub> + w<sub>2</sub> + w<sub>3</sub> + ..... w<sub>n</sub>]\r\n\r\n= [-w<sub>1</sub>E<sub>0</sub> + (w<sub>1</sub> - w<sub>2</sub>) E<sub>1</sub> + (w<sub>2</sub> - w<sub>3</sub>)E<sub>2</sub> + (w<sub>3</sub> - w<sub>4</sub>) E<sub>3</sub> ..... + w<sub>n</sub>E<sub>n</sub>]/[w<sub>1</sub> + w<sub>2</sub> + w<sub>3</sub> + ..... w<sub>n</sub>]\r\n\r\nHence, by the well known rules of the Calculus of Probabilities,\r\nthe square of the <u>probable</u> error of the final result will be\r\n[w<sub>1</sub><sup>2</sup>.e<sub>0</sub><sup>2</sup> + (w<sub>1</sub> - w<sub>2</sub>)<sup>2</sup>.e<sub>1</sub><sup>2</sup> +  (w<sub>2</sub> - w<sub>3</sub>)<sup>2</sup>.e<sub>2</sub><sup>2</sup> + (w<sub>3</sub> - w<sub>4</sub>)<sup>2</sup>.e<sub>3</sub><sup>2</sup> + .....  w<sub>n</sub><sup>2</sup>.e<sub>n</sub><sup>2</sup>]/(w<sub>1</sub> + w<sub>2</sub> + w<sub>3</sub> + .....w<sub>n</sub>)<sup>2</sup>.\r\n\r\nAnd if, for simplicity, we suppose all the comparisons\r\nequally good, so that for e<sub>0</sub>, e<sub>1</sub>, e<sub>3</sub> &c we may put\r\ne, the expression for the square of the <u>probable</u> error <s>[?]</s>  \r\nthe final result becomes\r\n\r\ne<sup>2</sup> x [w<sub1</sub><sup>2</sup> + (w<sub>1</sub> - w<sub>2</sub>)<sup>2</sup> + (w<sub>2</sub> - w<sub>3</sub>)<sup>2</sup> + ..... w<sub>n</sub><sup>2</sup>]/(w<sub>1</sub> + w<sub>2</sub> + w<sub>3</sub> +..... w<sub>n</sub>)<sup>2</sup> :\r\nand we have now to determine values of w<sub>1</sub>, w<sub>2</sub>, &c, which\r\nwill make this square of the final probable error a minimum.  ",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

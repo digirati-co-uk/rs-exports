@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/588c95/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/d24937ed4af4fc61abb60896f982a961/8c6591d4-1457-42cb-9109-a61dac0e54fe",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/22",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Case of Two Circuits\r\n\r\n(37) Let R be the primary circuit and S the secondary circuit \r\nthen we have a case similar to that of the induction coil \r\nThe equations of currents are those marked A & B and we may here \r\nassume L M N as constant because there is no motion of the conductors \r\nThe equations then become \r\n\r\nRx + L dx/dt + M dy/dy = [xi] \r\nSy + M dx/dt + N dy/dt = 0 (13)\r\n\r\nTo find the total quantity of electricity which passes we have \r\nonly to integrate these equations with respect to t, then if x<sub>0<\\sub> y<sub>0<sub> \r\nbe the strengths of the currents at time 0 and x<sub>1<\\sub> y<sub>1<\\sub> at time t \r\nand if X Y be the quantities of electricity passed through each circuit \r\nduring time t\r\n\r\nX = 1/R {[xi]t + L (x<sub>0<\\sub> - x<sub>1<\\sub>) + M(y<sub>0<\\sub> - y<sub>1<\\sub>)} \r\n\r\nY = 1/S {M(x<sub>0<\\sub> - x<sub>1<\\sub>) + N(y<sub>0<\\sub> - y<sub>1<\\sub>)} (14) \r\n\r\nWhen the circuit R is completed, then the total currents up to time t, \r\nwhen t is great, are found by making x<sub>0<\\sub> = 0 x<sub>1<\\sub> = [xi]/R y<sub>0<\\sub> = 0 y<sub>1<\\sub> = 0 \r\nthen X = x<sub>1<\\sub>(t - L/R) Y = -M/S x<sub>1<\\sub> (15) \r\n\r\nThe value of the total counter current in R is therefore independent \r\nof the secondary circuit, and the induction current in S depends \r\nonly on M the coefficient of induction between the coils, S the resistance \r\nof the secondary coil and x, the final strength of the current in R \r\n\r\nWhen the electromotive force [xi] ceases to act there is an extra \r\ncurrent in the primary circuit and a positive induced current in \r\nthe secondary circuit whose values are equal and opposite \r\nto those produced on making contact. \r\n\r\n(38) All questions relating to the quantity of transient currents \r\nas measured by the impulse given to the magnet of the galvanometer \r\nmay be solved in this way without the necessity of a complete solution \r\nof the equations. The heating effect of the current, and the impulse it \r\ngives to the suspended coil of Weber's dynamometer depend on \r\nthe square of the current at every instant during the short time it lasts \r\n\r\nHence we must obtain the solution of the equations and \r\nfrom the solution we may find the effects both on the galvanometer \r\nand dynamometer and we may then make use of the method of Weber ",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/45e8cb/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/55c06d40ff1993e7afe6db1f816284b4/b7cc413c-8b6a-41a4-9b75-af51743b3ae7",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_54_5/canvas/126",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "\u03b5, the ellipticity.\r\nw, the angular velocity.\r\nm, the ratio of the centrifugal force to gravity\r\nat the equator.\r\n\u0395, the mass of the Earth.\r\nv, the angle between the normal and radius vector\r\nat any point of the surface.\r\n\r\nIn the following investigation, small quantities of the second\r\norder are neglected, \u03b5 and m being regarded as\r\nsmall quantities of the first order.\r\n\r\nIf U = V + w<sup>2</sup>/2 r<sup>2</sup> sin<sup>2</sup>\u03b8,\r\nthe differential coeficients\r\n     dU/dr, 1/r . dU/d\u03b8,\r\nwill give the components of the force along and\r\nperpendicular to the radius vector;\r\nand, g being the force of gravity,\r\n\r\n     g = - cos v.dU/dr + sin v. 1/r . \u03b4U/\u03b4\u03b8:\r\nwhich becomes, since v and dU/d\u03b8 are small quantities\r\nof the first order,\r\n\r\n     g = - dU/dr\r\n\r\nLet v be measured along the vertical: then\r\n\r\n     dg/dv = cos v. dg/dr - sin v. 1/r . dg/d\u03b8",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

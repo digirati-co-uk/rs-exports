@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_60_4/canvas/03e61e/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/491a856d3f47200c53e060c324295820/60b766bf-6665-4ba5-ad5d-a6a6c5c612f6",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_60_4/canvas/46",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Mr Maxwell's Paper \r\nOn Compound Colours \r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

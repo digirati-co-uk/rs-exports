@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_22_9/canvas/f8626c/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/0f25acef302fd21baf963eb3ab20c190/24dbec2b-6a0d-4d18-81a9-6248594fa547",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_22_9/canvas/1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "For the sake of abridging expressions, put \r\n[capital delta squared]=(1+pxy[squared]+T[squared]x[squared], P[squared]=(1+p)[squared]+T[squared]:\r\nthen, (1-x[squared)(1-p[squared]x[squared])=[capital delta squared]-P[squared]x[squared].\r\nBy substituting this value in Equat.(7),\r\n[equations not transcribed]\r\nand hence \r\n[equation not transcribed]\r\nwhich proves that the same values of p \r\nand T[squared] that make V=0, will necessarily \r\nmake dV/T[delta]T positive.\r\nFurther, we have \r\n[equation not transcribed]\r\nfrom which it follows that, whatever positive \r\nnumber T[squared] stands for, dV/[delta]p is negative for \r\nall values of p that make 3+2p-p[squared] posi:\r\ntive, that is, for all values of p less than 3.\r\nThe function V is positive when p=1; \r\n<s>and<\\s> it is zero when p=p[squared] and T[squared]=0; and, \r\nif we suppose that p decreases from p[squared] to 1, \r\nwhile T[squared] increases from 0 to [infinity], the differential \r\nequation (A) will in no instance be verified, \r\nbecause, according to what has been shown, \r\nboth ",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

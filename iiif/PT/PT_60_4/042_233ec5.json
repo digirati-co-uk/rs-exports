@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_60_4/canvas/233ec5/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/a08ae861ee98a02d86a54aa2daa7844e/ab1d6034-0f5f-4afe-823f-dc8143264416",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_60_4/canvas/42",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "colours may be numerically defined. This colour may be expressed \r\nunder the form aV + bU + cG = D (6) \r\nwhere V, U & G are the standard colours used in the experiments, \r\nand D is the colour which is visible to the ordinary eye, but \r\ninvisible to the colourblind. If we know the value of D, we may \r\nalways change an ordinary colour equation into a colour blind \r\nequation by subtracting from it nD, (n being chosen so that \r\none of the standard colours is eliminated), and adding n of black. \r\n\r\nIn September, 1856, I deduced, from 36 observations of my own \r\nthe chromatic relations of the same set of six coloured papers. \r\nThese observations with a comparison of them with the \r\ntrichromic theory of vision, are to be found in the <u>Philosophical \r\nMagazine<\\u> for July 1857. The relations of the 6 colours may be \r\ndeduced from two equations of which the most convenient form \r\nis \r\n\r\nV U G B W Y +39.7 +26.6 +33.7 -22.7 -77.3 0 = 0 (7) \r\n-62.4 +18.6 -37.6 0 +45.7 +35.7 = 0 (8) \r\n\r\nThe value of D, as deduced from a comparison of these equations \r\nwith the colourblind equations is \r\n\r\n1.198V + 0.078U -0.276G = D (9) \r\n\r\nBy making D the same thing as Black, (B), and eliminating \r\nW & Y respectively from the two ordinary colour equations \r\nby means of D, we obtain three colourblind equations, calculated \r\nfrom the ordinary equations, and consistent with them \r\nsupposing that the colour (D) is black to the colour blind. ",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/b3e773/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/fc66a8d8fdaca616093178d78871b79f/973bb44a-58ff-4577-bd03-361981f0aafe",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/37",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Electromotive Force in a Circuit \r\n\r\n[6?]3 Let [xi] be the electromotive force acting round the circuit A \r\nthen [xi] = [integral](P dx/ds + Q dy/ds + R dz/ds)ds (32) \r\nwhere ds is the element of length and the integration is \r\nperformed round the circuit \r\nLet the forces in the field be those due to the circuits A & B, then \r\nthe electromagnetic momentum of A is \r\n[integral] (F dx/ds + G dy/ds + H dz/ds) ds = Lu + Mv (33) \r\nwhere u and v are the currents in A & B \r\nand [xi] = -d/dt(Lu + Mv) (34) \r\n\r\nHence if there is no moton of the circuit A \r\n\r\nP = -dF/dt - d[psi]/dx \r\nQ = -dG/dt - d[psi]/dy \r\nR = -dH/dt - d[psi]/dz (35) \r\n\r\nwhere [psi] is a function of x y z & t which is indeterminate as \r\nfar as regards the solution of the above equations because the \r\nterms depending on it will disappear on integrating \r\nround the circuit. The quantity [psi] can always however \r\nbe determined in any particular case when we know \r\nthe actual conditions of the question. The physical interpretation \r\nof [psi] is that it represents the <u>electric potential<\\u> at each \r\npoint of space. \r\n\r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

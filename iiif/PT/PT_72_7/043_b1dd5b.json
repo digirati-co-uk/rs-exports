@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/b1dd5b/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/fc8e70ab9dffef5724c9c9e6ba0caa71/eb7a4853-197b-468f-afec-cc40e4fbb22f",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/43",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Intrinsic Energy of the Electromagnetic Field \r\n\r\n(71) We have seen (33) that the intrinsic energy of any system \r\nof currents is found by multiplying half the current in each \r\ncircuit into its electromagnetic momentum. This is equivalent \r\nto finding the integral \r\nE = [half][capital sigma](Fp' + Gq' + Hr')dV (37) \r\nover all the space occupied by currents, where p q r are \r\nthe components of currents, and F G H the components \r\nof electromagnetic momentum. \r\n\r\nSubstituting the values of p' q' r' from the equations of Currents (C) \r\nthis becomes 1/8 [pi] [capital sigma]{F(d[gamma]/dy - d[beta]/dz) + G(d[alpha]/dz - d[gamma]/dx) + H(d[beta]/dx - d[alpha]/dy)}dV \r\nIntegrating by parts and remembering that [alpha] [beta] [gamma] vanish at \r\nan infinite distance the expression becomes \r\n1/8[pi] [capital sigma]{[alpha](dH/dy - dG/dz) + [beta](dF/dz - dH/dx) + [gamma](dG/dx - dF/dy)}dV \r\nwhere the integration is to be extended  over all space. Referring to \r\nthe equations of Magnetic Force (B) this becomes \r\n\r\nE = 1/8[pi][capital sigma]{[alpha].[mu][alpha] + [beta]/[mu][beta] + [gamma].[mu][gamma]}dV (38) \r\nwhere [alpha] [beta] [gamma] are the components of magnetic intensity or \r\nthe force on a unit magnetic pole, and [mu][alpha], [mu][beta], [mu][gamma] are \r\nthe components of the quantity of magnetic induction or the \r\nnumber of lines of force in unit of area. \r\nIn isotropic media the value of [mu] is the same in all directions and \r\nwe may express the result more simply by saying that the intrinsic \r\nenergy of any part of the magnetic field arising from its magnetization \r\nis [mu]/8[piI[sup]2<\\sup> \r\nper unit of volume, where I is the magnetic intensity \r\n\r\n\r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

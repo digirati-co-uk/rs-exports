@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_42_11/canvas/38f234/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/bcb42f94d5878f132ed21d82f7b39fd8/a8fecc09-4e27-41fc-b59d-c5dee1c294a7",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_42_11/canvas/5",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "*The statements of Meyen (op. cit.) to the contrary \r\nare certainly erroneous.",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

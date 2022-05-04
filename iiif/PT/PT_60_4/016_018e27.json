@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_60_4/canvas/018e27/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/2a0e276a122121b8d504e1d5bc6e944a/30544e61-57ed-4b04-9ba2-7b4a92eb5c1f",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_60_4/canvas/16",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "in which the rays are arranged in order of their respective wavelengths. \r\nEvery ray whose wave length is an exact submultiple of the retardation \r\nwill be destroyed by interference, and its place will appear dark in \r\nthe spectrum; and there will be as many dark bands seen as there \r\nare rays whose wave lengths fulfil this condition. \r\nIf, then, we observe the positions of the dark bands on the scale AB, \r\nthe wave=lengths corresponding to these positions will be a series of \r\nsubmultiples of the retardation. \r\nLet us call the first dark band visible on the red side of the spectrum \r\nzero, and let us number them in order 1, 2, 3, &c towards the violet end \r\nLet N be the number of undulations corresponding to the band zero \r\nwhich are contained in the retardation R, then if n be the \r\nnumber of any other band, N+n will be the number of the corresponding \r\nwave=lengths in the retardation, or in symbols - \r\nR=(N+n)[lambda] (6) \r\nNow observe the position of two of Fraunhofers fixed lines \r\nwith respect to the dark bands, and let n1, n2 be their positions \r\nexpressed in the number of bands, whole or fractional, reckoning from \r\nzero. Let [lambda]1, [lambda]2 be the wave=lengths of these fixed lines as \r\ndetermined by Fraunhofer, then \r\n[equations not transcribed]\r\nHaving thus found N & R, we may find the wave=length corresponding \r\nto the dark band n from the formula - \r\n[lambda]=R/N+n (10) \r\nIn my experiments the line D corresponded with the seventh \r\ndark band, and F <s>with<\\s> was between the 15th and 16th so that n2=15.7 \r\nHere then for D, n1=7 [lambda]1=2175 \r\nn2=15.7 [lambda]2=1794 in Fraunhofers measure (11) ",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

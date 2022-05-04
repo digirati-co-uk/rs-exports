@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/5be13c/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/3f18a017c609d44a599b62b9f833d1c2/1be41303-7491-4d06-bdd6-ca16342f3eca",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/39",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "(65) The complete equations of Electromotive force on a moving \r\nconductor may now be written as follows \r\n\r\nEquations of Electromotive Force \r\n\r\nP = [mu]([gamma] dy/dt - [beta] dz/dt) - dF/dt - d[psi]/dx \r\nQ = [mu]([alpha] dz/dt - [gamma] dx/dt) - dG/dt - d[psi]/dy \r\nR [=] [mu]([beta] dx/dt - alpha] dy/dt) - dH/dt - d[phi]/dz (D) \r\n\r\nThe first term on the right hand side of each equation \r\nrepresents the electromotive force arising from the motion of \r\nthe conductor itself. This electromotive force is perpendicular \r\nto the direction of motion and to the lines of magnetic force \r\nand if a parallelogram be drawn whose sides represent \r\nin direction and magnitude the velocity of the conductor \r\nand the magnetic induction at that point of the field \r\nthen the area of the parallelogram will represent the \r\nelectromotive force due to the motion of the conductor. \r\nThe second term in each equation indicates the effect \r\nof changes in the position or strength of magnets or \r\ncurrents in the field. \r\n\r\nThe third term shows the effect of the electric potential [psi] \r\nIt has no effect in causing a circulating current in a \r\nclosed circuit. It indicates the existence of a force urging \r\nthe electricity to or from certain definite points in the field",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

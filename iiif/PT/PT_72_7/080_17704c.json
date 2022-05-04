@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/17704c/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/172ceda54aaca68efb765422db671ac9/ee7de185-56ab-421e-bdc6-2db3e07da2c5",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_72_7/canvas/80",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "<s>Hence the total counter current in each element \r\n1/[rho] (T<sub><s>0<\\s>[infinity]<\\sub> - T<sub><s>[infinity]<\\s>0<\\sub>) + [mu][pi]/[rho]<sup>2<\\sup> Pr<sup>2<\\sup> \r\nIntegrating over the section of the wire from r = 0 to r = r \r\n1/[rho] (T<sub><s>0<\\s>[infinity]<\\sub> - T<sub><s>[infinity]<\\s>0<\\sub>)[pi]r<sup>2<\\sup> + [mu][pi]/[rho]<sup>2<\\sup> P[pi]r<sup>4<\\sup>/2 \r\nor since P/[rho] = p and if C be the total current c = [pi]r<sup>2<\\sup>p \r\nthe second term becomes [half][mu][pi]/[rho] C r<sup>2<\\sup> \r\nNow if p instead of being variable from the centre to the \r\ncircumference of the wire had been uniform at every instant \r\nthroughout the section the second term would have been \r\n3/4 [mu][pi]/[rho] Cr<sup>2<\\sup> \r\nNow the counter current is L/R C \r\nHence the correction to be applied on account of the \r\ncurrent being variable is \r\n- 1/4 per unit of length <\\s>\r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

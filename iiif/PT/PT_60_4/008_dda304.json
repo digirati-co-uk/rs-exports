@@ -1,0 +1,31 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_60_4/canvas/dda304/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/e43e06a1288b937e9d8fca54f385542c/87da5239-e16c-44e0-972d-bacbd602db4f",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_60_4/canvas/8",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "we may obtain colours corresponding to every part of the triangle \r\nof which they are the angular points. In this way, by taking any \r\nthree colours we should be able to construct a triangular portion of Newtons diagram by painting it with mixtures of the three colours. \r\n(Of course these mixtures must be made to correspond with optical mixtures of light, \r\nnot with mechanical mixtures of pigments)\r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/e43e06a1288b937e9d8fca54f385542c/219110bd-0fa7-4ecb-9248-828ff3c106c2",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_60_4/canvas/8",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "we may obtain colours corresponding to every part of the triangle \r\nof which they are the angular points. In this way, by taking any \r\nthree colours we should be able to construct a triangular portion of Newtons diagram by painting it with mixtures of the three colours. \r\n(Of course these mixtures must be made to correspond with optical mixtures of light, \r\nnot with mechanical mixtures of pigments)\r\nLet us now take any colour belonging to a <s>part<\\s> point of the diagram outside \r\nthis triangle. To make the centre of gravity of the three weights coincide \r\nwith this point, one or more of the weights must be made negative. \r\nThis, though following from mathematical principles, is not capable of direct physical interpretation, as we cannot exhibit a negative colour. \r\nThe equation between the three selected colours, x, y, z, and the new \r\ncolour u, <s>which<\\s> may in the first case be written \r\nu=x+y+z (1) \r\nx, y, z being the quantities of each colour required to produce u \r\nIn the second case suppose that z must be made negative \r\nu=x+y-z (2) \r\nAs we cannot realize the term -z as a negative colour, we transpose \r\nit to the other side of the equation which then becomes \r\nu+z=x+y (3) \r\nwhich may be interpreted to mean, that the resultant tint, u+z, \r\nis identical with the resultant, x+y. We thus find a mixture \r\nof the new colour with one of the selected colours, which is chromatically \r\nequivalent to a mixture of the other two selected colours. \r\nWhen the equation takes the form -- \r\nu=x-y-z (4) \r\n<u>two<\\u> of the components being hegative, we must transpose them \r\nthus u+y+z=x (5) \r\nwhich means that a mixture of certain proportions of the new colour \r\nand two of the three selected, is chromatically equivalent to the third. \r\nWe may thus, in all cases, find the relation between any three \r\ncolours and a fourth, and exhibit this relation in a form capable \r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}
