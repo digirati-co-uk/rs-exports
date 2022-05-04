@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/RR_1950_51_B62_2/canvas/cadcfc/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/1228ba577b1151802e8a6d7d3a96fb69/e44f0c89-8482-407c-8b40-571997478999",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_1950_51_B62_2/canvas/1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "concentrations of substrate. When most of the enzyme is combined with \r\nsubstrate b is smaller, but still positive. [beta] must remain negative for \r\nequilibrium to be possible, but we can change the sign of [epsilon] by \r\nsupposing Y to be formed (like trypsin, for example) by an autocatalytic \r\nprocess.\r\nAnother simple model is:-\r\n\r\n[Diagram]\r\n\r\nIt is assumed that A and B are formed irreversibly from large \r\nstores of P and Q, and pass over irreversibly into D and E by quasi-\r\nunimolecular reactions. They also form a small amount of a compound \r\nC by rapid reversible reaction. C catalyses both the reactions \r\nP[forward arrow]A and Q[forward arrow p]B, which, however, may also proceed in the absence of C. \r\nFor example, A might be a substance like a cozymase and B an enzyme \r\nwith which it acts as a coenzyme. Then if X and Y are the concentra-\r\ntions of A and B\r\ndX/dt = [alpha] - [beta]X + [gamma]XY \r\ndY/dt = [delta] - [epsilon]Y + [xi]XY\r\nall constants being positive. Hence a = [alpha]/h, b = [gamma]/h, c = [xi]k, d = [delta]/k.\r\nI am, of course, aware that these equations will only be nearly \r\nlinear over a short range, but until some concrete examples which are \r\nlinear over a wide range are known, it is, to my mind, confusing to \r\npostulate them <u>ad hoc<\\u>. It will certainly make the whole theory \r\nappear implausible to many readers.\r\nThe conclusion regarding case (d) in p.35 is important. It might \r\nbe possible to state it is [sic] words, for the benefit of non-mathematical \r\nreaders. In fact, the inequalities are not even given a number, and \r\nmust be searched for.\r\nI am quite unable to understand the reactions postulated on p.46. \r\nThe substance C appears to be removed by the reaction Y + C[forward arrow]C\u2019, and \r\nis not regenerated. Thus C would be irreversibly destroyed, and I \r\ncannot see how the remaining argument follows, (particularly as \u201cC\u201d \r\nappears to be omitted on p.50 1.4).\r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

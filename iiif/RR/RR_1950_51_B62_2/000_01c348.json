@@ -1,0 +1,31 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/RR_1950_51_B62_2/canvas/01c348/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/32cac4ef1cad610e824bb46d75b9362e/34fb40a6-f3ae-47bf-b010-58238d56582e",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_1950_51_B62_2/canvas/0",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "<u>The Chemical Basis of Morphogenesis</u>\r\nby A.M. Turing, F.R.S.\r\n\r\nBefore the paper is accepted, I consider that the whole mathematical part should be re-written.",
+                "format": "text/plain",
+                "language": "en"
+            }
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/32cac4ef1cad610e824bb46d75b9362e/7f89495c-c9f3-42c2-9b07-bc1071faf63c",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_1950_51_B62_2/canvas/0",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "<u>The Chemical Basis of Morphogenesis</u>\r\nby A.M. Turing, F.R.S.\r\n\r\nBefore the paper is accepted, I consider that the whole mathematical part should be re-written. In the first place, some \r\npassages assuming ignorance in readers might be omitted without \r\nmuch loss. Secondly, much of the biology, e.g. pp 56-58, can be \r\nfound in elementary textbooks, and often stated more accurately \r\n(e.g. exceptional flowers with abnormal petal numbers are found in \r\nnature). A biologist does not need to be told that men and snails \r\nare asymmetrical, nor does he need a description of Hydra. Similarly, \r\nthe gist of p.9 will be found in any good textbook of biochemistry, \r\nillustrated by concrete examples, and perhaps stated more clearly.\r\nI am sure that the general results would be more readily accepted \r\nif the author did not postulate hypothetical (and to my mind most \r\nimprobable) reactions such as those of pp. 14 and 46.\r\nAs I see it all his later results up to p.44 follow from equation \r\n(6.2). This states that within each cell (considered for the moment \r\nas isolated)\r\ndX/dt = f(X,Y), dY/dt = g(X,Y).\r\nFurther f(h,k) = g(h,k) = 0, and neither f nor g has a stationary \r\npoint near the equilibrium point. If this is so equation (6.3) \r\nfollow so long as x and y are small. Now concrete examples can be \r\ngiven of substances of biochemical interest behaving in this way.\r\nFor example, a number of enzymes (X) destroy their substrates (Y) \r\nand are protected from destruction by other agencies while combined \r\nwith the substrate. If then X and Y are produced at constant rates, \r\nand removed by quasi-uni-molecular reactions, we have \r\ndX/dt = [alpha] - [beta]X + [gamma]XY \r\ndY/dt = [delta] - [epsilon]Y - [xi]XY (all constants positive).\r\nThen if [alpha] - [beta]h + [gamma]hk = [delta] - [epsilon]k - [xi]hk = [theta]\r\ndx/dt = ([gamma]k - [beta])x + [gamma]hy \r\ndy/dt = - [xi]kx - ([epsilon] + [xi]h)y \r\napproximately. So a = -[alpha]/h, b = [gamma]h, c = -[xi]k, d = -[delta]/k. Hence by \r\nthe formulae of p.35 it should be possible to choose [mu]\u2019 and [nu]\u2019 \r\nso as to give case (d). The above equations only hold at low ",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

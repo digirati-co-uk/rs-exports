@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/RR_2_7/canvas/b55450/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/9b6a7c786ce7de54fc9dc8cd8b599eff/417c8d28-9bd7-40c4-95de-39716be5c9c9",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_2_7/canvas/2",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Mr Huxley\u2019s \r\nreport on Prof E Allman \r\npaper July 17 \r\n1853",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

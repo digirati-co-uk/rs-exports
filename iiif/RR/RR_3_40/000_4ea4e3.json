@@ -1,0 +1,43 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/RR_3_40/canvas/4ea4e3/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/18fd5ca892540075e6b261b0a2be9d1c/1fcaf864-17ef-4719-acdd-f90f67b3c98e",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_3_40/canvas/0",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Down. July 18th/56\r\nSir\r\nI recommend Dr. Carpenter\u2019s \r\npaper, Part II. on the \r\nForaminifera, to be \r\npublished in the Transactions \r\nSir \r\nYour bot. servt \r\nCh. Darwin \r\nTo a Secy \r\nRoyal Socy.",
+                "format": "text/plain",
+                "language": "en"
+            }
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/18fd5ca892540075e6b261b0a2be9d1c/9ee21bc0-f123-488e-b28d-7250d76dad4c",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_3_40/canvas/0",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "The report is by Charles Darwin",
+                "format": "text/plain",
+                "language": "en"
+            }
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/18fd5ca892540075e6b261b0a2be9d1c/936b1e1c-dffb-40d5-a7b0-32b538ffb080",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_3_40/canvas/0",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Down. July 18th/56\r\nSir\r\nI recommend Dr. Carpenter\u2019s \r\npaper, Part II. on the \r\nForaminifera, to be \r\npublished in the Transactions \r\nSir \r\nYour obt. servt \r\nCh. Darwin \r\nTo a Secy \r\nRoyal Socy.",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

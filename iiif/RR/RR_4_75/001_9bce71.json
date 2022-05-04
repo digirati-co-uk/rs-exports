@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/RR_4_75/canvas/9bce71/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/e7043ea880b9f4b41c10b78255d4d1e9/da847214-26d2-4762-a9c6-7b6e16aabfe4",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_4_75/canvas/1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "I am of opinion, however \r\nthat the paper should \r\nnot appear in the \r\nPhilosophical Transactions,\r\nunless the author acquaints \r\nhimself much more fully \r\nthan, on the face of the matter,\r\nhe appears to have done,\r\nwith the literature of \r\nhis subject.",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/RR_1_167/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/9ce2519bcef6f19916ee101923ec68b4/30bd1cdf-08f7-4fbf-9959-e9edd6623d1c",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_1_167/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/164732",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst00164732"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Peacock, George, 1791-1858"
+                }
+            ]
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/9ce2519bcef6f19916ee101923ec68b4/84ed2874-fd7c-43fe-8640-fa838ecc0693",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_1_167/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/164732",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst00164732"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Peacock, George, 1791-1858"
+                }
+            ]
+        }
+    ]
+}

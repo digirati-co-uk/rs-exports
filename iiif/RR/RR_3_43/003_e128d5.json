@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/RR_3_43/canvas/e128d5/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/1ea9166fe11f778efbd7bc4e6ae89dd3/775ace96-5313-40f3-b61f-f4325c7aa3da",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_3_43/canvas/3",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Carpenter 1858\r\n   by\r\nHuxley",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

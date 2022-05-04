@@ -1,0 +1,43 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/RR_1950_A3_1/canvas/0319e0/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/ed5a355fcdf33b754a7a7ff1056f9523/78391502-efa8-483b-af76-39ed8a9623b4",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_1950_A3_1/canvas/0",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Are we sure this report is by Dirac? Look at the signature: the initials look like R.E., not P.A.M.",
+                "format": "text/plain",
+                "language": "en"
+            }
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/ed5a355fcdf33b754a7a7ff1056f9523/df7f13e0-ce44-4eb3-98fb-5d421b2af3c4",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_1950_A3_1/canvas/0",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Thank you for flagging this, Aileen. This image is indeed the wrong one - it belongs to RR/1950/A3/2, and that one belongs here. We've now asked the developers to switch these around. All the best, Frankie",
+                "format": "text/plain",
+                "language": "en"
+            }
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/ed5a355fcdf33b754a7a7ff1056f9523/5d73ecbf-1a25-409c-89c6-9c02ff1dd6e4",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_1950_A3_1/canvas/0",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "REFEREE'S REPORT\r\nTo the Sectional Committee for Mathematics\r\nPaper by D.R. Bates, A. Fundaminsky & H.S.W. Massey, F.R.S. \r\nOn Excitation and ionizatin of atoms by electron impact. I. \r\nThe Born and Oppenheimer approximations - General theory \r\n1. Is the paper suitable for reading before a meeting of the Society? \r\nDoubtful\r\n2. Does it contain contributions to knowledge of sufficient scientific interest for the space \r\nrequired? \r\nYes\r\n3. Are any portions of the paper, or any illustrations, redundant? \r\nsee under 7\r\n4. Should the paper by published by the Society? \r\nYes\r\n5. If so, in the 'Philosophical Transactions' or the 'Proceedings'? (see note on opposite \r\npage). Transactions see under 7 \r\n6. Or could it more appropriately be published by some other body? \r\n-\r\n7. Comments or criticisms which might enable the author to improve or correct his statement. \r\n(Further remarks may be attached.) \r\nBoth papers A.3 and A.4 contain valuable results and should \r\ncertainly be published. In their present form they are on the \r\nlong side for the Proceedings and the suggestion of combining both \r\npapers into an issue of the Transactions sounds reasonable. \r\n(The papers are written in a somewhat long-winded manner. \r\nThere is no material that can be regraded as actually redundant, \r\nbut in reading the text one has the feeling that the different \r\nsources of error are discussed independently one at a time and \r\nthat this involves a certain amount of repetition and also that \r\nthe style of the text would benefit from being somewhat more \r\ncondensed. In this way I believe it would be possible to save \r\nperhaps 20% in length) but it would be a major piece of work to \r\nmake these alterations. It would seem to me possible, therefore, \r\nto invite the authors to condense their papers in the way I \r\nsuggest or as an alternative to agree to their going into the \r\nTransactions. \r\nSignature R.E. Davies",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

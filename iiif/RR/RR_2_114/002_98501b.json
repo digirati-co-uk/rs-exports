@@ -1,0 +1,31 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/RR_2_114/canvas/98501b/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/5a328983226de11e5160380185601dfe/7e37225f-6f86-4f4c-9fa1-b063a80cdd1b",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_2_114/canvas/2",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "The title (in Sept 2018) of this piece begins \"Referee report by P. Bell...\". The report appears to be signed by \"Thomas Bell\", who was a zoologist well known to Huxley and Darwin (and was an FRS). I think \"T Bell\" is more likely correct.",
+                "format": "text/plain",
+                "language": "en"
+            }
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/5a328983226de11e5160380185601dfe/4ab08995-4e68-49ac-852c-ad81df11e66f",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_2_114/canvas/2",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "can be considered as established \r\nand some even which if \r\nnot absolutely visionary,\r\nappear to me at present \r\nto be irreconcileable with \r\nall analogy, yet the paper \r\nupon the whole is one of \r\nthe highest merit and \r\nimportance, and in my \r\nopinion deserves a place \r\nin the Philosophical Trans=\r\n-actions \r\nThomas Bell \r\nAugt 1852",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

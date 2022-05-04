@@ -1,0 +1,31 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/RR_3_43/canvas/aa71ed/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/b7ff25baa51ed3f1dd0ee2d1e4fef784/21813a78-9045-4b4c-ab44-9e8d7d25727b",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_3_43/canvas/0",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "I can only recommend the implication of the previous continuation of f.[text?] valuable Research in the [text?]\r\nAlthough the Illustration are numerous, I doubt is that could the [text?] diminished",
+                "format": "text/plain",
+                "language": "en"
+            }
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/b7ff25baa51ed3f1dd0ee2d1e4fef784/d5345bb1-9b8e-45bd-9441-e1453f73223a",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_3_43/canvas/0",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "I can only recommend the publication of the present continuation of Dr Carpenters valuable Researches on the Foraminifera \r\nAlthough the Illustrations are numerous, I doubt if they could be seriously diminished",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

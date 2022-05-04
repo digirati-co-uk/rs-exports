@@ -1,0 +1,229 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/RR_16_333/manifest",
+    "@type": "sc:Manifest",
+    "label": "Referee report by W. D. Niven on 'Effects of Temperature and Pressure on the Thermal Conductivities of Solids. Part I. The Effect of Temperature on the Thermal Conductivities of Some Electrical Insulators' by C. H. Lees",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "Referee report by W. D. Niven on 'Effects of Temperature and Pressure on the Thermal Conductivities of Solids. Part I. The Effect of Temperature on the Thermal Conductivities of Some Electrical Insulators' by C. H. Lees"
+        },
+        {
+            "label": "Ref no",
+            "value": "RR/16/333"
+        }
+    ],
+    "otherContent": {
+        "@id": "./RR_16_333/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/RR_16_333/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/RR_16_333/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 4320,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/RR_16_333/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_16_333/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/RR_16_333_001/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 4320,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/RR_16_333_001",
+                                    "height": 4320,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 2756
+                                },
+                                "width": 2756
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./RR_16_333/000_582cb1.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/RR_16_333_001/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/RR_16_333_001",
+                            "height": 1024,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 1024,
+                                    "width": 653
+                                },
+                                {
+                                    "height": 400,
+                                    "width": 255
+                                },
+                                {
+                                    "height": 200,
+                                    "width": 128
+                                },
+                                {
+                                    "height": 100,
+                                    "width": 64
+                                }
+                            ],
+                            "width": 653
+                        }
+                    },
+                    "width": 2756,
+                    "seeAlso": {
+                        "@id": "./RR_16_333/000_582cb1.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                },
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/RR_16_333/canvas/1",
+                    "@type": "sc:Canvas",
+                    "height": 2739,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/RR_16_333/annotation/img-1",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_16_333/canvas/1",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/RR_16_333_002/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 2739,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/RR_16_333_002",
+                                    "height": 2739,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 2138
+                                },
+                                "width": 2138
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./RR_16_333/001_f66fe8.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/RR_16_333_002/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/RR_16_333_002",
+                            "height": 1024,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 1024,
+                                    "width": 799
+                                },
+                                {
+                                    "height": 400,
+                                    "width": 312
+                                },
+                                {
+                                    "height": 200,
+                                    "width": 156
+                                },
+                                {
+                                    "height": 100,
+                                    "width": 78
+                                }
+                            ],
+                            "width": 799
+                        }
+                    },
+                    "width": 2138,
+                    "seeAlso": {
+                        "@id": "./RR_16_333/001_f66fe8.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/RR_16_333_001/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/RR_16_333_001",
+            "height": 1024,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 1024,
+                    "width": 653
+                },
+                {
+                    "height": 400,
+                    "width": 255
+                },
+                {
+                    "height": 200,
+                    "width": 128
+                },
+                {
+                    "height": 100,
+                    "width": 64
+                }
+            ],
+            "width": 653
+        }
+    }
+}

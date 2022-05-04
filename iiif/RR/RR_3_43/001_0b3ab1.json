@@ -1,0 +1,31 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/RR_3_43/canvas/0b3ab1/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/024f00c721c08b64ec098ecac65288db/675ca5a9-a8b0-428a-bf60-6b94c63c314e",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_3_43/canvas/1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "in [text?], without weakening the force of the evidence which D.[text?] [text?] proved in [text?] of the numerous variation to which one the [text?] of [text?] is [text?]\r\nBut it is precisely ",
+                "format": "text/plain",
+                "language": "en"
+            }
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/024f00c721c08b64ec098ecac65288db/8c821f3c-4b4e-4244-b172-35e6d756ac61",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_3_43/canvas/1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "in number, without weakening the force of the evidence which Dr Carpenter brings\r\nforward in proof of the enormous variation to which\r\none & the same species of\r\nForaminifera is liable \r\nBut it is precisely\r\nin the demonstration of the \r\ntruth of this proposition ",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

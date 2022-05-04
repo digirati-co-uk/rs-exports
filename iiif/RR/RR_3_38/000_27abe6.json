@@ -1,0 +1,31 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/RR_3_38/canvas/27abe6/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/a3782e6543e612e7e741d11afc72f689/a64ccb72-2702-40e2-bd90-9114710a1ffe",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_3_38/canvas/0",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "To the Council of the Royal Soc\r\n______________\r\n\r\nI recommend Dr Carpenter's paper on [?] to be printed in the Transactions. Though written, as it appears to me, in too diffuse a style, I cannot point any particular portion which could be condensed. With respect to the publication of the very beautiful drawing, I feel much difficulty: their cost, I apprehend, would be very great, & their does not seem to me sufficient new matter",
+                "format": "text/plain",
+                "language": "en"
+            }
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/a3782e6543e612e7e741d11afc72f689/9201b100-9665-466f-a899-965377d41eed",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_3_38/canvas/0",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "To the Council of the Royal Soc\r\n______________\r\n\r\nI recommend Dr Carpenter's paper\r\non Orbitalites to be printed\r\nin the Transactions. Though written,\r\nas it appears to me, in too\r\ndiffuse a style, I cannot\r\npoint any particular portion\r\nwhich could be condensed.\r\nWith respect to the publication of the very beautiful drawing,\r\nI feel much difficulty: their\r\ncost, I apprehend, would be \r\nvery great, & there does not seem to me sufficient new matter",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

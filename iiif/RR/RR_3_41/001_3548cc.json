@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/RR_3_41/canvas/3548cc/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/972cf262e2bdbf7fac0b515d245f783b/4e46101a-1242-4894-aa7a-825c5cac4d99",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_3_41/canvas/1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Carpenter by Darwin\r\n\r\n1858",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

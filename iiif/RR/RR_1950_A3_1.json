@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/RR_1950_A3_1/manifest",
+    "@type": "sc:Manifest",
+    "label": "Referee report by P. A. M. Dirac on 'Excitation and Ionization of Atoms by Electron Impact-The Born and Oppenheimer Approximations' by D. R. Bates, A. Fundaminsky, H. S. W. Massey and J. W. Leech",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "Referee report by P. A. M. Dirac on 'Excitation and Ionization of Atoms by Electron Impact-The Born and Oppenheimer Approximations' by D. R. Bates, A. Fundaminsky, H. S. W. Massey and J. W. Leech"
+        },
+        {
+            "label": "Ref no",
+            "value": "RR/1950/A3/1"
+        }
+    ],
+    "otherContent": {
+        "@id": "./RR_1950_A3_1/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/RR_1950_A3_1/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/RR_1950_A3_1/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 4256,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/RR_1950_A3_1/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_1950_A3_1/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/RR_1950_A3_1_001/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 4256,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/RR_1950_A3_1_001",
+                                    "height": 4256,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 2750
+                                },
+                                "width": 2750
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./RR_1950_A3_1/000_0319e0.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/RR_1950_A3_1_001/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/RR_1950_A3_1_001",
+                            "height": 1024,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 1024,
+                                    "width": 662
+                                },
+                                {
+                                    "height": 400,
+                                    "width": 258
+                                },
+                                {
+                                    "height": 200,
+                                    "width": 129
+                                },
+                                {
+                                    "height": 100,
+                                    "width": 65
+                                }
+                            ],
+                            "width": 662
+                        }
+                    },
+                    "width": 2750,
+                    "seeAlso": {
+                        "@id": "./RR_1950_A3_1/000_0319e0.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/RR_1950_A3_1_001/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/RR_1950_A3_1_001",
+            "height": 1024,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 1024,
+                    "width": 662
+                },
+                {
+                    "height": 400,
+                    "width": 258
+                },
+                {
+                    "height": 200,
+                    "width": 129
+                },
+                {
+                    "height": 100,
+                    "width": 65
+                }
+            ],
+            "width": 662
+        }
+    }
+}

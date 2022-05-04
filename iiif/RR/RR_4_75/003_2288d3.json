@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/RR_4_75/canvas/2288d3/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/15484fcfa9421c60fc4c44c52209789e/fd8de168-aab9-43cf-829f-98e3f8931d9d",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_4_75/canvas/3",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Ellis <u>1859<\\u>\r\nby\r\nHuxley ",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

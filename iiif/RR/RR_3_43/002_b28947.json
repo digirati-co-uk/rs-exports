@@ -1,0 +1,31 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/RR_3_43/canvas/b28947/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/a411ed8f6f8c236e740717b3f977aaec/da56e4e1-f0e2-40da-b9f3-90564bda1a06",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_3_43/canvas/2",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "which they found thus the real value of the [text?] [text?] a present [text?] [text?]\r\n\r\n            T.H Huxley [text?]\r\n  The [text?] Schools [text?] \r\n       Sep 24:1858 ",
+                "format": "text/plain",
+                "language": "en"
+            }
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/a411ed8f6f8c236e740717b3f977aaec/cd4ec8a8-5763-4256-bd5f-6779d0f6f23e",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_3_43/canvas/2",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "which they afford that\r\nthe great value of the\r\nauthors previous & present \r\nlabours lies \r\n\r\n            T.H Huxley FRS\r\n  The Government School of Mines\r\n       Sep 24:1858 ",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

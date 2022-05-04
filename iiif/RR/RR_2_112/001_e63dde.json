@@ -1,0 +1,43 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/RR_2_112/canvas/e63dde/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/2d563bdf7d62b7eeb16f410ef3f96e1a/a345bc09-2331-49a7-a16a-0e29a152072b",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_2_112/canvas/1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "This report appears to have been co-authored by Thomas Bell - not \"P. Bell\" (who in Sept 2018 is shown as the co-author).",
+                "format": "text/plain",
+                "language": "en"
+            }
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/2d563bdf7d62b7eeb16f410ef3f96e1a/c45395a7-1ab0-4af6-b37d-c0066ba7fce6",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_2_112/canvas/1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Thanks Paul! Was it this Thomas Bell: https://en.wikipedia.org/wiki/Thomas_Bell_(zoologist)",
+                "format": "text/plain",
+                "language": "en"
+            }
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/2d563bdf7d62b7eeb16f410ef3f96e1a/4902732b-aa0e-46b9-bd6d-3fc5a07ee6ba",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RR_2_112/canvas/1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "I have carefully examined \r\nthe papers of Mr Huxley, on the \r\nstructure of the Salpidae & other \r\nallied forms, and consider the \r\n\r\nadditions which he has made to \r\nour knowledge of these animals \r\nas <s>much <\\s> very important - His disco-\r\nveries especially on their reproduc-\r\ntion are <s>most <\\s> highly interesting in \r\ntheir bearing on the most abstruse \r\ngeneralizations in animal phy-\r\nsiology - I consider the papers \r\nas <s>[text?]<\\s> deserving a place in the \r\nPhilosophical Transactions \r\nThomas Bell\r\nAugt 22 - 1851\r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}
