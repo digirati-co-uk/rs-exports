@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/EL_H1_73/canvas/6a0a55/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/01d4cd75f8dccd5012bc685ff90124da/3367cb55-8d3e-49cc-8c94-536b358464fe",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/EL_H1_73/canvas/6",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "A Monsieur \r\n\r\nMonsieur Grubendol a\r\nA Londres \r\n\r\nRec le 27 juin 72.\r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/EL_H1_75/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/7c60ec30d290c4403b38fa007007d3f0/e199fb3f-092d-4a9f-802e-884b53668ed0",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/EL_H1_75/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/45934",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst00045934"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Huygens, Christiaan, 1629-1695"
+                }
+            ]
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/7c60ec30d290c4403b38fa007007d3f0/eaa3cda5-aee1-45e0-8b44-de85eb202f67",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/EL_H1_75/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/45934",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst00045934"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Huygens, Christiaan, 1629-1695"
+                }
+            ]
+        }
+    ]
+}

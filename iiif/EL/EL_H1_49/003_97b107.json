@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/EL_H1_49/canvas/97b107/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/1a17fb3bb4479eb7cf3cc33a8975b9c0/26fb8e0a-3c8d-4937-8bfc-f746ec91b16e",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/EL_H1_49/canvas/3",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "A Monsieur \r\nMonsieur Moray, Chevalier \r\net du Conseil Prive du Roy, pour \r\nles affaires d\u2019Ecosse.\r\ndans Whitehall.\r\nA Londres \r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

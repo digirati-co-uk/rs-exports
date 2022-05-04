@@ -1,0 +1,27 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/EL_N1_56/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/c6e3d6ddcf23296d405db91d3daf1a44/07f51ce4-7c63-4426-b091-459ac8740cbb",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/EL_N1_56/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/5880",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst00005880"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Halley, Edmond, 1656-1742"
+                }
+            ]
+        }
+    ]
+}

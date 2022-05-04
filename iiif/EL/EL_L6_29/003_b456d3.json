@@ -1,0 +1,43 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/EL_L6_29/canvas/b456d3/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/e223b56a1a474faf6783bee335b62e99/8f2860b0-2cfc-4a01-8565-1904c5c68299",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/EL_L6_29/canvas/3",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "These \r\nFor his honoured friend \r\nMr Oldenburgh \r\nat his house in ye\r\nPalmal \r\n\r\nLondon \r\nRec. April.10.1671.\r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/e223b56a1a474faf6783bee335b62e99/2653b94d-1710-46ab-9357-a5825f3005ea",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/EL_L6_29/canvas/3",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "This is a letter from Martin Lister to Oldenburgh, not as described in the title ",
+                "format": "text/plain",
+                "language": "en"
+            }
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/e223b56a1a474faf6783bee335b62e99/bddef38c-1249-4e17-83a1-7c912f608728",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/EL_L6_29/canvas/3",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Many thanks! Error corrected.",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}
