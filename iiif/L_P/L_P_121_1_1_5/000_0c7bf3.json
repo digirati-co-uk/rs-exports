@@ -1,0 +1,31 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/L_P_121_1_1_5/canvas/0c7bf3/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/3c6e91668ff16e232841df45ce234729/f0ceebf1-7309-471f-9ae9-213ceac74e0f",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/L_P_121_1_1_5/canvas/0",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Abstract of Meteorological Observations\r\nW. Dereham\r\nP.t. II\r\n\r\nPhil. Trans Vol 38\r\n\r\np.101",
+                "format": "text/plain",
+                "language": "en"
+            }
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/3c6e91668ff16e232841df45ce234729/15830bba-02b9-47e4-ad23-67c5323058f4",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/L_P_121_1_1_5/canvas/0",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Abstract of Meteorological Observations\r\nW. Derham\r\nP.t. II\r\n\r\nPhil. Trans Vol 38\r\n\r\np.101",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

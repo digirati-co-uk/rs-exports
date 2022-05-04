@@ -1,0 +1,27 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/L_P_7_188/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/848e2d8ca56a7e56b52ea7726d186eda/1d50266f-2d55-4c95-84b2-de2e5d7ced09",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/L_P_7_188/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/1147923",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst01147923"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Termites"
+                }
+            ]
+        }
+    ]
+}
