@@ -1,0 +1,47 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/CLP_4i_69/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/2c075caeb18dabb3df1fcdece35dd930/a5cae812-1fe3-4c2b-8048-d1a223be49fd",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/CLP_4i_69/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/154149",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst00154149"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Jurin, James, 1684-1750"
+                }
+            ]
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/2c075caeb18dabb3df1fcdece35dd930/75e1ae54-8b8d-4543-a0f1-3eddd21ae687",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/CLP_4i_69/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/154149",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst00154149"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Jurin, James, 1684-1750"
+                }
+            ]
+        }
+    ]
+}

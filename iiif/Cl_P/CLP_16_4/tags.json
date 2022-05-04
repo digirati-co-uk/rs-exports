@@ -1,0 +1,67 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/CLP_16_4/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/21aa384d1714e361652b76f40fbb83c3/8e189d6f-b1e0-4d2c-9ad2-25f99ef4133c",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/CLP_16_4/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/992431",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst00992431"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Language, Universal--Alphabet"
+                }
+            ]
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/21aa384d1714e361652b76f40fbb83c3/e9bcbc6e-01f5-4def-86fb-3192eb23065b",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/CLP_16_4/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/13472",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst00013472"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Lodwick, Francis, 1619-1694"
+                }
+            ]
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/21aa384d1714e361652b76f40fbb83c3/ac734a18-bbb7-4d96-b4ad-2f709976f786",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/CLP_16_4/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/13472",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst00013472"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Lodwick, Francis, 1619-1694"
+                }
+            ]
+        }
+    ]
+}
