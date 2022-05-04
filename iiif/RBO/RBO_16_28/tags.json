@@ -1,0 +1,67 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/RBO_16_28/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/d12867e242ffd57a2f23d757bc97e5ce/9b28916c-b4fc-4836-8930-efde2ea98ff5",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RBO_16_28/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/146568",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst00146568"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Sloane, Hans, Sir, 1660-1753"
+                }
+            ]
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/d12867e242ffd57a2f23d757bc97e5ce/249571b0-214e-4d1e-96f7-10d1ae66305c",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RBO_16_28/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/1607711",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst01607711"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Triewald, M\u00e5rten, 1691-1747"
+                }
+            ]
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/d12867e242ffd57a2f23d757bc97e5ce/78113b5b-e047-4899-bd5f-113e80b4a5ef",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/RBO_16_28/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/1607711",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst01607711"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Triewald, M\u00e5rten, 1691-1747"
+                }
+            ]
+        }
+    ]
+}

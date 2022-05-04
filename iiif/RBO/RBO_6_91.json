@@ -1,0 +1,150 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/RBO_6_91/manifest",
+    "@type": "sc:Manifest",
+    "label": "A Catalogue of simple and Mixt colours with a specimen of each, Colour prefixt to its proper Name, by Richard Waller ",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "A Catalogue of simple and Mixt colours with a specimen of each, Colour prefixt to its proper Name, by Richard Waller "
+        },
+        {
+            "label": "Ref no",
+            "value": "RBO/6/91"
+        }
+    ],
+    "otherContent": {
+        "@id": "./RBO_6_91/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/RBO_6_91/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/RBO_6_91/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 3208,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/RBO_6_91/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/RBO_6_91/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/RBO_6_91_001/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 3208,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/RBO_6_91_001",
+                                    "height": 3208,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 5520
+                                },
+                                "width": 5520
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./RBO_6_91/000_b715d0.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/RBO_6_91_001/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/RBO_6_91_001",
+                            "height": 595,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 595,
+                                    "width": 1024
+                                },
+                                {
+                                    "height": 232,
+                                    "width": 400
+                                },
+                                {
+                                    "height": 116,
+                                    "width": 200
+                                },
+                                {
+                                    "height": 58,
+                                    "width": 100
+                                }
+                            ],
+                            "width": 1024
+                        }
+                    },
+                    "width": 5520,
+                    "seeAlso": {
+                        "@id": "./RBO_6_91/000_b715d0.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/RBO_6_91_001/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/RBO_6_91_001",
+            "height": 595,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 595,
+                    "width": 1024
+                },
+                {
+                    "height": 232,
+                    "width": 400
+                },
+                {
+                    "height": 116,
+                    "width": 200
+                },
+                {
+                    "height": 58,
+                    "width": 100
+                }
+            ],
+            "width": 1024
+        }
+    }
+}
