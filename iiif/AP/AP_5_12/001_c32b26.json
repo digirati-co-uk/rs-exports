@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/AP_5_12/canvas/c32b26/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/81a0adc5490caaa4086b23073249beec/b916709c-6194-4f36-a779-eea6c1b63dbb",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/AP_5_12/canvas/1",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "A <u>Montgolfier <\\u> seen from above \r\naccording to Smeathman.",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

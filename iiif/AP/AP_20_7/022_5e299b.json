@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/AP_20_7/canvas/5e299b/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/2e378de4180856509df9c5a233fe4ef1/1f68c953-4498-4391-89d9-1192478507f9",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/AP_20_7/canvas/22",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Letter from Baron \r\nHumboldt \r\nApril 23d: 1836",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

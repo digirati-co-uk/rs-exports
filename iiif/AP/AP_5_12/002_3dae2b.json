@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/AP_5_12/canvas/3dae2b/otherContent",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/e366d563ed42473957cec4880370011b/a9faf79f-bcb0-4eb8-bcd0-72498a0d206e",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/AP_5_12/canvas/2",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "A Montgolfier seen partly in front according \r\nto Mr Smeathman ",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
+}

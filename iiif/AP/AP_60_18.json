@@ -1,0 +1,308 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://makingscience.royalsociety.org/iiif/archives/AP_60_18/manifest",
+    "@type": "sc:Manifest",
+    "label": "Illustrations for William Thomson's paper 'On a Machine for Solving Simultaneous Linear Equations'",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "Illustrations for William Thomson's paper 'On a Machine for Solving Simultaneous Linear Equations'"
+        },
+        {
+            "label": "Ref no",
+            "value": "AP/60/18"
+        }
+    ],
+    "otherContent": {
+        "@id": "./AP_60_18/tags.json",
+        "@type": "sc:AnnotationList"
+    },
+    "sequences": [
+        {
+            "@id": "https://makingscience.royalsociety.org/iiif/archives/AP_60_18/sequence/0",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/AP_60_18/canvas/0",
+                    "@type": "sc:Canvas",
+                    "height": 5517,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/AP_60_18/annotation/img-0",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/AP_60_18/canvas/0",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/AP_60_18_001/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 5517,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/AP_60_18_001",
+                                    "height": 5517,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 17920
+                                },
+                                "width": 17920
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./AP_60_18/000_b9b7ff.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/AP_60_18_001/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/AP_60_18_001",
+                            "height": 315,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 315,
+                                    "width": 1024
+                                },
+                                {
+                                    "height": 123,
+                                    "width": 400
+                                },
+                                {
+                                    "height": 62,
+                                    "width": 200
+                                },
+                                {
+                                    "height": 31,
+                                    "width": 100
+                                }
+                            ],
+                            "width": 1024
+                        }
+                    },
+                    "width": 17920,
+                    "seeAlso": {
+                        "@id": "./AP_60_18/000_b9b7ff.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                },
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/AP_60_18/canvas/1",
+                    "@type": "sc:Canvas",
+                    "height": 1690,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/AP_60_18/annotation/img-1",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/AP_60_18/canvas/1",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/AP_60_18_002/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 1690,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/AP_60_18_002",
+                                    "height": 1690,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 2943
+                                },
+                                "width": 2943
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./AP_60_18/001_80fb02.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/AP_60_18_002/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/AP_60_18_002",
+                            "height": 588,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 588,
+                                    "width": 1024
+                                },
+                                {
+                                    "height": 230,
+                                    "width": 400
+                                },
+                                {
+                                    "height": 115,
+                                    "width": 200
+                                },
+                                {
+                                    "height": 57,
+                                    "width": 100
+                                }
+                            ],
+                            "width": 1024
+                        }
+                    },
+                    "width": 2943,
+                    "seeAlso": {
+                        "@id": "./AP_60_18/001_80fb02.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                },
+                {
+                    "@id": "https://makingscience.royalsociety.org/iiif/archives/AP_60_18/canvas/2",
+                    "@type": "sc:Canvas",
+                    "height": 1867,
+                    "images": [
+                        {
+                            "@id": "https://makingscience.royalsociety.org/iiif/archives/AP_60_18/annotation/img-2",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://makingscience.royalsociety.org/iiif/archives/AP_60_18/canvas/2",
+                            "resource": {
+                                "@id": "https://dlc.services/iiif-img/rs/2/AP_60_18_003/full/!2000,2000/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 1867,
+                                "service": {
+                                    "@id": "https://dlc.services/iiif-img/rs/2/AP_60_18_003",
+                                    "height": 1867,
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image",
+                                    "width": 2913
+                                },
+                                "width": 2913
+                            }
+                        }
+                    ],
+                    "otherContent": {
+                        "@id": "./AP_60_18/002_0efe0f.json",
+                        "@type": "sc:AnnotationList"
+                    },
+                    "thumbnail": {
+                        "@id": "https://dlc.services/thumbs/rs/2/AP_60_18_003/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://dlc.services/thumbs/rs/2/AP_60_18_003",
+                            "height": 656,
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "sizes": [
+                                {
+                                    "height": 656,
+                                    "width": 1024
+                                },
+                                {
+                                    "height": 256,
+                                    "width": 400
+                                },
+                                {
+                                    "height": 128,
+                                    "width": 200
+                                },
+                                {
+                                    "height": 64,
+                                    "width": 100
+                                }
+                            ],
+                            "width": 1024
+                        }
+                    },
+                    "width": 2913,
+                    "seeAlso": {
+                        "@id": "./AP_60_18/002_0efe0f.jpg",
+                        "@type": "Image",
+                        "format": "image/jpg",
+                        "label": "static version of image"
+                    }
+                }
+            ],
+            "label": "Sequence 0"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://dlc.services/thumbs/rs/2/AP_60_18_001/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://dlc.services/thumbs/rs/2/AP_60_18_001",
+            "height": 315,
+            "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                    "formats": [
+                        "jpg"
+                    ],
+                    "qualities": [
+                        "color"
+                    ],
+                    "supports": [
+                        "sizeByWhListed"
+                    ]
+                }
+            ],
+            "sizes": [
+                {
+                    "height": 315,
+                    "width": 1024
+                },
+                {
+                    "height": 123,
+                    "width": 400
+                },
+                {
+                    "height": 62,
+                    "width": 200
+                },
+                {
+                    "height": 31,
+                    "width": 100
+                }
+            ],
+            "width": 1024
+        }
+    }
+}
