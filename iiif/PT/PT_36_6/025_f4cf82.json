@@ -2,5 +2,18 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_36_6/canvas/f4cf82/otherContent",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/21095504da512c3e60e366f843603526/eafd2b6f-21e3-45cf-b2f0-dbfba378b5bd",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_36_6/canvas/25",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "[paragraph].57. But in order to demonstrate that a real affinity exists among \r\ndifferent classes of animals it is not sufficient merely to \r\npoint out that certain similarities and analogies exist \r\namong them - it must be shown that they are constructed \r\nupon the same anatomical type - that, in fact, their organs \r\nare homologous \r\nNow the organs of two animals or families of animals are \r\nhomologous, when - their structure is identical, or when \r\nthe differences between them may be accounted for by the simple \r\nlaws of growth - Where the organs differ considerably \r\ntheir homology may be determined in two ways either 1. By \r\ntracing back the course of development of the two until we \r\narrive by similar stages at the same point or 2. By \r\ninterpolating between the two a series of forms derived \r\nfrom other animals allied to both - the difference between \r\neach term of the series being such only as can be accounted \r\nfor by the laws of growth - The latter method is that \r\nwhich has been generally employed under the name \r\nof <u>Comparative Anatomy<\\u> - the former, being hardly applicable \r\nto any but the lower classes of animals. Both methods \r\nmay be made us of in investigating the homologies of the \r\n<u>Medusae<\\u>* \r\n[paragraph].58. A complete identity of structure connects the \"foundation \r\nmembranes\" of the <u>Medusae<\\u> with the corresponding organs in \r\n\r\n-------------\r\n*Note. The above definition may be thought needless and even \r\ntrite, but the establishment of affinities among animals \r\nhas been so often a mere exercise of the imagination - that I may \r\nbe pardoned for pointing out the guiding principles which I have \r\nfollowed and by which I would wish to be judged - \r\n2 \r\n\r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
 }

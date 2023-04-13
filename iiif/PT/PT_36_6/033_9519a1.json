@@ -2,5 +2,18 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_36_6/canvas/9519a1/otherContent",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/d66d5a80d5057acb7cbba8f3045528e0/00d73f05-55b8-4097-be81-da239125daaf",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_36_6/canvas/33",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "* M. Dujardin (Ann. des Sciences naturelles Nov<sup>r<\\sup> 1845) states on the \r\nauthority of Ehrenberg Corda & Laurent that the ova of the \r\nfreshwater Polypes are \"produits dans l'epaisseur meme \r\ndu tissu sans ovarie ni ovule prealable\" \r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
 }

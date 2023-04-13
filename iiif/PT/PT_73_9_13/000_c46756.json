@@ -2,5 +2,30 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_73_9_13/canvas/c46756/otherContent",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/b36445035e585fd1193775313431f19a/449cd039-6f74-4f39-8d3f-d50139d39212",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_73_9_13/canvas/0",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Cleveland\r\nEastern Moorlands\r\nKirkdale cave",
+                "format": "text/plain",
+                "language": "en"
+            }
+        },
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/b36445035e585fd1193775313431f19a/6077a9b7-90a5-4266-9041-82c0bc25a577",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_73_9_13/canvas/0",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Such a beautiful map!",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
 }

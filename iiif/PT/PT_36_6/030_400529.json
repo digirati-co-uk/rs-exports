@@ -2,5 +2,18 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_36_6/canvas/400529/otherContent",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/2b5ba74b9dab01a3a97cffdb9bb3b4ce/33900c3f-c7e3-4a20-b35d-8b8d7146dbbc",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_36_6/canvas/30",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "31 \r\nDiphydae throws light upon the matter - the detached \r\nfree-swimming testis or ovary of Sphenia [text?] has \r\njust as much claim to a distinct generic name as \r\nhas <u>Sthenyo<\\u> or <u>Cladonema<\\u> and yet in what respect does this differ from the persistent ovary of <u>Eudoxia<\\u> \r\nwhich surely is an organ and nothing but an organ? \r\nWould it not be as reasonable to give a distinct \r\nname to Needham's sperm-sacs because they \r\nexhibit certain independent motions external to \r\nthe body of the Cephalopod? \r\nThe point is of consequence, because it is anything \r\nbut desirable that <u>true polypes<\\u> with <u>medusiform<\\u> \r\ngenerative organs should be confounded with the <u>Polypiform \r\nlarvae<\\u> of true <u>Medusae<\\u> \r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
 }

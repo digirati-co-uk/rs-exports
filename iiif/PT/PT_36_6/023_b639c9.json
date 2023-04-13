@@ -2,5 +2,18 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_36_6/canvas/b639c9/otherContent",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/13facf1c59aff8b139060b15d4471b78/beef4b2e-d88b-4d77-9973-28fbbf31f427",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_36_6/canvas/23",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "24 \r\n[paragraph].55. The <u>Thread cells<\\u> resemble in all respects those of the \r\nDiphydae which I have described elsewhere - consisting \r\nof a delicate outer cell inclosing another thick walled cell \r\nwith a spiral filament of greater or less length coiled up in \r\nis interior and capable of protrusion on pressure - \r\n",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
 }

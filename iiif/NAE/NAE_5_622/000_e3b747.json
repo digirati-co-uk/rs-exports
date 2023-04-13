@@ -2,5 +2,18 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_5_622/canvas/e3b747/otherContent",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/338bb7ec623f01aa7a77aaefbbfda82f/5b2c0b94-f9fb-4541-a72a-026e0a4d7f73",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/NAE_5_622/canvas/0",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "This photo of Shackleton, Scott and Wilson was taken on 3 February 1903, on their return to the ship from their southern journey. Clarence Hare, the Assistant Steward, wrote in his diary: 'They were very much sun-burnt and had grown bushy beards, which had become bleached by the sun and made them look like old men.' ",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
 }

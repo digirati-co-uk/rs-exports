@@ -2,5 +2,26 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://makingscience.royalsociety.org/iiif/archives/NAE_5_663/otherContent",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/00a98d52a66cfba6484fe60ae4c4d6af/0860d3c7-fa83-41e1-aaae-8e89d225a09d",
+            "@type": "oa:Annotation",
+            "motivation": "oa:tagging",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/NAE_5_663/manifest",
+            "resource": [
+                {
+                    "@id": "http://id.worldcat.org/fast/966632",
+                    "@type": "oa:SemanticTag",
+                    "foaf:page": "https://makingscience.royalsociety.org/s/rs/keywords/fst00966632"
+                },
+                {
+                    "@type": [
+                        "oa:Tag",
+                        "cnt:ContentAsText"
+                    ],
+                    "chars": "Icebergs"
+                }
+            ]
+        }
+    ]
 }

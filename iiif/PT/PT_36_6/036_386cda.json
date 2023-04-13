@@ -2,5 +2,18 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_36_6/canvas/386cda/otherContent",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/92cc0513054a19a3e591467c2698abfd/ee83d6a3-9292-45af-aac3-596dc3f50754",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_36_6/canvas/36",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "<u>Description of the Figures</u>\r\n<u>Thaumantias --- </u>?\r\nFig. 1. Disc seen from above  1.a. imaginary vertical section\r\n2. Opening of the Stomach into the canals seen from above\r\n3. Marginal tentacles\r\n4. Young generative organ\r\n<u>Mesonema -? </u>\r\nFig. 5. Lateral view of the animal. 5a. Vertical Section\r\n6. View of [text?] a segment of the disc. under surface\r\na. buccal tentacles. b. canals. c. marginal membrance (Fig. 20)\r\n7. a single buccal tentacle much magnified\r\n8. A Portion of the Marginal Canal with a tentacle &\r\ntwo marginal corpuscles\r\n9. Portion of the marginal canal (a) with young tentacle (b)\r\nand a marginal vesicle containing two corpuscles each inclosed\r\nwithin a delicate cell wall\r\n10. A marginal vesicle [text?] highly magnified - the two \r\ncorpuscles do not appear to have attained their full\r\ndevelopment as they refract less and the cell appears \r\nmore opaque.\r\n<u>Oceania</u> ---?\r\nFig. 11. Lateral view of the animal. 11a. Vertical Section  \r\n- 12. Part of the under surface of the disc. a. a marginal membrane\r\nb. canals & Generative organs. c. common cavity\r\n- 13. Part of the membrane surronding the mouth\r\n- 14. The edge of this much magnified\r\n- 15. Part of the margin of the disc much enlarged. a. Marginal membrane. b. canal & Generative orgs. c. tentacle. d. margl. corpuscles. g. circular\r\ncanal\r\n ",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
 }

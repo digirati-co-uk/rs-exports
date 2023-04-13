@@ -2,5 +2,18 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://makingscience.royalsociety.org/iiif/archives/PT_36_6/canvas/a37aeb/otherContent",
     "@type": "sc:AnnotationList",
-    "resources": []
+    "resources": [
+        {
+            "@id": "https://makingscience.royalsociety.org/annotation/oa/13ce6218828ff1ae14e2d8777a7234f3/1a82fa6c-6bf7-4926-84ac-747780e287e6",
+            "@type": "oa:Annotation",
+            "motivation": "oa:transcribing",
+            "on": "https://makingscience.royalsociety.org/iiif/archives/PT_36_6/canvas/35",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "<u>Diphyd\u00e6</u>\r\nFig. 38. Vertical section of a Monogastric Diphyes -\r\n39. Attached ovarium   a. Natatorial organ. b. ovis\u00e6\r\n39.a. Youngest stage of ovarium. a simple process of the common cavity - b.c. ovaria further advanced.\r\n40. Prehensile organ - a.b. early stages -\r\n41. Free swimming ovarium. a. natatorial organ. b. ovisae\r\n42. Free swimming ovarium of Coryne (from Steenstrup) to\r\ncompare with fig. 41.\r\n<u>Sertularid\u00e6</u>\r\nFig. 43. Cell of Plumularia -- ? - a. peculiar clavate\r\norgans - b. large thread cells.\r\n44. cell of another Plumularia - letters as before\r\n45. ovarium of Fig. 43.    a. organ containing thread cells similar to (f. 43a)  b. ova\r\n46. Section of Plumularia\r\n47. Section of Polygastric Diphyes\r\n48. Section of Rhizostoma\r\n49. Section of Monotome Medusa\r\n*** In all the sectional diagrams the letters have the same meaning viz. \r\nm. Stomach. n. common cavity. o. canals. p. generative organ. \r\nq. nataorial organ. t. tentacle. u. margl vesicle. \r\nx.outer membrane x'. bract. x''. valvular membrane     ",
+                "format": "text/plain",
+                "language": "en"
+            }
+        }
+    ]
 }
